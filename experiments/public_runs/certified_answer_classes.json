@@ -1,0 +1,2020 @@
+{
+ "counts": {
+  "certified": 105,
+  "declined": 83,
+  "execution_error": 112,
+  "by_letter": 60,
+  "by_option_text": 12,
+  "free_form": 33,
+  "classified": 72,
+  "novel_answer": 1
+ },
+ "seeds": [
+  "t1",
+  "t2",
+  "t3"
+ ],
+ "note": "Class ids index the votes file named in the field and are numbered independently per budget. -1 is an option letter no draw produced; null is no assignable class, which for status=certified means answer_form=free_form. The baseline votes are option letters and the verifier answers in the problem's own terms; an answer that repeats exactly one option's text names that option and is resolved as option_text. What stays free_form is text no option text equals.",
+ "by_problem": {
+  "gpqa_000": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_001": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_002": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_003": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_004": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_005": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_006": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_007": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_008": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_009": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_010": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_011": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_012": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_013": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_014": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_015": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_016": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_017": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_018": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_019": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_020": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 1,
+    "k30_class": 1
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_021": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_022": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_023": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_024": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_025": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_026": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_027": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 1,
+    "k30_class": 1
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_028": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_029": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_030": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_031": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_032": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 1,
+    "k30_class": 1
+   }
+  },
+  "gpqa_033": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_034": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_035": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_036": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_037": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_038": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_039": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_040": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_041": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_042": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_043": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_044": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_045": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 1,
+    "k30_class": 1
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_046": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_047": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_048": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_049": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_050": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_051": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_052": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_053": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_054": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_055": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_056": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_057": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_058": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_059": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_060": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_061": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_062": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_063": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_064": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": -1,
+    "k30_class": -1
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_065": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_066": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_067": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_068": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_069": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_070": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_071": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_072": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_073": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_074": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_075": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_076": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_077": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_078": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_079": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_080": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_081": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_082": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 1,
+    "k30_class": 1
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 1,
+    "k30_class": 1
+   }
+  },
+  "gpqa_083": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_084": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "option_text",
+    "k10_class": 0,
+    "k30_class": 0
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "option_letter",
+    "k10_class": 0,
+    "k30_class": 0
+   }
+  },
+  "gpqa_085": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_086": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_087": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_088": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_089": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_090": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_091": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_092": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_093": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_094": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_095": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_096": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_097": {
+   "t1": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "declined",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_098": {
+   "t1": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "certified",
+    "answer_form": "free_form",
+    "k10_class": null,
+    "k30_class": null
+   }
+  },
+  "gpqa_099": {
+   "t1": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t2": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   },
+   "t3": {
+    "status": "execution_error",
+    "answer_form": null,
+    "k10_class": null,
+    "k30_class": null
+   }
+  }
+ }
+}

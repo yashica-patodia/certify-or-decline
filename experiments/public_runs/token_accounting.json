@@ -1,0 +1,13 @@
+{
+  "cache_tokens_recorded": 0,
+  "k_matched_on_output": 8.47,
+  "k_matched_on_total": 19.15,
+  "n_problems": 300,
+  "note": "Output-only and input-plus-output matching are token accounting proxies, not lower and upper bounds on matched compute. Model sizes, serving hardware, and prefix-cache savings are not controlled by these counts; the recorded cache counters do not measure vLLM cache savings.",
+  "solver_draw_input": 795,
+  "solver_draw_output": 5284,
+  "solver_draw_total": 6078,
+  "verifier_input_per_problem": 71628,
+  "verifier_output_per_problem": 44761,
+  "verifier_total_per_problem": 116389
+}

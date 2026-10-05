@@ -1,0 +1,57 @@
+# step_wise_untyped ablation -- the typing-isolating arm.
+#
+# The FULL step-wise verifier (same formalizer, typed states + diffs, `uses`
+# bookkeeping, completeness enforcement, pedantry, convention-lift, repair loop)
+# with ONE change: every step is judged by the generic `step_untyped` role
+# instead of the citation/problem_given/computation trio.
+#
+# step_wise - step_wise_untyped therefore isolates typed-judge SPECIALIZATION.
+# It is the decomposed-but-unspecialized middle arm between `holistic_proof`
+# (one global verdict, no decomposition) and `step_wise` (decomposition +
+# specialization), and it is the regime occupied by Block Verification
+# (Pseudo-Formalization for Automatic Proof Verification, arXiv:2605.20531),
+# which decomposes a proof into independently-checked units without typing them.
+#
+# WHAT THIS ARM DOES *NOT* TEST. The step's justification_type is still rendered
+# into the judge's user message and into `_format_proof`, exactly as in
+# step_wise. This arm changes the prompt, not the judges' input representation,
+# so it measures whether the typed PROMPTS do work -- not whether the type LABEL
+# carries information. A type-blind arm that also strips the label would move
+# representation as a second factor; it is deliberately not bundled in here.
+#
+# NOT LENGTH-MATCHED, but in the conservative direction: the `step_untyped`
+# prompt is the union of the three typed prompts' guidance, so the untyped judge
+# receives at least as much instruction as any single typed judge. A step_wise
+# win therefore cannot be explained by the ablated arm having less guidance.
+#
+# NOT TOOL-MATCHED EITHER, same conservative direction. Because one role does
+# the work of three, it gets the UNION of the typed judges' tools -- under
+# configs/restricted.yaml that is Bash,WebSearch,WebFetch, which is strictly
+# MORE tool access per step-type than the typed judge it replaces (a
+# problem_given step is judged with no tools at all in the typed arm, and with
+# the full union here). Like the prompt asymmetry this can only help the ablated
+# arm, so it cannot manufacture a step_wise win -- but it does mean the contrast
+# is "typed prompts + typed tool scoping" vs "neither", not prompts alone.
+#
+# ONLY THE THREE STEP JUDGES ARE UNIFIED. The `initial_state` judge (the state-0
+# audit) stays specialized in both arms, as do pedantry and convention_lift.
+# State 0 is the ANSWER slot rather than a justified step -- it has no
+# justification_type to be typed by -- so there is no untyped counterpart to
+# swap in, and leaving it fixed keeps the contrast on the per-step judging that
+# `justification_type` actually selects.
+#
+# Stack LAST via --config over a base (e.g. configs/paper/strong.yaml)
+# and a model config. The `step_untyped` prompt lives in configs/defaults.yaml
+# next to the typed judge prompts and carries the same
+# [[COMPLETENESS]]/[[WITHOUT_COMPLETENESS]] markup, so it renders correctly on
+# whichever completeness path is active and can never drift from the typed
+# prompts it is compared against.
+#
+# NOT COMPOSABLE WITH configs/minus_completeness.yaml. `_verifier_mode` is a
+# single scalar, so stacking both overlays does not produce a combined arm --
+# the last one loaded simply wins. A crossed "untyped AND no-completeness" cell
+# would need its own mode; it does not exist, and should not be inferred from a
+# run that stacked both files.
+#
+# See experiments/PROCESS_VS_OUTCOME_ABLATION.md.
+_verifier_mode: step_wise_untyped

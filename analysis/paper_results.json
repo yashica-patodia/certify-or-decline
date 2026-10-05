@@ -1,0 +1,922 @@
+{
+  "agreement": {
+    "14b_20b": {
+      "a_accepted": 93,
+      "b_accepted": 99,
+      "kappa": 0.038,
+      "overlap": 105
+    },
+    "32b_20b": {
+      "a_accepted": 95,
+      "b_accepted": 94,
+      "kappa": -0.005,
+      "overlap": 105
+    },
+    "proprietary": {
+      "a_accepted": 39,
+      "b_accepted": 36,
+      "kappa": 0.573,
+      "overlap": 57
+    }
+  },
+  "arms": {
+    "AIME 32B": {
+      "attempts": 90,
+      "certified": 28,
+      "correct": 20,
+      "coverage": 31.1,
+      "coverage_ci95_cluster": [
+        18.9,
+        43.3
+      ],
+      "declined": 6,
+      "execution_errors": 56,
+      "gain": 25.9,
+      "initial_accuracy": 45.6,
+      "initial_attempts": 90,
+      "initial_correct": 41,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 10,
+          "correct": 7,
+          "precision": 70.0,
+          "run": "benchmark_aime-32b-t1_20260817_191324_888770.json"
+        },
+        {
+          "certified": 7,
+          "correct": 6,
+          "precision": 85.7,
+          "run": "benchmark_aime-32b-t2_20260818_012448_024531.json"
+        },
+        {
+          "certified": 11,
+          "correct": 7,
+          "precision": 63.6,
+          "run": "benchmark_aime-32b-t3_20260818_020017_169628.json"
+        }
+      ],
+      "precision": 71.4,
+      "precision_ci95_cluster": [
+        47.2,
+        92.0
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 30,
+      "runs": 3
+    },
+    "AIME budget": {
+      "attempts": 90,
+      "certified": 24,
+      "correct": 19,
+      "coverage": 26.7,
+      "coverage_ci95_cluster": [
+        14.4,
+        40.0
+      ],
+      "declined": 10,
+      "execution_errors": 56,
+      "gain": 28.1,
+      "initial_accuracy": 51.1,
+      "initial_attempts": 90,
+      "initial_correct": 46,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 6,
+          "correct": 4,
+          "precision": 66.7,
+          "run": "benchmark_aime-budget-t1_20260817_191311_055634.json"
+        },
+        {
+          "certified": 10,
+          "correct": 8,
+          "precision": 80.0,
+          "run": "benchmark_aime-budget-t2_20260817_191315_611007.json"
+        },
+        {
+          "certified": 8,
+          "correct": 7,
+          "precision": 87.5,
+          "run": "benchmark_aime-budget-t3_20260817_191320_226072.json"
+        }
+      ],
+      "precision": 79.2,
+      "precision_ci95_cluster": [
+        56.2,
+        95.8
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 30,
+      "runs": 3
+    },
+    "AIME strong": {
+      "attempts": 90,
+      "certified": 19,
+      "correct": 18,
+      "coverage": 21.1,
+      "coverage_ci95_cluster": [
+        8.9,
+        35.6
+      ],
+      "declined": 2,
+      "execution_errors": 69,
+      "gain": 45.8,
+      "initial_accuracy": 48.9,
+      "initial_attempts": 90,
+      "initial_correct": 44,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 6,
+          "correct": 6,
+          "precision": 100.0,
+          "run": "benchmark_aime-strong-t1_20260817_191306_443737.json"
+        },
+        {
+          "certified": 6,
+          "correct": 6,
+          "precision": 100.0,
+          "run": "benchmark_aime-strong-t2_20260817_212154_284792.json"
+        },
+        {
+          "certified": 7,
+          "correct": 6,
+          "precision": 85.7,
+          "run": "benchmark_aime-strong-t3_20260818_010900_769068.json"
+        }
+      ],
+      "precision": 94.7,
+      "precision_ci95_cluster": [
+        77.8,
+        100.0
+      ],
+      "precision_resamples_usable": 19999,
+      "problems": 30,
+      "runs": 3
+    },
+    "GPQA 32B": {
+      "attempts": 300,
+      "certified": 136,
+      "correct": 99,
+      "coverage": 45.3,
+      "coverage_ci95_cluster": [
+        38.7,
+        52.0
+      ],
+      "declined": 61,
+      "execution_errors": 103,
+      "gain": 14.1,
+      "initial_accuracy": 58.7,
+      "initial_attempts": 300,
+      "initial_correct": 176,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 50,
+          "correct": 41,
+          "precision": 82.0,
+          "run": "benchmark_scale32b-t1_20260814_164604_934705.json"
+        },
+        {
+          "certified": 41,
+          "correct": 27,
+          "precision": 65.9,
+          "run": "benchmark_scale32b-t2_20260815_032544_505820.json"
+        },
+        {
+          "certified": 45,
+          "correct": 31,
+          "precision": 68.9,
+          "run": "benchmark_scale32b-t3_20260815_142843_388686.json"
+        }
+      ],
+      "precision": 72.8,
+      "precision_ci95_cluster": [
+        63.3,
+        81.6
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA Phi-4": {
+      "attempts": 300,
+      "certified": 24,
+      "correct": 18,
+      "coverage": 8.0,
+      "coverage_ci95_cluster": [
+        4.3,
+        12.0
+      ],
+      "declined": 241,
+      "execution_errors": 35,
+      "gain": 30.7,
+      "initial_accuracy": 44.3,
+      "initial_attempts": 300,
+      "initial_correct": 133,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 11,
+          "correct": 7,
+          "precision": 63.6,
+          "run": "benchmark_phi4-budget-t1_20260818_015858_023944.json"
+        },
+        {
+          "certified": 6,
+          "correct": 5,
+          "precision": 83.3,
+          "run": "benchmark_phi4-budget-t2_20260818_042831_540166.json"
+        },
+        {
+          "certified": 7,
+          "correct": 6,
+          "precision": 85.7,
+          "run": "benchmark_phi4-budget-t3_20260818_065559_182276.json"
+        }
+      ],
+      "precision": 75.0,
+      "precision_ci95_cluster": [
+        52.6,
+        91.7
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA budget": {
+      "attempts": 400,
+      "certified": 122,
+      "correct": 92,
+      "coverage": 30.5,
+      "coverage_ci95_cluster": [
+        24.5,
+        36.5
+      ],
+      "declined": 182,
+      "execution_errors": 96,
+      "gain": 14.9,
+      "initial_accuracy": 60.5,
+      "initial_attempts": 200,
+      "initial_correct": 121,
+      "initial_runs": 2,
+      "per_run": [
+        {
+          "certified": 31,
+          "correct": 22,
+          "precision": 71.0,
+          "run": "benchmark_2x2rep-budget-t2_20260814_024105_893413.json"
+        },
+        {
+          "certified": 29,
+          "correct": 24,
+          "precision": 82.8,
+          "run": "benchmark_2x2rep-budget-t3_20260814_133830_002079.json"
+        },
+        {
+          "certified": 28,
+          "correct": 19,
+          "precision": 67.9,
+          "run": "benchmark_r2budget-t1_20260813_021500_707409.json"
+        },
+        {
+          "certified": 34,
+          "correct": 27,
+          "precision": 79.4,
+          "run": "benchmark_r2budget-t2_20260814_011832_640709.json"
+        }
+      ],
+      "precision": 75.4,
+      "precision_ci95_cluster": [
+        64.1,
+        85.5
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 4
+    },
+    "GPQA crossjudge": {
+      "attempts": 300,
+      "certified": 58,
+      "correct": 43,
+      "coverage": 19.3,
+      "declined": 101,
+      "execution_errors": 141,
+      "per_run": [
+        {
+          "certified": 23,
+          "correct": 19,
+          "precision": 82.6,
+          "run": "benchmark_crossjudge-t1_20260814_231200_531648.json"
+        },
+        {
+          "certified": 17,
+          "correct": 11,
+          "precision": 64.7,
+          "run": "benchmark_crossjudge-t2_20260815_054429_892335.json"
+        },
+        {
+          "certified": 18,
+          "correct": 13,
+          "precision": 72.2,
+          "run": "benchmark_crossjudge-t3_20260815_124207_243450.json"
+        }
+      ],
+      "precision": 74.1,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA ctl": {
+      "attempts": 400,
+      "certified": 58,
+      "correct": 47,
+      "coverage": 14.5,
+      "declined": 298,
+      "execution_errors": 44,
+      "per_run": [
+        {
+          "certified": 15,
+          "correct": 11,
+          "precision": 73.3,
+          "run": "benchmark_2x2rep-ctl-t2_20260814_024101_285852.json"
+        },
+        {
+          "certified": 11,
+          "correct": 10,
+          "precision": 90.9,
+          "run": "benchmark_2x2rep-ctl-t3_20260814_075459_031935.json"
+        },
+        {
+          "certified": 20,
+          "correct": 16,
+          "precision": 80.0,
+          "run": "benchmark_r2ctl-t1_20260812_211124_588102.json"
+        },
+        {
+          "certified": 12,
+          "correct": 10,
+          "precision": 83.3,
+          "run": "benchmark_r2ctl-t2_20260813_203858_253939.json"
+        }
+      ],
+      "precision": 81.0,
+      "problems": 100,
+      "runs": 4
+    },
+    "GPQA effort=high": {
+      "attempts": 100,
+      "certified": 9,
+      "correct": 8,
+      "coverage": 9.0,
+      "coverage_ci95_cluster": [
+        4.0,
+        15.0
+      ],
+      "declined": 10,
+      "execution_errors": 81,
+      "per_run": [
+        {
+          "certified": 9,
+          "correct": 8,
+          "precision": 88.9,
+          "run": "benchmark_stronghigh-t1_20260812_153940_083314.json"
+        }
+      ],
+      "precision": 88.9,
+      "precision_ci95_cluster": [
+        62.5,
+        100.0
+      ],
+      "precision_resamples_usable": 19999,
+      "problems": 100,
+      "runs": 1
+    },
+    "GPQA effort=low": {
+      "attempts": 300,
+      "certified": 33,
+      "correct": 27,
+      "coverage": 11.0,
+      "declined": 200,
+      "execution_errors": 67,
+      "per_run": [
+        {
+          "certified": 11,
+          "correct": 8,
+          "precision": 72.7,
+          "run": "benchmark_stronglow-t1_20260812_024401_860723.json"
+        },
+        {
+          "certified": 10,
+          "correct": 9,
+          "precision": 90.0,
+          "run": "benchmark_stronglow-t2_20260812_060008_959954.json"
+        },
+        {
+          "certified": 12,
+          "correct": 10,
+          "precision": 83.3,
+          "run": "benchmark_stronglow-t3_20260812_093212_616126.json"
+        }
+      ],
+      "precision": 81.8,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA fswap": {
+      "attempts": 300,
+      "certified": 90,
+      "correct": 81,
+      "coverage": 30.0,
+      "coverage_ci95_cluster": [
+        23.3,
+        37.0
+      ],
+      "declined": 111,
+      "execution_errors": 99,
+      "per_run": [
+        {
+          "certified": 33,
+          "correct": 28,
+          "precision": 84.8,
+          "run": "benchmark_r2fswap-t1_20260813_105415_875956.json"
+        },
+        {
+          "certified": 29,
+          "correct": 27,
+          "precision": 93.1,
+          "run": "benchmark_r2fswap-t2_20260814_113757_947298.json"
+        },
+        {
+          "certified": 28,
+          "correct": 26,
+          "precision": 92.9,
+          "run": "benchmark_r2fswap-t3_20260814_223309_696573.json"
+        }
+      ],
+      "precision": 90.0,
+      "precision_ci95_cluster": [
+        81.9,
+        96.2
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA fswap+budget": {
+      "attempts": 300,
+      "certified": 108,
+      "correct": 93,
+      "coverage": 36.0,
+      "declined": 76,
+      "execution_errors": 116,
+      "per_run": [
+        {
+          "certified": 36,
+          "correct": 30,
+          "precision": 83.3,
+          "run": "benchmark_r2fswapbudget-t1_20260813_151340_541828.json"
+        },
+        {
+          "certified": 38,
+          "correct": 32,
+          "precision": 84.2,
+          "run": "benchmark_r2fswapbudget-t2_20260814_163735_395065.json"
+        },
+        {
+          "certified": 34,
+          "correct": 31,
+          "precision": 91.2,
+          "run": "benchmark_r2fswapbudget-t3_20260815_030932_768224.json"
+        }
+      ],
+      "precision": 86.1,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA judge-prompt A": {
+      "attempts": 200,
+      "certified": 71,
+      "correct": 46,
+      "coverage": 35.5,
+      "coverage_ci95_cluster": [
+        28.0,
+        43.5
+      ],
+      "declined": 89,
+      "execution_errors": 40,
+      "per_run": [
+        {
+          "certified": 34,
+          "correct": 23,
+          "precision": 67.6,
+          "run": "benchmark_judgepara-a-t2_20260814_024052_612310.json"
+        },
+        {
+          "certified": 37,
+          "correct": 23,
+          "precision": 62.2,
+          "run": "benchmark_judgepara-a-t3_20260814_120959_105879.json"
+        }
+      ],
+      "precision": 64.8,
+      "precision_ci95_cluster": [
+        50.6,
+        78.3
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 2
+    },
+    "GPQA judge-prompt B": {
+      "attempts": 300,
+      "certified": 90,
+      "correct": 61,
+      "coverage": 30.0,
+      "coverage_ci95_cluster": [
+        24.0,
+        36.0
+      ],
+      "declined": 139,
+      "execution_errors": 71,
+      "per_run": [
+        {
+          "certified": 29,
+          "correct": 19,
+          "precision": 65.5,
+          "run": "benchmark_judgepara-b-t1_20260814_024052_612288.json"
+        },
+        {
+          "certified": 34,
+          "correct": 24,
+          "precision": 70.6,
+          "run": "benchmark_judgepara-b-t2_20260814_114735_210531.json"
+        },
+        {
+          "certified": 27,
+          "correct": 18,
+          "precision": 66.7,
+          "run": "benchmark_judgepara-b-t3_20260814_210434_321241.json"
+        }
+      ],
+      "precision": 67.8,
+      "precision_ci95_cluster": [
+        55.4,
+        79.2
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA minus-completeness": {
+      "attempts": 300,
+      "certified": 107,
+      "correct": 77,
+      "coverage": 35.7,
+      "declined": 137,
+      "execution_errors": 56,
+      "per_run": [
+        {
+          "certified": 35,
+          "correct": 27,
+          "precision": 77.1,
+          "run": "benchmark_nocomp-t2_20260814_024056_954184.json"
+        },
+        {
+          "certified": 39,
+          "correct": 27,
+          "precision": 69.2,
+          "run": "benchmark_nocomp-t3_20260814_120049_359760.json"
+        },
+        {
+          "certified": 33,
+          "correct": 23,
+          "precision": 69.7,
+          "run": "benchmark_nocompR-t1_20260811_115243_724932.json"
+        }
+      ],
+      "precision": 72.0,
+      "problems": 100,
+      "runs": 3
+    },
+    "GPQA strong": {
+      "attempts": 300,
+      "certified": 105,
+      "correct": 92,
+      "coverage": 35.0,
+      "coverage_ci95_cluster": [
+        27.0,
+        43.3
+      ],
+      "declined": 83,
+      "execution_errors": 112,
+      "gain": 31.3,
+      "initial_accuracy": 56.3,
+      "initial_attempts": 300,
+      "initial_correct": 169,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 33,
+          "correct": 28,
+          "precision": 84.8,
+          "run": "benchmark_strong-t1_20260810_194618_573424.json"
+        },
+        {
+          "certified": 35,
+          "correct": 31,
+          "precision": 88.6,
+          "run": "benchmark_strong-t2_20260811_013151_944888.json"
+        },
+        {
+          "certified": 37,
+          "correct": 33,
+          "precision": 89.2,
+          "run": "benchmark_strong-t3_20260811_063303_060987.json"
+        }
+      ],
+      "precision": 87.6,
+      "precision_ci95_cluster": [
+        77.7,
+        95.8
+      ],
+      "precision_resamples_usable": 20000,
+      "problems": 100,
+      "runs": 3
+    },
+    "MATH 32B": {
+      "attempts": 300,
+      "certified": 220,
+      "correct": 216,
+      "coverage": 73.3,
+      "declined": 5,
+      "execution_errors": 75,
+      "gain": 4.8,
+      "initial_accuracy": 93.3,
+      "initial_attempts": 300,
+      "initial_correct": 280,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 74,
+          "correct": 74,
+          "precision": 100.0,
+          "run": "benchmark_math500-32b-t1_20260817_005745_857916.json"
+        },
+        {
+          "certified": 72,
+          "correct": 70,
+          "precision": 97.2,
+          "run": "benchmark_math500-32b-t2_20260817_060157_874874.json"
+        },
+        {
+          "certified": 74,
+          "correct": 72,
+          "precision": 97.3,
+          "run": "benchmark_math500-32b-t3_20260817_103440_432773.json"
+        }
+      ],
+      "precision": 98.2,
+      "problems": 100,
+      "runs": 3
+    },
+    "MATH budget": {
+      "attempts": 300,
+      "certified": 222,
+      "correct": 212,
+      "coverage": 74.0,
+      "declined": 28,
+      "execution_errors": 50,
+      "gain": 0.2,
+      "initial_accuracy": 95.3,
+      "initial_attempts": 300,
+      "initial_correct": 286,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 79,
+          "correct": 75,
+          "precision": 94.9,
+          "run": "benchmark_math500-budget-t1_20260817_005731_655160.json"
+        },
+        {
+          "certified": 77,
+          "correct": 74,
+          "precision": 96.1,
+          "run": "benchmark_math500-budget-t2_20260817_005736_440231.json"
+        },
+        {
+          "certified": 66,
+          "correct": 63,
+          "precision": 95.5,
+          "run": "benchmark_math500-budget-t3_20260817_005740_974254.json"
+        }
+      ],
+      "precision": 95.5,
+      "problems": 100,
+      "runs": 3
+    },
+    "MATH strong": {
+      "attempts": 300,
+      "certified": 260,
+      "correct": 256,
+      "coverage": 86.7,
+      "declined": 4,
+      "execution_errors": 36,
+      "gain": 1.8,
+      "initial_accuracy": 96.7,
+      "initial_attempts": 300,
+      "initial_correct": 290,
+      "initial_runs": 3,
+      "per_run": [
+        {
+          "certified": 85,
+          "correct": 84,
+          "precision": 98.8,
+          "run": "benchmark_math500-strong-t1_20260817_005726_826869.json"
+        },
+        {
+          "certified": 87,
+          "correct": 85,
+          "precision": 97.7,
+          "run": "benchmark_math500-strong-t2_20260817_041059_259801.json"
+        },
+        {
+          "certified": 88,
+          "correct": 87,
+          "precision": 98.9,
+          "run": "benchmark_math500-strong-t3_20260817_063921_440593.json"
+        }
+      ],
+      "precision": 98.5,
+      "problems": 100,
+      "runs": 3
+    }
+  },
+  "certification_tiers": [
+    {
+      "certified": 54,
+      "correct": 52,
+      "coverage": 18.0,
+      "precision": 96.3,
+      "precision_ci95_cluster": [
+        90.6,
+        100.0
+      ],
+      "tier": "unconditional"
+    },
+    {
+      "certified": 51,
+      "correct": 40,
+      "coverage": 17.0,
+      "precision": 78.4,
+      "precision_ci95_cluster": [
+        62.5,
+        92.7
+      ],
+      "tier": "under conventions"
+    }
+  ],
+  "constructed_grader_checks": {
+    "AIME-2025": {
+      "accuracy": 98.7,
+      "cases": 159,
+      "false_negatives": 0,
+      "false_positives": 2
+    },
+    "GPQA": {
+      "accuracy": 100.0,
+      "cases": 200,
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "MATH-500": {
+      "accuracy": 99.1,
+      "cases": 114,
+      "false_negatives": 0,
+      "false_positives": 1
+    }
+  },
+  "construction_diagnostic": {
+    "attempts": 100,
+    "completed": 88,
+    "completed_labelled_answer_slots": 109,
+    "completed_never_judged": 67,
+    "completed_proof_responses": 264,
+    "execution_errors": 12,
+    "labelled_answer_slots": 117,
+    "proof_responses": 277,
+    "terminal_invalid": 60,
+    "terminal_invalid_never_judged": 52
+  },
+  "external_audit": {
+    "codex_rejection_counts": {
+      "ERROR": 14,
+      "GAP": 20
+    },
+    "correct_answer_on_rejected_proof": {
+      "codex_rejects": 25,
+      "either_grader_rejects": 31
+    },
+    "grader_coverage": {
+      "audited_by_both": 57,
+      "claude_returned_a_verdict": 57,
+      "codex_returned_a_verdict": 105,
+      "n_certified_proofs": 105
+    },
+    "note": "The published 63.8% matched none of these rules and had no committed derivation. The range is reported instead. The qualitative finding is robust: every rule puts proof soundness far below the 87.6% key-match precision.",
+    "range_pct": [
+      56.1,
+      67.6
+    ],
+    "soundness_by_rule": [
+      {
+        "note": "the only grader that audited every proof; most permissive",
+        "of": 105,
+        "precision_pct": 67.6,
+        "rule": "codex only, full coverage",
+        "sound": 71
+      },
+      {
+        "note": "prefer the stricter grader where it ran",
+        "of": 105,
+        "precision_pct": 64.8,
+        "rule": "claude-else-codex",
+        "sound": 68
+      },
+      {
+        "note": "a proof stands unless someone rejected it",
+        "of": 105,
+        "precision_pct": 61.0,
+        "rule": "neither grader rejects",
+        "sound": 64
+      },
+      {
+        "note": "strictest; only over the rows both audited",
+        "of": 57,
+        "precision_pct": 56.1,
+        "rule": "both graders VALID",
+        "sound": 32
+      }
+    ]
+  },
+  "rejections": {
+    "by_error_class": {
+      "arithmetic_error": 510,
+      "circular_reasoning": 30,
+      "cosmetic": 29,
+      "fabricated_citation": 678,
+      "hidden_premise": 2020,
+      "misapplied_theorem": 1117,
+      "other": 163
+    },
+    "by_role": {
+      "citation": 711,
+      "computation": 831,
+      "problem_given": 329,
+      "step_untyped": 7
+    },
+    "classified_issues": 4547,
+    "rejections": 1878,
+    "run_files_scanned": 77,
+    "run_files_with_rejections": 67
+  },
+  "scoring_consistency": {
+    "agree": 72,
+    "matched": 72
+  },
+  "self_consistency": {
+    "correct": 29,
+    "coverage": 35.0,
+    "id_order": "sorted",
+    "k": 8,
+    "paired_ci95": [
+      -8.2,
+      18.5
+    ],
+    "paired_precision_difference": 4.8,
+    "precision": 82.9,
+    "precision_ci95_wilson": [
+      67.3,
+      91.9
+    ],
+    "resamples": 20000,
+    "rng": "Python random.Random",
+    "seed": 20260906,
+    "selected": 35,
+    "vote_denominator": "all draws"
+  },
+  "tokens": {
+    "cache_tokens_recorded": 0,
+    "k_matched_on_output": 8.47,
+    "k_matched_on_total": 19.15,
+    "n_problems": 300,
+    "note": "Output-only and input-plus-output matching are token accounting proxies, not lower and upper bounds on matched compute. Model sizes, serving hardware, and prefix-cache savings are not controlled by these counts; the recorded cache counters do not measure vLLM cache savings.",
+    "solver_draw_input": 795,
+    "solver_draw_output": 5284,
+    "solver_draw_total": 6078,
+    "verifier_input_per_problem": 71628,
+    "verifier_output_per_problem": 44761,
+    "verifier_total_per_problem": 116389
+  }
+}

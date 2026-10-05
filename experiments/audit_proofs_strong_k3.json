@@ -1,0 +1,1181 @@
+{
+  "items": [
+    {
+      "row_id": "strong-t1:gpqa_062",
+      "id": "gpqa_062",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_021",
+      "id": "gpqa_021",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_081",
+      "id": "gpqa_081",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_064",
+      "id": "gpqa_064",
+      "key_match": true,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 7
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 7
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_009",
+      "id": "gpqa_009",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 8
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 3
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_098",
+      "id": "gpqa_098",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_031",
+      "id": "gpqa_031",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_059",
+      "id": "gpqa_059",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 3
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_024",
+      "id": "gpqa_024",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 4
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_026",
+      "id": "gpqa_026",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_008",
+      "id": "gpqa_008",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 6
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_053",
+      "id": "gpqa_053",
+      "key_match": false,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_023",
+      "id": "gpqa_023",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 12
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_084",
+      "id": "gpqa_084",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 8
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_073",
+      "id": "gpqa_073",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_082",
+      "id": "gpqa_082",
+      "key_match": false,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 9
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 9
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_079",
+      "id": "gpqa_079",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_071",
+      "id": "gpqa_071",
+      "key_match": false,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_071",
+      "id": "gpqa_071",
+      "key_match": false,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 7
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 8
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_040",
+      "id": "gpqa_040",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 5
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 5
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_073",
+      "id": "gpqa_073",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_088",
+      "id": "gpqa_088",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_079",
+      "id": "gpqa_079",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_022",
+      "id": "gpqa_022",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_007",
+      "id": "gpqa_007",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 11
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 10
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_089",
+      "id": "gpqa_089",
+      "key_match": false,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 3
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 3
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_088",
+      "id": "gpqa_088",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_006",
+      "id": "gpqa_006",
+      "key_match": true,
+      "claude": {
+        "verdict": "NONSEQUITUR",
+        "critical_step": 5
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_089",
+      "id": "gpqa_089",
+      "key_match": false,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 2
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_081",
+      "id": "gpqa_081",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_098",
+      "id": "gpqa_098",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_040",
+      "id": "gpqa_040",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_045",
+      "id": "gpqa_045",
+      "key_match": false,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 10
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 11
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_009",
+      "id": "gpqa_009",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 7
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_021",
+      "id": "gpqa_021",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_074",
+      "id": "gpqa_074",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_002",
+      "id": "gpqa_002",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_026",
+      "id": "gpqa_026",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_031",
+      "id": "gpqa_031",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_007",
+      "id": "gpqa_007",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 5
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 4
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_047",
+      "id": "gpqa_047",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_006",
+      "id": "gpqa_006",
+      "key_match": true,
+      "claude": {
+        "verdict": "NONSEQUITUR",
+        "critical_step": 5
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 3
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_041",
+      "id": "gpqa_041",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_054",
+      "id": "gpqa_054",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_022",
+      "id": "gpqa_022",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 4
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 4
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_067",
+      "id": "gpqa_067",
+      "key_match": true,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 11
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 13
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_098",
+      "id": "gpqa_098",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_013",
+      "id": "gpqa_013",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 7
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_002",
+      "id": "gpqa_002",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_053",
+      "id": "gpqa_053",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_084",
+      "id": "gpqa_084",
+      "key_match": true,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 11
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_075",
+      "id": "gpqa_075",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 9
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_069",
+      "id": "gpqa_069",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_047",
+      "id": "gpqa_047",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_064",
+      "id": "gpqa_064",
+      "key_match": false,
+      "claude": {
+        "verdict": "ERROR",
+        "critical_step": 2
+      },
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 2
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_026",
+      "id": "gpqa_026",
+      "key_match": true,
+      "claude": {
+        "verdict": "GAP",
+        "critical_step": 5
+      },
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 7
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_006",
+      "id": "gpqa_006",
+      "key_match": true,
+      "claude": {
+        "verdict": "VALID",
+        "critical_step": null
+      },
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_031",
+      "id": "gpqa_031",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_002",
+      "id": "gpqa_002",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_022",
+      "id": "gpqa_022",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 7
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_013",
+      "id": "gpqa_013",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 4
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_071",
+      "id": "gpqa_071",
+      "key_match": false,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_054",
+      "id": "gpqa_054",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_047",
+      "id": "gpqa_047",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 4
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_023",
+      "id": "gpqa_023",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_054",
+      "id": "gpqa_054",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_082",
+      "id": "gpqa_082",
+      "key_match": false,
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 4
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_057",
+      "id": "gpqa_057",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_085",
+      "id": "gpqa_085",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_024",
+      "id": "gpqa_024",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_084",
+      "id": "gpqa_084",
+      "key_match": true,
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 9
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_062",
+      "id": "gpqa_062",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 16
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_089",
+      "id": "gpqa_089",
+      "key_match": false,
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 2
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_000",
+      "id": "gpqa_000",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_020",
+      "id": "gpqa_020",
+      "key_match": false,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 6
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_032",
+      "id": "gpqa_032",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 12
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_004",
+      "id": "gpqa_004",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_081",
+      "id": "gpqa_081",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_059",
+      "id": "gpqa_059",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 6
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_004",
+      "id": "gpqa_004",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_013",
+      "id": "gpqa_013",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_069",
+      "id": "gpqa_069",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_073",
+      "id": "gpqa_073",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 11
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_019",
+      "id": "gpqa_019",
+      "key_match": true,
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 7
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_040",
+      "id": "gpqa_040",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_067",
+      "id": "gpqa_067",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_027",
+      "id": "gpqa_027",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_018",
+      "id": "gpqa_018",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_074",
+      "id": "gpqa_074",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_041",
+      "id": "gpqa_041",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 4
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_053",
+      "id": "gpqa_053",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_069",
+      "id": "gpqa_069",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_080",
+      "id": "gpqa_080",
+      "key_match": true,
+      "codex": {
+        "verdict": "ERROR",
+        "critical_step": 18
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_010",
+      "id": "gpqa_010",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_088",
+      "id": "gpqa_088",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_014",
+      "id": "gpqa_014",
+      "key_match": true,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 27
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_014",
+      "id": "gpqa_014",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_059",
+      "id": "gpqa_059",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_057",
+      "id": "gpqa_057",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_021",
+      "id": "gpqa_021",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_024",
+      "id": "gpqa_024",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t3:gpqa_074",
+      "id": "gpqa_074",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t2:gpqa_020",
+      "id": "gpqa_020",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_014",
+      "id": "gpqa_014",
+      "key_match": true,
+      "codex": {
+        "verdict": "VALID",
+        "critical_step": null
+      }
+    },
+    {
+      "row_id": "strong-t1:gpqa_012",
+      "id": "gpqa_012",
+      "key_match": false,
+      "codex": {
+        "verdict": "GAP",
+        "critical_step": 5
+      }
+    }
+  ],
+  "graders": [
+    "claude",
+    "codex"
+  ]
+}

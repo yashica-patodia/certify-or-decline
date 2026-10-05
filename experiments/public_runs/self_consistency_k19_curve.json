@@ -1,0 +1,379 @@
+{
+ "selector": "self-consistency majority vote, k=19",
+ "benchmark": "gpqa-fixed-100",
+ "n_problems": 100,
+ "total_draws": 1900,
+ "draws_parsed": 1635,
+ "draws_unparsed": 265,
+ "draws_unparsed_empty_completion": 229,
+ "scoring": "exact letter match; the vote and the key are both letters, so no LLM grader is involved",
+ "note": "Two agreement denominators are reported because the choice is methodological, materially changes the comparison, and was undocumented in the first published version of this curve. 'parsed' is standard self-consistency (majority over the draws that produced an answer) and is symmetric with the verifier's scoring, where an execution error is a decline rather than evidence against confidence. 'all_k' counts a non-answering draw as dissent. AURC is a mean risk over a coverage range and is NOT comparable across selectors whose ranges are unequal; compare at matched coverage.",
+ "by_denominator": {
+  "parsed": {
+   "points": [
+    {
+     "coverage": 47.0,
+     "precision": 85.1,
+     "n_answered": 47,
+     "n_correct": 40,
+     "agreement_threshold": 1.0
+    },
+    {
+     "coverage": 50.0,
+     "precision": 84.0,
+     "n_answered": 50,
+     "n_correct": 42,
+     "agreement_threshold": 0.9474
+    },
+    {
+     "coverage": 51.0,
+     "precision": 84.3,
+     "n_answered": 51,
+     "n_correct": 43,
+     "agreement_threshold": 0.9286
+    },
+    {
+     "coverage": 52.0,
+     "precision": 84.6,
+     "n_answered": 52,
+     "n_correct": 44,
+     "agreement_threshold": 0.9231
+    },
+    {
+     "coverage": 53.0,
+     "precision": 83.0,
+     "n_answered": 53,
+     "n_correct": 44,
+     "agreement_threshold": 0.9091
+    },
+    {
+     "coverage": 56.0,
+     "precision": 82.1,
+     "n_answered": 56,
+     "n_correct": 46,
+     "agreement_threshold": 0.8947
+    },
+    {
+     "coverage": 59.0,
+     "precision": 79.7,
+     "n_answered": 59,
+     "n_correct": 47,
+     "agreement_threshold": 0.8889
+    },
+    {
+     "coverage": 60.0,
+     "precision": 78.3,
+     "n_answered": 60,
+     "n_correct": 47,
+     "agreement_threshold": 0.875
+    },
+    {
+     "coverage": 64.0,
+     "precision": 78.1,
+     "n_answered": 64,
+     "n_correct": 50,
+     "agreement_threshold": 0.8421
+    },
+    {
+     "coverage": 65.0,
+     "precision": 76.9,
+     "n_answered": 65,
+     "n_correct": 50,
+     "agreement_threshold": 0.8333
+    },
+    {
+     "coverage": 66.0,
+     "precision": 77.3,
+     "n_answered": 66,
+     "n_correct": 51,
+     "agreement_threshold": 0.8182
+    },
+    {
+     "coverage": 69.0,
+     "precision": 75.4,
+     "n_answered": 69,
+     "n_correct": 52,
+     "agreement_threshold": 0.7895
+    },
+    {
+     "coverage": 70.0,
+     "precision": 75.7,
+     "n_answered": 70,
+     "n_correct": 53,
+     "agreement_threshold": 0.7647
+    },
+    {
+     "coverage": 71.0,
+     "precision": 74.6,
+     "n_answered": 71,
+     "n_correct": 53,
+     "agreement_threshold": 0.75
+    },
+    {
+     "coverage": 74.0,
+     "precision": 74.3,
+     "n_answered": 74,
+     "n_correct": 55,
+     "agreement_threshold": 0.7368
+    },
+    {
+     "coverage": 75.0,
+     "precision": 73.3,
+     "n_answered": 75,
+     "n_correct": 55,
+     "agreement_threshold": 0.7222
+    },
+    {
+     "coverage": 76.0,
+     "precision": 72.4,
+     "n_answered": 76,
+     "n_correct": 55,
+     "agreement_threshold": 0.7
+    },
+    {
+     "coverage": 77.0,
+     "precision": 72.7,
+     "n_answered": 77,
+     "n_correct": 56,
+     "agreement_threshold": 0.6875
+    },
+    {
+     "coverage": 78.0,
+     "precision": 71.8,
+     "n_answered": 78,
+     "n_correct": 56,
+     "agreement_threshold": 0.6842
+    },
+    {
+     "coverage": 80.0,
+     "precision": 71.2,
+     "n_answered": 80,
+     "n_correct": 57,
+     "agreement_threshold": 0.6667
+    },
+    {
+     "coverage": 81.0,
+     "precision": 70.4,
+     "n_answered": 81,
+     "n_correct": 57,
+     "agreement_threshold": 0.6471
+    },
+    {
+     "coverage": 82.0,
+     "precision": 69.5,
+     "n_answered": 82,
+     "n_correct": 57,
+     "agreement_threshold": 0.6316
+    },
+    {
+     "coverage": 83.0,
+     "precision": 68.7,
+     "n_answered": 83,
+     "n_correct": 57,
+     "agreement_threshold": 0.6111
+    },
+    {
+     "coverage": 85.0,
+     "precision": 69.4,
+     "n_answered": 85,
+     "n_correct": 59,
+     "agreement_threshold": 0.6
+    },
+    {
+     "coverage": 86.0,
+     "precision": 68.6,
+     "n_answered": 86,
+     "n_correct": 59,
+     "agreement_threshold": 0.5882
+    },
+    {
+     "coverage": 87.0,
+     "precision": 67.8,
+     "n_answered": 87,
+     "n_correct": 59,
+     "agreement_threshold": 0.5789
+    },
+    {
+     "coverage": 88.0,
+     "precision": 68.2,
+     "n_answered": 88,
+     "n_correct": 60,
+     "agreement_threshold": 0.5333
+    },
+    {
+     "coverage": 92.0,
+     "precision": 66.3,
+     "n_answered": 92,
+     "n_correct": 61,
+     "agreement_threshold": 0.5263
+    },
+    {
+     "coverage": 94.0,
+     "precision": 67.0,
+     "n_answered": 94,
+     "n_correct": 63,
+     "agreement_threshold": 0.5
+    },
+    {
+     "coverage": 96.0,
+     "precision": 66.7,
+     "n_answered": 96,
+     "n_correct": 64,
+     "agreement_threshold": 0.4737
+    },
+    {
+     "coverage": 97.0,
+     "precision": 66.0,
+     "n_answered": 97,
+     "n_correct": 64,
+     "agreement_threshold": 0.4211
+    },
+    {
+     "coverage": 98.0,
+     "precision": 65.3,
+     "n_answered": 98,
+     "n_correct": 64,
+     "agreement_threshold": 0.4118
+    },
+    {
+     "coverage": 99.0,
+     "precision": 65.7,
+     "n_answered": 99,
+     "n_correct": 65,
+     "agreement_threshold": 0.3889
+    },
+    {
+     "coverage": 100.0,
+     "precision": 65.0,
+     "n_answered": 100,
+     "n_correct": 65,
+     "agreement_threshold": 0.3684
+    }
+   ],
+   "aurc_full_range": 0.2068,
+   "aurc_restricted_to_35pct": null,
+   "aurc_restricted_note": "undefined: this selector cannot operate below 47.0% coverage, so it has no curve inside the verifier's 0-35% range",
+   "finest_reachable_coverage": 47.0
+  },
+  "all_k": {
+   "points": [
+    {
+     "coverage": 28.0,
+     "precision": 82.1,
+     "n_answered": 28,
+     "n_correct": 23,
+     "agreement_threshold": 1.0
+    },
+    {
+     "coverage": 33.0,
+     "precision": 81.8,
+     "n_answered": 33,
+     "n_correct": 27,
+     "agreement_threshold": 0.9474
+    },
+    {
+     "coverage": 39.0,
+     "precision": 82.1,
+     "n_answered": 39,
+     "n_correct": 32,
+     "agreement_threshold": 0.8947
+    },
+    {
+     "coverage": 46.0,
+     "precision": 78.3,
+     "n_answered": 46,
+     "n_correct": 36,
+     "agreement_threshold": 0.8421
+    },
+    {
+     "coverage": 51.0,
+     "precision": 74.5,
+     "n_answered": 51,
+     "n_correct": 38,
+     "agreement_threshold": 0.7895
+    },
+    {
+     "coverage": 55.0,
+     "precision": 74.5,
+     "n_answered": 55,
+     "n_correct": 41,
+     "agreement_threshold": 0.7368
+    },
+    {
+     "coverage": 62.0,
+     "precision": 72.6,
+     "n_answered": 62,
+     "n_correct": 45,
+     "agreement_threshold": 0.6842
+    },
+    {
+     "coverage": 64.0,
+     "precision": 71.9,
+     "n_answered": 64,
+     "n_correct": 46,
+     "agreement_threshold": 0.6316
+    },
+    {
+     "coverage": 70.0,
+     "precision": 70.0,
+     "n_answered": 70,
+     "n_correct": 49,
+     "agreement_threshold": 0.5789
+    },
+    {
+     "coverage": 79.0,
+     "precision": 65.8,
+     "n_answered": 79,
+     "n_correct": 52,
+     "agreement_threshold": 0.5263
+    },
+    {
+     "coverage": 85.0,
+     "precision": 67.1,
+     "n_answered": 85,
+     "n_correct": 57,
+     "agreement_threshold": 0.4737
+    },
+    {
+     "coverage": 87.0,
+     "precision": 66.7,
+     "n_answered": 87,
+     "n_correct": 58,
+     "agreement_threshold": 0.4211
+    },
+    {
+     "coverage": 93.0,
+     "precision": 64.5,
+     "n_answered": 93,
+     "n_correct": 60,
+     "agreement_threshold": 0.3684
+    },
+    {
+     "coverage": 96.0,
+     "precision": 64.6,
+     "n_answered": 96,
+     "n_correct": 62,
+     "agreement_threshold": 0.3158
+    },
+    {
+     "coverage": 98.0,
+     "precision": 65.3,
+     "n_answered": 98,
+     "n_correct": 64,
+     "agreement_threshold": 0.1579
+    },
+    {
+     "coverage": 100.0,
+     "precision": 65.0,
+     "n_answered": 100,
+     "n_correct": 65,
+     "agreement_threshold": 0.1053
+    }
+   ],
+   "aurc_full_range": 0.2482,
+   "aurc_restricted_to_35pct": 0.1792,
+   "aurc_restricted_note": null,
+   "finest_reachable_coverage": 28.0
+  }
+ }
+}

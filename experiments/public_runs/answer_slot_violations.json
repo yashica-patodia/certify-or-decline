@@ -1,0 +1,14 @@
+{
+ "run_file": "benchmark_gate-gpqa100-t1_20260803_184710_025287.json",
+ "formalizer_invalid_attempts": 248,
+ "formalizer_reject_attempts": 78,
+ "proof_responses_examined": 277,
+ "by_violation": {
+  "F# fact label in the answer slot": 117,
+  "passes all three committed validators": 86,
+  "answer slot left unresolved": 73,
+  "no answer in state[0]": 1,
+  "unparseable response": 1
+ },
+ "note": "Re-applies pipeline.py's committed answer-slot validators to the formalizer responses stored in the run. The F#-label count reproduces the reported 118 to within one. The earlier 'unresolved placeholder' (73) and 'option-related' (47) counts are withdrawn: there is no option-related validator in the pipeline, and proof responses are not one-to-one with invalid attempts."
+}

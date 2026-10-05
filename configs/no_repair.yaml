@@ -1,0 +1,5 @@
+# One-pass ablation: one solver answer and one formalize+judge cycle.
+_limits:
+  max_verify_attempts: 1
+  max_solver_answers: 1
+  max_formalizer_invalid_attempts: 1

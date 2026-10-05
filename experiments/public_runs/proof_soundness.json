@@ -1,0 +1,51 @@
+{
+ "grader_coverage": {
+  "n_certified_proofs": 105,
+  "codex_returned_a_verdict": 105,
+  "claude_returned_a_verdict": 57,
+  "audited_by_both": 57
+ },
+ "soundness_by_rule": [
+  {
+   "rule": "codex only, full coverage",
+   "sound": 71,
+   "of": 105,
+   "precision_pct": 67.6,
+   "note": "the only grader that audited every proof; most permissive"
+  },
+  {
+   "rule": "claude-else-codex",
+   "sound": 68,
+   "of": 105,
+   "precision_pct": 64.8,
+   "note": "prefer the stricter grader where it ran"
+  },
+  {
+   "rule": "neither grader rejects",
+   "sound": 64,
+   "of": 105,
+   "precision_pct": 61.0,
+   "note": "a proof stands unless someone rejected it"
+  },
+  {
+   "rule": "both graders VALID",
+   "sound": 32,
+   "of": 57,
+   "precision_pct": 56.1,
+   "note": "strictest; only over the rows both audited"
+  }
+ ],
+ "range_pct": [
+  56.1,
+  67.6
+ ],
+ "correct_answer_on_rejected_proof": {
+  "codex_rejects": 25,
+  "either_grader_rejects": 31
+ },
+ "codex_rejection_counts": {
+  "ERROR": 14,
+  "GAP": 20
+ },
+ "note": "The published 63.8% matched none of these rules and had no committed derivation. The range is reported instead. The qualitative finding is robust: every rule puts proof soundness far below the 87.6% key-match precision."
+}

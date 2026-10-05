@@ -1,0 +1,902 @@
+[
+  {
+    "id": "gpqa_000",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_001",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_002",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_003",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_004",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_005",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_006",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 7,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_007",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 5,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_008",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_009",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_010",
+    "execution_error": true,
+    "terminal_phase": null,
+    "first_phase": null,
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_011",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_012",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_013",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_014",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 4,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_015",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": true,
+    "proof_responses": 7,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_016",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_017",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_018",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 5,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_019",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_020",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_021",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_022",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_023",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_024",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_025",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_026",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_027",
+    "execution_error": true,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_028",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_029",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_030",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_031",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_032",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_033",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_034",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_035",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_036",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_037",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_038",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_039",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_040",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 6,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_041",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_042",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 4,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_043",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_044",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": true,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_045",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 5,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_046",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 2,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_047",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_048",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 4,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_049",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_050",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_051",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_052",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_053",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_054",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_055",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 4,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_056",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_057",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_058",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_059",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 6,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_060",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_061",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 4,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_062",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 7,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_063",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 5,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_064",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_065",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_066",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_067",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_068",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_reject",
+    "ever_judged": true,
+    "proof_responses": 2,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_069",
+    "execution_error": true,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 1,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_070",
+    "execution_error": true,
+    "terminal_phase": null,
+    "first_phase": null,
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_071",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_072",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_073",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_074",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_075",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 5,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_076",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 2,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_077",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_078",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 3,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_079",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_080",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_081",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_082",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_083",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_084",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_085",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_086",
+    "execution_error": false,
+    "terminal_phase": "verify",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_087",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_088",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_089",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_090",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_091",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_092",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_093",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_094",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": true,
+    "proof_responses": 6,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_095",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 2
+  },
+  {
+    "id": "gpqa_096",
+    "execution_error": false,
+    "terminal_phase": "formalizer_reject",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 0,
+    "labelled_answer_slots": 0
+  },
+  {
+    "id": "gpqa_097",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_reject",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 3
+  },
+  {
+    "id": "gpqa_098",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  },
+  {
+    "id": "gpqa_099",
+    "execution_error": false,
+    "terminal_phase": "formalizer_invalid",
+    "first_phase": "formalizer_invalid",
+    "ever_judged": false,
+    "proof_responses": 3,
+    "labelled_answer_slots": 1
+  }
+]

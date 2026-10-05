@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying MATH-AI 2026 paper when using this code or its numerical records."
+type: software
+title: "Open-weight reasoning evaluation"
+authors:
+  - family-names: Gupta
+    given-names: Abhinav
+  - family-names: Slivinski
+    given-names: Ben
+  - family-names: Patodia
+    given-names: Yashica
+  - family-names: Saldivar
+    given-names: Michael
+repository-code: "https://github.com/yashica-patodia/certify-or-decline"
+url: "https://github.com/yashica-patodia/certify-or-decline"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning"
+  authors:
+    - family-names: Gupta
+      given-names: Abhinav
+    - family-names: Slivinski
+      given-names: Ben
+    - family-names: Patodia
+      given-names: Yashica
+    - family-names: Saldivar
+      given-names: Michael
+  year: 2026
+  collection-title: "The 6th Workshop on Mathematical Reasoning and AI at NeurIPS 2026"

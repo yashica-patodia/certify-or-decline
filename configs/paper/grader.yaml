@@ -1,0 +1,40 @@
+# Portable endpoint for the retained answer-grader configuration.
+# OSS GRADER A -- gpt-oss-20b served on AWS (box B), OpenAI-compatible endpoint
+# reached over an SSH tunnel so no port is exposed.
+#
+# Every grade previously on disk came from claude:opus or an Azure-hosted
+# gpt-5.4 deployment. Both are proprietary subscription services, so no reported
+# number was reproducible by someone with only the open-weight stack. This
+# grader is a pinned open-weight checkpoint running on our own hardware.
+#
+# reasoning_effort: low is deliberate. At the template default this model fails
+# to emit a final channel on 11.9% of calls (measured), and a failed grader call
+# is scored as a WRONG ANSWER by grade.py -- the exact defect that corrupted
+# eight grade files. Low effort was measured at 8% empty vs 78% on the same
+# prompts, and grading against a known key is not a reasoning-heavy task.
+audit_grader:
+  backend: reasoning_agent
+  model: openai/gpt-oss-20b@6cee5e81ee83917806bbde320786a8fb61efebee
+  model_source: huggingface
+  model_revision: 6cee5e81ee83917806bbde320786a8fb61efebee
+  quantization: native-mxfp4
+  chat_format: harmony
+  endpoint: ${OWRE_GRADER_ENDPOINT}
+  reasoning_effort: low
+  context_length: 32768
+  # Grading is a single-turn task: 223 of 223 observed calls used exactly one
+  # turn, median 853 input tokens, max 1,138. Capping turns cannot change any
+  # normal grade, but it stops the runaway reprompt loop that drove one call to
+  # 32,823 tokens and past the 32,768 context limit -- a hard failure that
+  # grade.py would otherwise record as a wrong answer.
+  max_turns: 2
+  max_tokens: 4096
+  temperature: 0
+  seed: 20260718
+  system_role: system
+  allow_shell: false
+  allow_host_tools: false
+  search: false
+  request_timeout: 900
+  max_retries: 3
+  preamble: false

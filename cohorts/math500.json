@@ -1,0 +1,723 @@
+{
+  "benchmark": "math500",
+  "count": 100,
+  "dataset": {
+    "config": null,
+    "name": "HuggingFaceH4/MATH-500",
+    "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+    "revision_status": "reconstruction_pin_verified_against_original_inputs",
+    "source_row_count": 500,
+    "split": "test"
+  },
+  "digest_encoding": {
+    "object": "SHA-256 of canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma, colon); UTF-8",
+    "text": "SHA-256 of exact UTF-8 text; no whitespace normalization"
+  },
+  "entries": [
+    {
+      "id": "math500_000",
+      "question_answer_sha256": "ed1bd887d689d8416f800c017a246891ff594e9567b9d4cd0a4261ae24d5e2d9",
+      "question_sha256": "13bb5d32a5afacb3e2ae2e66ca9ada85919b8252f6eda7ad060b7dfa1ca004e5",
+      "source_row_index_0based": 0,
+      "source_row_sha256": "0d4aaa49ce633bbae51053c17c1b9703daca6c02271f7e52dfa36c73d05c9a96"
+    },
+    {
+      "id": "math500_001",
+      "question_answer_sha256": "4a963d4582622053a0c9574e0be2d5645108222fb61ab849a7338eaf7010883f",
+      "question_sha256": "3c2b62f64e03366e020b32cae2732cd93bf6cd90b5382f4b66e60a2b35c10a2a",
+      "source_row_index_0based": 1,
+      "source_row_sha256": "e70054e5c78cbb87c25161c16313222801461e2d7aaf1f3104b35f902667e8f0"
+    },
+    {
+      "id": "math500_002",
+      "question_answer_sha256": "a336ba2e658df39f6c51bcdaafc20f66ae1449ce3f4628c6116295fbeedea7a4",
+      "question_sha256": "dd48d65e326606be4a9cc720b0f88c453bcbb8ebe2375d08f2095e9e237d3559",
+      "source_row_index_0based": 2,
+      "source_row_sha256": "3e60bccf59725386905fbfcb3c1552ebe87f7206af03c953f2e2ef9d27ef78c2"
+    },
+    {
+      "id": "math500_003",
+      "question_answer_sha256": "109fd766c2d66897ec1523ff5ca89dd970e2d59f52c136e634f1574739190fbc",
+      "question_sha256": "32c3cda4fa5ff5d18cbac4e45b23dcf4833ddf37179609d1614e2403e68096ef",
+      "source_row_index_0based": 3,
+      "source_row_sha256": "07b6cd89a197c1eed21beb5da3eedfa8d1ad2ea04598d8b8cb868fa2151e9ed0"
+    },
+    {
+      "id": "math500_004",
+      "question_answer_sha256": "31185afca18a65c7493423496ff4be338ed826c47e2d54b128adec9b8b1d9061",
+      "question_sha256": "1e59b8cae8b19bb52556b1c9d01148b1ba59b0db7e8792acbbc566489e305f3b",
+      "source_row_index_0based": 4,
+      "source_row_sha256": "075faefaa3343ac9629f8bdbe02173d6c131abd49e5892996bca5671174edef7"
+    },
+    {
+      "id": "math500_005",
+      "question_answer_sha256": "c9bad7bc8f02e69d66872efd36d9b50ad9f4d7bb414af42e58b3cc087ccd2b42",
+      "question_sha256": "8e0aeeb8ecbef2cef641bdf7c1b7f14501661a016a31bcf4c20cfe3685ca5761",
+      "source_row_index_0based": 5,
+      "source_row_sha256": "9202ff788d1b7d6b3b83fd2c3e0a37b047d8ef419447d4042222407bed7e58ce"
+    },
+    {
+      "id": "math500_006",
+      "question_answer_sha256": "7611494986039e384368e08d991b2acc9544302fd2241ff9912e811476814deb",
+      "question_sha256": "1866ff06f6f007c876ca5c8b3735eff705430cd776153f42492392b1a56aedd3",
+      "source_row_index_0based": 6,
+      "source_row_sha256": "eee2f540393b6e64f693f1849a219c50613970c76736c1be614464038a70bc50"
+    },
+    {
+      "id": "math500_007",
+      "question_answer_sha256": "6a06e5dbe25a320a8244bab6ddee53c90bfef379b59dbbee3b51010fc385da80",
+      "question_sha256": "659b49f54a96ac02cd3f3cd3e58db24dce33f501220b7526d4dcd736ea5efb2c",
+      "source_row_index_0based": 7,
+      "source_row_sha256": "08544ebb194eb21983f906be0a56e46019e243e407f5968e48e5e5974295eeec"
+    },
+    {
+      "id": "math500_008",
+      "question_answer_sha256": "d2cb83b6ab8d85619d73d533f450f007f09b2a2a22735fa5e90bb0632942afa9",
+      "question_sha256": "c0364fc64487e4ecdb562a1fd4efb3265dd75c6c2ced96273c9d5df0312b1595",
+      "source_row_index_0based": 8,
+      "source_row_sha256": "b13aef4af3d7b601695dc916eb6f65bea1187e5e2b32dab164bdf949a19d6c89"
+    },
+    {
+      "id": "math500_009",
+      "question_answer_sha256": "ba0f7f4f747021e3c62baca42d408cdec36c6c1908c717a022b744f8da1fa5f7",
+      "question_sha256": "b5edb02bf63206cf2cbe42bcb443d0327afe3f37d551eef84bc48f3a449b684b",
+      "source_row_index_0based": 9,
+      "source_row_sha256": "0af6af01cd209e92da78d8455c1e41d854bdbe17307e9332e53c2e4d21a86287"
+    },
+    {
+      "id": "math500_010",
+      "question_answer_sha256": "26c7db44dbc4bca1c95ab788e5905843297d58170d3650416fe7e7131832179e",
+      "question_sha256": "92992c0e162b3d6d436556be1efed0301d3f0786e57e18a1ab22e3d8d89413c9",
+      "source_row_index_0based": 10,
+      "source_row_sha256": "3dab0cd20d1fe8db3be4e78756277047d53917b9ed4364d6d01335310ba4c93f"
+    },
+    {
+      "id": "math500_011",
+      "question_answer_sha256": "3a749dba69868974943cb03ddcb2b7f23202f5a0ac82d05accefdbdecdd18aa8",
+      "question_sha256": "245aadb1630fe0cf62b37c961b3851ae0864b32689a944dc777ffe773f751edf",
+      "source_row_index_0based": 11,
+      "source_row_sha256": "6e5eac7137430e6f8ef560dab16b9241949cacf5f3ca961b4eb56977a823172b"
+    },
+    {
+      "id": "math500_012",
+      "question_answer_sha256": "61bdc19acde22876b5e4b307bf19da4f6a03355a18c8015947d471fb4c760525",
+      "question_sha256": "a3f40663ba19390b7e8930b5eb10435bf1dcb1168e14bd129538559aa2248cb4",
+      "source_row_index_0based": 12,
+      "source_row_sha256": "2a8634c427dfc199fed3083edd06198d7ab0309c983ca0b3b010d76bfe15861b"
+    },
+    {
+      "id": "math500_013",
+      "question_answer_sha256": "576e342d4026e433fa1efc4a864010dac409c727749e8d391df70b90721a75d2",
+      "question_sha256": "e8d37102b0a6adbee46bab5bc9459e73491fdc93185ccb2af72f605245d1adfa",
+      "source_row_index_0based": 13,
+      "source_row_sha256": "e0086f9f11232cb4b12db4594a284c4c8e82442131e774923be74d2e4af488e5"
+    },
+    {
+      "id": "math500_014",
+      "question_answer_sha256": "0d4b519e3746c000b32aa4b17ffdc89e9b16925186fc2fc962937a824104857a",
+      "question_sha256": "749e32e330be86cd9012734dbfd98280aa37c89d9b44dd4922ff18d8c4f27245",
+      "source_row_index_0based": 14,
+      "source_row_sha256": "ce73f488fb5f2adf538f307d5f04e90cf64132e5772c144f0b9f26301d1cc1c5"
+    },
+    {
+      "id": "math500_015",
+      "question_answer_sha256": "d84c6082bc89a477bf6af37ff3f822e98969abb7c02c1161fdb8755193568ada",
+      "question_sha256": "cdb0a3539dd58be017d49c01271bbfc1505b84dc0a3d4ed3ecd798d2a961a90b",
+      "source_row_index_0based": 15,
+      "source_row_sha256": "6f121edad3b108074d3149ddb1af7ff999977b985de440428bdbb80b29fa70c1"
+    },
+    {
+      "id": "math500_016",
+      "question_answer_sha256": "c2e0b9a824d21599e053693397b17b2e397d5926268cf0b82f9a998d2c8385f9",
+      "question_sha256": "2751b7253592e67acb6b847e5a8cfa1819953aacbd732fa323606e4c9582fefc",
+      "source_row_index_0based": 16,
+      "source_row_sha256": "2d2adb60367e595f8971b9882025cc4f572df792ad6ce3050964ea4156762f2a"
+    },
+    {
+      "id": "math500_017",
+      "question_answer_sha256": "4274d7be861a082654edb3da60859738177c3ad77b843ceaa7638245fe3e41d3",
+      "question_sha256": "4c8fff516b55a327cbae0a67318f8f1566faaf4c46d592ce8d1197ecc3d5abec",
+      "source_row_index_0based": 17,
+      "source_row_sha256": "877b740200c3853803380ad28cbdff663c061b62b16c59c2a1d952b290373628"
+    },
+    {
+      "id": "math500_018",
+      "question_answer_sha256": "55a6a97a8f927129464c9449f9094f019f96901b3409329e9b790d1313ddc457",
+      "question_sha256": "756bd921400e3e92899a7ae77c8fedae8519f96ef58229d69b2b8ab6254edc6d",
+      "source_row_index_0based": 18,
+      "source_row_sha256": "a646122b11a02194b0765502deda54c34f9767e4e1b5d204728e4fb4e3412f7c"
+    },
+    {
+      "id": "math500_019",
+      "question_answer_sha256": "535c0f1296decd7e39b6455822763c166f92ed12e2b9de190f29638f9ce2333c",
+      "question_sha256": "ea8fadd453f4ea8832e6e2d14658ba80e4c7fe75cbf2ac596bd484ce5cd2a614",
+      "source_row_index_0based": 19,
+      "source_row_sha256": "adfef01201375fe982814e1e090a5ce82bf8cd47ed63608bf34b782e4dad2bbc"
+    },
+    {
+      "id": "math500_020",
+      "question_answer_sha256": "6c561582daf2758921551f50d9071230075055cdb9215e3e97cb6129a09afaf1",
+      "question_sha256": "cce9209bc28f76c1c6a4290a3a5cf857f0e0ee9874ab3b3ed44345607d4cb410",
+      "source_row_index_0based": 20,
+      "source_row_sha256": "834ca6c6524ecee0f7e59ee983a3d349e8918e8d2750ccae31e817bd0c32d672"
+    },
+    {
+      "id": "math500_021",
+      "question_answer_sha256": "ece5f5800c2599eb43aede582a2b0584f65e3b693f0b6a39b8353b7e0ccc2c0e",
+      "question_sha256": "d3d6f4cae0a23167a04084fdf242acc12a77e0a3ea6a5f98ee502e5debd60991",
+      "source_row_index_0based": 21,
+      "source_row_sha256": "8c41cca2d90b2b01067fb92098ea91e5ecdabf17187742e6cc2996618ad5a927"
+    },
+    {
+      "id": "math500_022",
+      "question_answer_sha256": "61fc74eebbc3d08fed2bbd858ad6ce20ff78d834ac2184166f79a77065d04d4a",
+      "question_sha256": "8e69fc01349a975d21852aa5e5f9b6971e8d8ed8b1153c2a3dbb5ee704687db4",
+      "source_row_index_0based": 22,
+      "source_row_sha256": "84ade3824b1974d48c54c8b6d44d603af5f4676404f6d14f22320242973c0226"
+    },
+    {
+      "id": "math500_023",
+      "question_answer_sha256": "cc94c6c9d4d07bf2326b054e24b0b9d34778e7e03f894f66732115b327785434",
+      "question_sha256": "2aeafb5e569f94ddce74c9ee157b1f486959ca403793f72f55577c96692eebf2",
+      "source_row_index_0based": 23,
+      "source_row_sha256": "268e0fbb698924df1d845344df1a38655b541e511cdf92ec3c07d7042d549de6"
+    },
+    {
+      "id": "math500_024",
+      "question_answer_sha256": "2a8d8a2cfda8df153a3cd79861272c6c026fcfafe848b3fb48c0398aac92495c",
+      "question_sha256": "d679be77bf18f5ae1dac115b2c9b2af636206fdf9a115f418e74ee1bc248bbf1",
+      "source_row_index_0based": 24,
+      "source_row_sha256": "54c6f8fba03d80720b7a3a7429c513af8bb399c0cf8f937d0d6b2848c00d9126"
+    },
+    {
+      "id": "math500_025",
+      "question_answer_sha256": "b38dfa0a0cf4e8ac2a94d1cac03a94c79bdf94834a1efde379213663f6e6bbb2",
+      "question_sha256": "2ea1f202b421671b727447ed61a726de3c0a20005cccbd5885b5c7378ab69ceb",
+      "source_row_index_0based": 25,
+      "source_row_sha256": "cbe0ffbcab84c065316d905b1c1fc24ce6bbaf3881d54b3800f4c27d90c471b5"
+    },
+    {
+      "id": "math500_026",
+      "question_answer_sha256": "3df05a6e7388b39ab21edd810b4a2d61c99a979d1da948239d83e14f25dbb600",
+      "question_sha256": "74aae40cecc02fdb9b81983d7c59f3e49deb75ac612e06fbc60932a56d318834",
+      "source_row_index_0based": 26,
+      "source_row_sha256": "7167253c2c89c96ac3f89141a5449ebd6c925821318075ac59fead683659c681"
+    },
+    {
+      "id": "math500_027",
+      "question_answer_sha256": "986f2c023a0385dde5144f3797a2e7320c50dfc55450adc12a2973ef6cea8e92",
+      "question_sha256": "ba83e92e963aa63c4c9ee18406b6d517b3c85c74e9f63a1b09b77f833515bb10",
+      "source_row_index_0based": 27,
+      "source_row_sha256": "4b52f38f8bbe2cff79e8e06cf8325ad4aa637185bcd6219f8983f2ebd5865a87"
+    },
+    {
+      "id": "math500_028",
+      "question_answer_sha256": "31885a79bc77650b0fb79385a1de56f970cfb09d5b00462665f49eb9020d3108",
+      "question_sha256": "8b3cece09f2f72b262deb3d7fc12033d4adc3767d7a5fdf096d1d2674d29672a",
+      "source_row_index_0based": 28,
+      "source_row_sha256": "121c4c49bd95d1725b1e20434009f99110306bb8a1c7fd20498b7de8f71aa117"
+    },
+    {
+      "id": "math500_029",
+      "question_answer_sha256": "831f83239fca23158180abd1a4af4b269b9b203ef84ef978e20c434547a7e278",
+      "question_sha256": "707c6d6754da13d7309321574496d7d8aff61a2b7c392078ff495fa64464620b",
+      "source_row_index_0based": 29,
+      "source_row_sha256": "b15d6a16edab99147a80daab8d9178e23f30005ab64ed9b765f0280d8a69c169"
+    },
+    {
+      "id": "math500_030",
+      "question_answer_sha256": "d266ebfc925a1ea3bcf6277ff8e52662675dc79609addd12a7f2f608e2da5b60",
+      "question_sha256": "28f0bde5896e1f46c2dafb4994cb83863c24fb56e56eb403d1661c2a23872f23",
+      "source_row_index_0based": 30,
+      "source_row_sha256": "545dabe42386d3c710b5880fccca2782a43b80f022f01673fbfde874b9e031ef"
+    },
+    {
+      "id": "math500_031",
+      "question_answer_sha256": "4e4cae78fc9abb2c0aa1958636e989cbc8e73bd055efb489f027850a46362b6d",
+      "question_sha256": "b366ba898e3379262f1412ab42aea70a420798abee543c0c7ac5d5d69b585d14",
+      "source_row_index_0based": 31,
+      "source_row_sha256": "ca2f26de5d9f10a41b102ae202f519477ec6a307286dee87a2e95f1bebc210b5"
+    },
+    {
+      "id": "math500_032",
+      "question_answer_sha256": "0c79d90f634757d1acf99c092b06f8f0f4d48655f3bc5848cedbc1373d42d8f9",
+      "question_sha256": "577259c853328305c63117db75d3d303aa507b35772f7a26a68b8d192d6bea96",
+      "source_row_index_0based": 32,
+      "source_row_sha256": "3b989c58b6c446a7718c2fb3f9b3926a18dc6f7ed5ec61cdc2f5ae1d422156c3"
+    },
+    {
+      "id": "math500_033",
+      "question_answer_sha256": "d2aae403f52d28a8926a5cba46f9e733ac29eb37b08907443091c91f11c9e31c",
+      "question_sha256": "4357e31df9a113c582bce1b16d470a084f1d75e3c008c28c4aedc40dce1afb66",
+      "source_row_index_0based": 33,
+      "source_row_sha256": "c09bba2c0766db2cb989b60579ed06bc2e2e7e30966f65a86358b3f97c2ea9f4"
+    },
+    {
+      "id": "math500_034",
+      "question_answer_sha256": "afc014ac716537cf5b8e5abcde51153677fbb583aaf552bd1d1eceb85b180fe5",
+      "question_sha256": "9b85603bc31a20300a1bae15663aad93309ecaa4d23de1d5291eee9dc713a0c7",
+      "source_row_index_0based": 34,
+      "source_row_sha256": "4a0477e6874d5aa67c4106abeb8e2955b650b3ff47ed0bdd444fe8da7b7d9d7a"
+    },
+    {
+      "id": "math500_035",
+      "question_answer_sha256": "74974ce2c402942a13423394b21f4ccad2ecc4ff614749bb5fc3ee88eb953431",
+      "question_sha256": "9cf00bc32f46d4ab04e4c9fde7b5b98360366e65d4e0f48754a41e68d75fc86d",
+      "source_row_index_0based": 35,
+      "source_row_sha256": "ff4d356bee0eb8f03b3693c06480b82f3fc646fbf0e90986d4e709b622a02baa"
+    },
+    {
+      "id": "math500_036",
+      "question_answer_sha256": "7d4ae407b49d6a6cfa7ad891a3540ac25878c37a39d97f6b9045de9f8215f39c",
+      "question_sha256": "5b1d584cfe23d7dfff67df8a57030f07ab525f50d4dbe0cb7cb63ae686a80456",
+      "source_row_index_0based": 36,
+      "source_row_sha256": "2cecde24d50b4d58e393c30b74f2352ade92842bdd75a04ad69e3aa44888789f"
+    },
+    {
+      "id": "math500_037",
+      "question_answer_sha256": "50d0279c1f4b487bdb86de7731621642034ffd44c8b09fc5d09e8892762957c6",
+      "question_sha256": "18d8d61436e049f1421ce801b6e8507b8f8b498a398faef7f5cdd8fa88ba00c7",
+      "source_row_index_0based": 37,
+      "source_row_sha256": "cc35d637b5e870da1229e93f359aa2a3a4f131b7cbf24d9846e0f5fdb9f3028a"
+    },
+    {
+      "id": "math500_038",
+      "question_answer_sha256": "472231018b665d4ed66ba6a10d24e4d1e9b158ee0055b34b40255da250721db3",
+      "question_sha256": "c667b151ed654a873320e97c14d0cde3592c566c59f054b06c16d4d4d8dd6554",
+      "source_row_index_0based": 38,
+      "source_row_sha256": "fbcfb1ff73096fd8d0dd6a4de7447694de1301fe77f7935192624ab1f4dcfafa"
+    },
+    {
+      "id": "math500_039",
+      "question_answer_sha256": "57d7797365c7a2dc26c4111317c92948b92f975e864fec9b42e4ccbe3f925a31",
+      "question_sha256": "e8bbc51e4f0cedba36262f97fad41f97059c8e6ad037d851dd35f3afe17cd5e3",
+      "source_row_index_0based": 39,
+      "source_row_sha256": "4f24b45137ed99a409b793d4cebb4175ffe2d93ba58f9f686cdf775086a46941"
+    },
+    {
+      "id": "math500_040",
+      "question_answer_sha256": "03b8d79a6a7024b079bdcb94674bba218b5aa377d948d1f779c0a86143a35480",
+      "question_sha256": "e34bd9c4963190dc0c39fd380a2adfbfc56d965247007c902f15b14d171db9f0",
+      "source_row_index_0based": 40,
+      "source_row_sha256": "d847748270c48cbdb79879d154d7aee9836c0c9cabbec48723e4201014f8773a"
+    },
+    {
+      "id": "math500_041",
+      "question_answer_sha256": "24a8a914ad94c7b0acb5f6643674902a21da1ee2adbb67553230737abdaf6551",
+      "question_sha256": "2107ef2300b1d606532e730eb76a5a05f318301952feccce6fc850f8dfd0b1ad",
+      "source_row_index_0based": 41,
+      "source_row_sha256": "a2ec5c58d9ef309e33d8399ba3fec136ddd9f7ea71daf44f428cf3a42de1b432"
+    },
+    {
+      "id": "math500_042",
+      "question_answer_sha256": "dc20219109fd1c7f743e53443868951f7c4998779f4dfa0a0dfbe3b67737a2d1",
+      "question_sha256": "d9f531b9527df401c846d979a358299336d33012e319ebcc9f83a4dcda7f3297",
+      "source_row_index_0based": 42,
+      "source_row_sha256": "075d2baf238c756624e6359594ca3394b731389639d5cdf41cc03d21886c3f29"
+    },
+    {
+      "id": "math500_043",
+      "question_answer_sha256": "2f64ed4754a41ed8bc07b18ebdf2f069e79492f67e218b90c6773bfa3d200f82",
+      "question_sha256": "f2717349b34b8d30e06dbce36f7724d548f5bd9b1d9979c4b5693b101461f767",
+      "source_row_index_0based": 43,
+      "source_row_sha256": "402594446a4eac66919be4a4254a623afbac87b7a4c3599c1f8f7c9e66479814"
+    },
+    {
+      "id": "math500_044",
+      "question_answer_sha256": "b2b4b00c4117f1160d9fbd9fba8038cafba4704f0d5ba4cf29e1fe3217d2d343",
+      "question_sha256": "f4934771de625720407621bdc7b34e4fa10a1f1b0012ec2b8cf0ceff6d8591f5",
+      "source_row_index_0based": 44,
+      "source_row_sha256": "2a95b4f072277692fc7a6c52484f26b629108ba7a88e1b47f0f6bdbc5d87a64c"
+    },
+    {
+      "id": "math500_045",
+      "question_answer_sha256": "885fdf66c966a417dc62888486233f6478520424a6679f9d7c3a58c351ba65c8",
+      "question_sha256": "cf7d35cbd6e1c9c2c27f365f068695388600fab7a4a8aa970df06c9dae274008",
+      "source_row_index_0based": 45,
+      "source_row_sha256": "80e91f5936d70249d33ca42772da9d8e7b2308f6645a6293927efee95a05a48d"
+    },
+    {
+      "id": "math500_046",
+      "question_answer_sha256": "41b7239c05e945d5f1badb2cf1197ab903a9ca7fd877aa25ee6d5d71761f1f62",
+      "question_sha256": "7f218e0dec56d367fe24c53e4636286b021dee4f2eeb3a39327b9a737055ccf9",
+      "source_row_index_0based": 46,
+      "source_row_sha256": "2c8e5b1ab4d41897ce3677c380c534bbda23dae9c96619dacb64d735981965f4"
+    },
+    {
+      "id": "math500_047",
+      "question_answer_sha256": "6f64ca0ae69b88424774d318995904ff657710a26091e81dc1e35fe663b03970",
+      "question_sha256": "5a679e9b7169f16e4519d0f1cebe3e19e6ec9f1048b7565cf64cc7b596fd147f",
+      "source_row_index_0based": 47,
+      "source_row_sha256": "3830029218e906d26c8fbb51090657e44be538632ff8f9d8fea69aba75ff0889"
+    },
+    {
+      "id": "math500_048",
+      "question_answer_sha256": "5e57f16e8bc935650e055f0caa766bab4cf8223cf3f2b223eb2cd0dd65e6d922",
+      "question_sha256": "427075eaa37b40cc75bf502ecfa2cdc66fb386eaa58cb6395268f2a8f76cb43c",
+      "source_row_index_0based": 48,
+      "source_row_sha256": "17f20328aaaa2afca24bed125447033c2cdc9aa8b36e67372b8bbbd05dec5317"
+    },
+    {
+      "id": "math500_049",
+      "question_answer_sha256": "0a577faa3f0567d8aeb1f72ff841946667e08bbe127598e2c20c7e8a5d7dd5e1",
+      "question_sha256": "3d1f09ed5cfd53dce0cdfa464313ae23908a90c6fb2ce32ec3d3e2ba3f403ac0",
+      "source_row_index_0based": 49,
+      "source_row_sha256": "225ea52675c9dec5accd5bae8dbe4832f512077a7305fd17865b4fb2ba4ca490"
+    },
+    {
+      "id": "math500_050",
+      "question_answer_sha256": "752fe3cece34d1a7224b9275eca681f70de7ad6f8da98e4127bb88202ad966d8",
+      "question_sha256": "4639686b328fdf3073dec61a9a86aee58ce6224c2882566d961fde9a5166577c",
+      "source_row_index_0based": 50,
+      "source_row_sha256": "fd19e2debb22ad87c8ad678dcc9a5367fd01ac1080f697f0808fbdf222431d38"
+    },
+    {
+      "id": "math500_051",
+      "question_answer_sha256": "2b688fe4a960efd05a48a5ba9df3e5a9c28bc0b58dda8e25e49b46b0efe2bc7c",
+      "question_sha256": "5d4e128b653312de816de46359acf93889526e6cdc26d998f3cc72a8a78bc52e",
+      "source_row_index_0based": 51,
+      "source_row_sha256": "486148d0f5a77d0960b51e4e95e09f15a5ad04b982428bb5b66c2854a6de0330"
+    },
+    {
+      "id": "math500_052",
+      "question_answer_sha256": "e5d5d205844434136fff783859de4f04ead609cddf16ea6e9a1a50063dc89534",
+      "question_sha256": "cb1c77331e55a5a0803a7004f66b5190c9b9400869a5c7cf87fac28aba3b89f7",
+      "source_row_index_0based": 52,
+      "source_row_sha256": "94cdd0429e16b52da52f1f316fcf53e31460b1d19a7a23c9d3fa144a92c19624"
+    },
+    {
+      "id": "math500_053",
+      "question_answer_sha256": "d0a3410b5707445c5fc0a40a100b5e0e69bd654131cfe681543f3fcb83ed0cb4",
+      "question_sha256": "650570c0a1a8409fee85c38cfba9b25c9d2aff2c2f07af073c7adf503515f715",
+      "source_row_index_0based": 53,
+      "source_row_sha256": "91bded88602e368f809754954c7d484040802f960a7af8665c722ebd73596c87"
+    },
+    {
+      "id": "math500_054",
+      "question_answer_sha256": "4fdee9e6f244c84d60bff782429dcc5548d21b902debaec9c75cda2e7322acb4",
+      "question_sha256": "18a164d5c1185eefb6867f8376ec89146e57adc2b06f35c87e94f5c23f64ad67",
+      "source_row_index_0based": 54,
+      "source_row_sha256": "dfd6925e8fbe9be80c57aca3693c269e89dc4dbbd259d6848eedcc1920d02bb6"
+    },
+    {
+      "id": "math500_055",
+      "question_answer_sha256": "d7810ce79fd81b933435376aaaee9b2148647310aa4ea2c578f1951b7d1dcc0e",
+      "question_sha256": "c6f83b0877a24b7bc56d8527f929bf4cdeac67e82acae627356f0d55542d839b",
+      "source_row_index_0based": 55,
+      "source_row_sha256": "2930aab8367832a592ef85b751b9588da2c883f29d88d2dc309ba9555e0d102b"
+    },
+    {
+      "id": "math500_056",
+      "question_answer_sha256": "664d6852a5e34f9d4e68b710854ac6b06b7e7e0cd248d579f01e053018af90bf",
+      "question_sha256": "8c8f96252d975acd723c37981160489eae8f4b95f4e6dd8609ba56f61bd80452",
+      "source_row_index_0based": 56,
+      "source_row_sha256": "8c39a332767582cf24355f340eb65b8047a188dad4134df4495be977f6f390aa"
+    },
+    {
+      "id": "math500_057",
+      "question_answer_sha256": "99cf102595d209d742ddedf66427680a29e81b351e78161e2213f66b497db13e",
+      "question_sha256": "7fc009d3f808cafe82a80e1a5bf838cb6b652f1852bf15aa8b4942cc04dae6b7",
+      "source_row_index_0based": 57,
+      "source_row_sha256": "4c9c4692a3de2dd0108a532f8e048c6c231cefb51c56398a57315be22b6a6c53"
+    },
+    {
+      "id": "math500_058",
+      "question_answer_sha256": "b050f943ee49571e50417a3cc54312e76f48ed7576e647eb2a5cb27b6c38afea",
+      "question_sha256": "22b1b3e31b49a035340671686f78bca75036cf334287e0f3cb8c869f7b9b6738",
+      "source_row_index_0based": 58,
+      "source_row_sha256": "fa9167083c306fde441c4fa10f8ce0685650ae490f3a31916d675f320fa41e25"
+    },
+    {
+      "id": "math500_059",
+      "question_answer_sha256": "ae27d6bf08d8c6e3656cb3dc1b65d200248fea1a38f929088d9307fa5b5074d0",
+      "question_sha256": "f847551cef56a63f57b96892edf1e4c79434413c8ffd78b29c46f3c29a2b8e0e",
+      "source_row_index_0based": 59,
+      "source_row_sha256": "b4d18450464aa900b0ee92d8a9a839b6b06a459eda1f2f21dc96e4f6a5fb19c1"
+    },
+    {
+      "id": "math500_060",
+      "question_answer_sha256": "6b8f149a3d226ab1d4b60bec0290108238bf8ac80a715f5ce079208195bbe59f",
+      "question_sha256": "4c4c64d72903acef3c70b3a2205b0e2830399efd5ba694f1a16fe51503eed84e",
+      "source_row_index_0based": 60,
+      "source_row_sha256": "c1edeb4f46acc6c2be56de8e75952370c794e4123b0e4c8a66bf78740bb13fe1"
+    },
+    {
+      "id": "math500_061",
+      "question_answer_sha256": "98f9214150c42c38b26c90f4578977b953ee65873f9cc93599b2b3f80826a68f",
+      "question_sha256": "79f928524590a41c0d216a6a3066129065fca61405a4b9708da7a70d68df350f",
+      "source_row_index_0based": 61,
+      "source_row_sha256": "ffa26ad1648aa989088f25a4985c22ab4bbb14f32f10705d85c71eaffbb6eeaa"
+    },
+    {
+      "id": "math500_062",
+      "question_answer_sha256": "a0c6e19c1f5e35cea3818b59b80e01e19852d1526cf1319148940eac64d3513d",
+      "question_sha256": "a74e5ed137114c6b15052fac1e98a5ed0c73dc43f30845f84b670abd498737c4",
+      "source_row_index_0based": 62,
+      "source_row_sha256": "69209576121cb0e58c2d8cfc20d9fa4ffba024e5ad92ed80c866dc6f3ccc258c"
+    },
+    {
+      "id": "math500_063",
+      "question_answer_sha256": "d53ed0d7f72b5700f01396f7c1937283b10d9941d035a3f4383185d10b0862b9",
+      "question_sha256": "79e9a61880d1e759a13430a9dce34838aa94acf19b8d2854c05572c12d9c7e7f",
+      "source_row_index_0based": 63,
+      "source_row_sha256": "58f4d4dfe6a01327f5e260562b845f01d0b3b06a7c1cfd46f0af8537aa2f9c2d"
+    },
+    {
+      "id": "math500_064",
+      "question_answer_sha256": "3d46907671f61b60627b501ea112588e5611181f3c954a1f9afa164737bff28a",
+      "question_sha256": "4b45f05d1f26889026203b9f80fc088e7f9553cca26509acdc979830d027208a",
+      "source_row_index_0based": 64,
+      "source_row_sha256": "18fcbd858f1d13f3ce3897e89a617cbf3c9fcddb5d4d660f2b5f6e54df280fcf"
+    },
+    {
+      "id": "math500_065",
+      "question_answer_sha256": "b16aa9b32ea9d9da337d9416372a602136827e683b2754944025ac15a0cf0b72",
+      "question_sha256": "0f8bfc43c716b9e152190ae738a1960fb7c90f8c7f157d32e05c8bfa8dd57978",
+      "source_row_index_0based": 65,
+      "source_row_sha256": "12ec6018354710663d63f2c4322a6e60e626ee30a9673904cacdbc5f58092fb7"
+    },
+    {
+      "id": "math500_066",
+      "question_answer_sha256": "bcd73a90de8e4e5d7305739317a32e4cfe5cbdf726a55f62e61b8f0f8ffead31",
+      "question_sha256": "fecc51e449c73f93750ec2a234801b4622d8d31d4f8ef415d93ff53e4033c7f0",
+      "source_row_index_0based": 66,
+      "source_row_sha256": "0c0dbb57ce02fddc710a92d242fb444c5dc729f1fda3cd3b420a453f1853f053"
+    },
+    {
+      "id": "math500_067",
+      "question_answer_sha256": "b80d326646c68e3eac28139c6d46b58debd46840054169e07781af9ccf2ea1a1",
+      "question_sha256": "3c77f3abead87cb6dbf179ceb8ad0bfb90edca4d496497c26f5192da835514e4",
+      "source_row_index_0based": 67,
+      "source_row_sha256": "f8ee59c58cf7e4d62962c82ae34b2ddb8e6b36e340ca9199ef53fdd131217315"
+    },
+    {
+      "id": "math500_068",
+      "question_answer_sha256": "ce0a881e98b81d21eff47b83286cda96b8996ff27f06020d92b8d86c809776fc",
+      "question_sha256": "7739b7c4638eec41cad92f765a5db0a489ea0832d5a87b4369a8470bb6274440",
+      "source_row_index_0based": 68,
+      "source_row_sha256": "5c2bf41daade4c29db429cf3e564a094162ea93d6f2eba2f23de217850eb9ebf"
+    },
+    {
+      "id": "math500_069",
+      "question_answer_sha256": "131e5db6cdbef5ad16bf4c9268312e989adb9acb70921b71ed5122039118651c",
+      "question_sha256": "121d26f6054f3820fb01a1d9a788427b15b67c30e1388b6a295376cdb4a51a99",
+      "source_row_index_0based": 69,
+      "source_row_sha256": "7a29ae091c876452ff4b679b4badc512e01fef49a94fd694f047367f81f6bd32"
+    },
+    {
+      "id": "math500_070",
+      "question_answer_sha256": "7a2ae68baa4c90e0e47ec753f05163d08565047b53f210e2cdf2eec3ae354a45",
+      "question_sha256": "5b29870e6b483cee610a070d37c2b05234e992efdc146c5e753331aa53eb9d46",
+      "source_row_index_0based": 70,
+      "source_row_sha256": "181be6e65ddcdbce17492a46af4f4538b766da41e2e27973f440a797ae307936"
+    },
+    {
+      "id": "math500_071",
+      "question_answer_sha256": "b0640032e9a4409baadefc9c4508e3e948e6973a21b93f4c405e15db2086d23a",
+      "question_sha256": "29b2b39dd7862f9d7f8b6ffdae797146c10db99f7444470cca6735f77f68bc4a",
+      "source_row_index_0based": 71,
+      "source_row_sha256": "63e38fdf186bc010332d5fa7297ef26d5cfacfe2029f59a801d6185ef3494415"
+    },
+    {
+      "id": "math500_072",
+      "question_answer_sha256": "ee11a91d25816465e1485156e586867bc7f2f776635a120084515e89aee6791a",
+      "question_sha256": "9762de06228ca9c932517a6223269bc3c671c803a703b25c15239692765f7b29",
+      "source_row_index_0based": 72,
+      "source_row_sha256": "f09aedaf5edc76c04b849b9221dd2c3bb554094b1bb9eef2fabd9d9e9c63a0f1"
+    },
+    {
+      "id": "math500_073",
+      "question_answer_sha256": "cb5201e64a6226a7d69133aa2fca1d324818bff736b6db512365babf6374d656",
+      "question_sha256": "5031411c952b356bf7c970d8d08e7a7c40c7390e2d510d595f7359d6acbab772",
+      "source_row_index_0based": 73,
+      "source_row_sha256": "9fe6515cfffe3ec00c7852e8c734ef4ddd1d9374875068861592fdb066b502ed"
+    },
+    {
+      "id": "math500_074",
+      "question_answer_sha256": "b85f2b88614cb82d19ad1fce5d5b74064e2634597e059fa4388ceb74996adb36",
+      "question_sha256": "490c8dd47aecc496eea869fe1d18d0b4d5b23e66900c9f8508b7f9bd4b5a3fa7",
+      "source_row_index_0based": 74,
+      "source_row_sha256": "f2dee944a1c470468cd4b0f4e16c3b3318422137270c51c5ba175abfcec34527"
+    },
+    {
+      "id": "math500_075",
+      "question_answer_sha256": "d65abd9a2865ef4c4316fa5ebcb4dbf053dba2f2e260d64829a78f6558d58e9c",
+      "question_sha256": "abac1d7f64dc80bfa32d1ce0b4d6b1211a174e804844a0a337486b287fb057fd",
+      "source_row_index_0based": 75,
+      "source_row_sha256": "b6dc9617ea552b77f59bb56f2a3690cf5abd9f9a105da9decf999b84340475a6"
+    },
+    {
+      "id": "math500_076",
+      "question_answer_sha256": "d590201e079567fe4af9b3a429f392ea9b15a0e84af0b32769dbe23a4db5c647",
+      "question_sha256": "af2fadb634c99ff95acd815906f568366fd4ea205a093d31128e8cce8ebd3d23",
+      "source_row_index_0based": 76,
+      "source_row_sha256": "73e11258118540e6e5a5927e75aba003767944d4658201f90481ea2909dd11ee"
+    },
+    {
+      "id": "math500_077",
+      "question_answer_sha256": "ff44fe89d6614a1d82d9ee3ff3310258915c989636fd0a95d974ac74a2a26440",
+      "question_sha256": "21e3aa0cdbfe761a0655d9980793aaf0afcba6c1028d19e9bb3d6052fe75ec15",
+      "source_row_index_0based": 77,
+      "source_row_sha256": "727c7c3fc468275d5df3a0d93e7727477ccd3b6d37c1c2a3c48be5acfd82f312"
+    },
+    {
+      "id": "math500_078",
+      "question_answer_sha256": "758dd5acc9adcab27f644bcef095c1a90b0401863e29dbe42ad7a341b78207d7",
+      "question_sha256": "015c3ca8c1297fa216bcbcaefb5f6a8be7b85db9b19b33e1d093c0f0187bfe69",
+      "source_row_index_0based": 78,
+      "source_row_sha256": "2049c10dc6d44cd35d5a51e2a6f39ea2150b0afc199357ddf3111ef5156f8ce7"
+    },
+    {
+      "id": "math500_079",
+      "question_answer_sha256": "9090f46acacbce4622d2502ca0a25a2245691d03a1e114511b76e30af7205d7f",
+      "question_sha256": "7f472ed5afd0fbc0f395729a07ffaf91921e6ca65abb1fca618e2724e9158e98",
+      "source_row_index_0based": 79,
+      "source_row_sha256": "302809632f831399e7624f9a6d1771572cdcd32dd1cbf2dbe15d4d5d162d8f90"
+    },
+    {
+      "id": "math500_080",
+      "question_answer_sha256": "f78b38fdd995eadc772d69bb33f705cc6e8f364c4cab11ab3a48ec02bed2936a",
+      "question_sha256": "07e22408c9d86bf198748e6e0ffd321d2d6b8d605ebab6f9a119cca4c7ce5785",
+      "source_row_index_0based": 80,
+      "source_row_sha256": "94b71d38c872db5f9e0b6a56672e962e7523ee60f43a3a5513d208c73cec891c"
+    },
+    {
+      "id": "math500_081",
+      "question_answer_sha256": "76d30678c214e2dbe55b746def86043f4b12c2a8922f7ae159c8d93d64d5cc39",
+      "question_sha256": "98ba12c744ebd5e7b722191548244577d50a17b43612052e793c518a95d1cb34",
+      "source_row_index_0based": 81,
+      "source_row_sha256": "0e366de74a43e08475a4142f4ab805fcda671dec9fac6f7a97cc42a421370873"
+    },
+    {
+      "id": "math500_082",
+      "question_answer_sha256": "5f8f638c8b2fd6fc4a0e99989d88aff7ede802872257196aa9aded9af5e63fe3",
+      "question_sha256": "5bf83c63cfb017440011687bcbe40e63e2e1eabe7ebd764482dc3fc34250749f",
+      "source_row_index_0based": 82,
+      "source_row_sha256": "b54d2356d16693376bc1a085c40b9751f13f5a1d50825730b5fb2fbccd6cf2e8"
+    },
+    {
+      "id": "math500_083",
+      "question_answer_sha256": "74b864584846d1d8a3db5aad1c7b09dcb7e3801b33bad91fb35449142060ef3b",
+      "question_sha256": "fb2f7de9a9991585ba53cfbd76f1921e89806bf34d2655bf335ab980765854ba",
+      "source_row_index_0based": 83,
+      "source_row_sha256": "a58c6f64ba18c99b4920b8fbf8c42d55730ede3a528d6708c8cc0113665d3143"
+    },
+    {
+      "id": "math500_084",
+      "question_answer_sha256": "357fe67c2a9174590e38a1e62a628f78000ab3e14ebbf5b54f94d6cac19a12da",
+      "question_sha256": "e684634d63b6e43ea1c59eb8f640a8c71b26261272f27dc44fd9d1cdc2af1e6d",
+      "source_row_index_0based": 84,
+      "source_row_sha256": "7b3469437422d1d83278fb743e489647a312ad71a2ec5ea17b628a56174f282d"
+    },
+    {
+      "id": "math500_085",
+      "question_answer_sha256": "1699e4810b6cac2370aae2b6ebb9697b76f2f043e327bbdd166b97152a48c137",
+      "question_sha256": "a89fbb80da4fb26595fece88fff11e8d0bf0bc093a23f81f5e3fde5874b4f25b",
+      "source_row_index_0based": 85,
+      "source_row_sha256": "e8079e4d5742eeea2d77a4c4218c596dfcba9be987d29f9cc1e2baf7b6a9da23"
+    },
+    {
+      "id": "math500_086",
+      "question_answer_sha256": "9d61a7a642fdfbeef24b6f1c8d301edaa2fc0d76af9a9500ea2aa3406f0def5a",
+      "question_sha256": "4f5c7595557fb7e122155baf08f5bc9bb95ef916f235385497e3e4eb4e33b1fd",
+      "source_row_index_0based": 86,
+      "source_row_sha256": "308ac76275b02d58366e0e15508afac550f7e975ed966bc396cb4bb6cf093fb1"
+    },
+    {
+      "id": "math500_087",
+      "question_answer_sha256": "7482b815fba417745a34cf9e309202bcd09b9abf84a0698a07e33fd73d06c3f2",
+      "question_sha256": "214693f141327f81cd2292dec52082821b5a7b6840fa4600b1ebe1f098560c3d",
+      "source_row_index_0based": 87,
+      "source_row_sha256": "1ddb02d01955c2496a121c43761797e9e65551141209a480b176566d37f0a207"
+    },
+    {
+      "id": "math500_088",
+      "question_answer_sha256": "d8c33a19762af9779e90f354205ebcdb282ad0d084e52b5892d4b8c1fd0325b8",
+      "question_sha256": "99bbcad887c2476d93027a171acf3ea392aef9aa6a6eecbf04800e01c6b0ff30",
+      "source_row_index_0based": 88,
+      "source_row_sha256": "b060d1d16dcf73dd035cc444efc1ca8d28f2afcead0fff0476814df7d843e987"
+    },
+    {
+      "id": "math500_089",
+      "question_answer_sha256": "df24ed0ca9ddd90f1a82b0744496efc556c3506b132b4d01e1ffa8e957c0dfa9",
+      "question_sha256": "86dafa426d0346e1f4abba7b8a579538abd8690f808e3035fe01fa0a727855a3",
+      "source_row_index_0based": 89,
+      "source_row_sha256": "9c533bf2e2704a5ec2a26989e09fb06cf77b6c6f99be8f8d90d5ee2b1beae7d5"
+    },
+    {
+      "id": "math500_090",
+      "question_answer_sha256": "316c0e8d9a8d90c534452bfaeed8c1dbc654b210d49dd97dc13e33d284d9d2ce",
+      "question_sha256": "71d79388b988d5a1756d881f05055d303aa7484c74f8774b00ba80965a39a3a1",
+      "source_row_index_0based": 90,
+      "source_row_sha256": "c59fce0500b7f3abd759014da5410cf7a0ef16aae447e9c361a734e7e8d8e051"
+    },
+    {
+      "id": "math500_091",
+      "question_answer_sha256": "eea39255e3a4bfa4088c9d0bae3fd08351e56352aae36d76655d14e3f0e971e9",
+      "question_sha256": "eb3187c38ab270283aae03d23dab5395fdd4a83ed4d26eacceae489530dc3e90",
+      "source_row_index_0based": 91,
+      "source_row_sha256": "17650dadf9d6c53a0bc46115e97d254339fe9a41a4798dd6a5b4f2bd763b6c60"
+    },
+    {
+      "id": "math500_092",
+      "question_answer_sha256": "8665feeec193ee90b99a2e8c655211d032c1dd6771112bf50cd8227bcec0e3d9",
+      "question_sha256": "9d135f320cbe07b91a24dbea9b4800942e7db04809ffd517e53fc909b5699202",
+      "source_row_index_0based": 92,
+      "source_row_sha256": "ad2b48dff58c0e4609caed10166759a5e8d9a6d41578d6c5cd8679ac3c90d51f"
+    },
+    {
+      "id": "math500_093",
+      "question_answer_sha256": "234a7d5024aa41cb9228b79c9dac2d1d4ae0b081857ea5045c734e1d6a678d19",
+      "question_sha256": "ecf5fa925de2e2eca47dcd1ba3c46b47b24a05599ac0464d90fecafaa4fc740f",
+      "source_row_index_0based": 93,
+      "source_row_sha256": "a2af0b67633d60a86676f6ecba851c8e64fba9d67beb0d790fc6e6e7dfd6bf45"
+    },
+    {
+      "id": "math500_094",
+      "question_answer_sha256": "ea94a784340f349b30f0cc72b416b86bc68262de665b4bcdf17e0008b134cb2c",
+      "question_sha256": "0ada1f6385a37fe58a9ad49690f71230609af9b614830648b31a1a2c04c581ca",
+      "source_row_index_0based": 94,
+      "source_row_sha256": "fc6b60e85b5d74d832d4547c28d8fea7ce81382707e8272153e5b07a5321c6d6"
+    },
+    {
+      "id": "math500_095",
+      "question_answer_sha256": "9e512348915ea89b286dfb146de87323d9fbed65e88df980e7831917cb8c3120",
+      "question_sha256": "8b30a7be8ee0adc16f0a19edfda93f5dfca0e9d7d408326c2736e5098d06e1e9",
+      "source_row_index_0based": 95,
+      "source_row_sha256": "4e68a9dc629fb4e5978149edd16a520fe30576d67891d5e8035b2961d2e524b6"
+    },
+    {
+      "id": "math500_096",
+      "question_answer_sha256": "fe37f51c4488bb9ca45351aebb8ed94b2be302f4d6c84929dd7f93ef1d66ac04",
+      "question_sha256": "5e61c14d349078f7f8ae26e051f591575687cbcdc20809b1152e1d2a1d787857",
+      "source_row_index_0based": 96,
+      "source_row_sha256": "04543862118e5030ef652eced1858cb2f5e7fd5365d0dec5cc602e6659e7dd71"
+    },
+    {
+      "id": "math500_097",
+      "question_answer_sha256": "0e54efd11b9527598d792e189717b324ff12a570661eae21d6b6752dcd08198a",
+      "question_sha256": "ecdad8d7b2a1a13309f7bb82a6f1657912ba05844f278b6af22e19c5f442761e",
+      "source_row_index_0based": 97,
+      "source_row_sha256": "d6f5947177a390ba2fa09c5ad44a10078b04c08ae0a83dfd85b8ef047df09057"
+    },
+    {
+      "id": "math500_098",
+      "question_answer_sha256": "8213a7f4df186dedde2d741dae0eb6a556764e8cbbde3f7b4b4ba982b42e9572",
+      "question_sha256": "e87c54273a4f6dc89bfc4191c23d3b02ffeb9e83b41b2d4da53333d2a57680e6",
+      "source_row_index_0based": 98,
+      "source_row_sha256": "baba92add662536a472da9cba91aca8175eb903d255f123e8f66b3ebc362bfce"
+    },
+    {
+      "id": "math500_099",
+      "question_answer_sha256": "757f9b872ca003c75d0d121f1f8ddd616ee29867f34432803b11688a6cc5c543",
+      "question_sha256": "fdc8aba1c1ade2de891c8acfc7e126e96fde232077c7c1b25ac07b4cb18aee37",
+      "source_row_index_0based": 99,
+      "source_row_sha256": "efe529c4f13dcd9b80fbd32b00af905791254d2bac4a092e586befc1b87b1e03"
+    }
+  ],
+  "original_benchmark_file_sha256": "a45e9999b9b711dd763a319808e6532b2ad3c62a9eb6894bed12c6c649c097b7",
+  "output_file": "math500-fixed-100.json",
+  "revision_note": "The original benchmark metadata omitted a dataset revision. This pin was resolved for the release and its selected rows match the original questions, answers, and row metadata.",
+  "schema_version": 1,
+  "selection": "first 100 rows of the test split in dataset order, fixed before any run"
+}

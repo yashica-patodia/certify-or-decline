@@ -1,0 +1,1233 @@
+{
+ "grader_config": "experiments/configs/grader_oss_gptoss20b.yaml",
+ "grader_prompt_sha": "6c23de6babcb475bb02db1bcc9add7dcc0aef0dcd11e0c956a31810f41b40d6f",
+ "n_cases": 200,
+ "accuracy": 1.0,
+ "false_positives": 0,
+ "false_negatives": 0,
+ "call_failures": 0,
+ "by_kind": {
+  "key letter": {
+   "n": 40,
+   "correct": 40
+  },
+  "wrong letter": {
+   "n": 40,
+   "correct": 40
+  },
+  "key option text": {
+   "n": 40,
+   "correct": 40
+  },
+  "wrong option text": {
+   "n": 40,
+   "correct": 40
+  },
+  "empty answer": {
+   "n": 40,
+   "correct": 40
+  }
+ },
+ "cases": [
+  {
+   "id": "gpqa_046:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_046:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_046:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_046:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_046:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_053:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_053:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_053:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_053:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_053:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_073:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_073:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_073:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_073:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_073:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_056:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_056:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_056:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_056:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_056:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_043:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_043:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_043:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_043:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_043:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_080:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_080:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_080:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_080:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_080:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_021:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_021:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_021:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_021:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_021:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_019:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_019:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_019:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_019:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_019:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_086:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_086:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_086:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_086:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_086:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_077:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_077:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_077:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_077:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_077:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_061:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_061:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_061:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_061:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_061:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_010:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_010:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_010:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_010:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_010:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_050:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_050:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_050:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_050:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_050:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_032:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_032:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_032:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_032:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_032:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_076:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_076:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_076:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_076:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_076:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_098:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_098:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_098:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_098:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_098:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_000:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_000:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_000:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_000:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_000:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_030:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_030:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_030:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_030:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_030:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_011:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_011:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_011:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_011:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_011:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_058:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_058:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_058:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_058:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_058:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_057:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_057:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_057:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_057:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_057:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_017:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_017:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_017:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_017:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_017:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_006:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_006:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_006:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_006:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_006:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_029:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_029:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_029:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_029:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_029:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_079:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_079:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_079:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_079:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_079:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_024:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_024:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_024:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_024:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_024:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_065:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_065:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_065:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_065:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_065:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_081:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_081:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_081:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_081:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_081:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_012:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_012:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_012:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_012:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_012:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_027:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_027:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_027:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_027:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_027:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_087:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_087:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_087:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_087:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_087:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_054:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_054:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_054:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_054:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_054:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_042:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_042:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_042:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_042:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_042:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_085:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_085:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_085:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_085:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_085:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_009:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_009:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_009:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_009:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_009:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_031:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_031:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_031:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_031:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_031:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_008:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_008:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_008:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_008:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_008:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_068:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_068:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_068:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_068:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_068:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_072:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_072:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_072:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_072:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_072:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_064:key_letter",
+   "kind": "key letter",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_064:wrong_letter",
+   "kind": "wrong letter",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_064:key_text",
+   "kind": "key option text",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "gpqa_064:wrong_text",
+   "kind": "wrong option text",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "gpqa_064:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  }
+ ]
+}

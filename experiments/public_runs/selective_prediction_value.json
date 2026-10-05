@@ -1,0 +1,92 @@
+[
+ {
+  "benchmark": "GPQA",
+  "arm": "strong (14B + gpt-oss formalizer)",
+  "k": 3,
+  "no_verification_precision": 56.3333,
+  "verifier_coverage": 35.0,
+  "verifier_precision": 87.619,
+  "precision_gain": 31.2857
+ },
+ {
+  "benchmark": "GPQA",
+  "arm": "budget (14B)",
+  "k": 4,
+  "no_verification_precision": 60.5,
+  "verifier_coverage": 30.5,
+  "verifier_precision": 75.4098,
+  "precision_gain": 14.9098
+ },
+ {
+  "benchmark": "GPQA",
+  "arm": "32B-FP8",
+  "k": 3,
+  "no_verification_precision": 58.6667,
+  "verifier_coverage": 45.3333,
+  "verifier_precision": 72.7941,
+  "precision_gain": 14.1275
+ },
+ {
+  "benchmark": "GPQA",
+  "arm": "Phi-4 cross-family",
+  "k": 3,
+  "no_verification_precision": 44.3333,
+  "verifier_coverage": 8.0,
+  "verifier_precision": 75.0,
+  "precision_gain": 30.6667
+ },
+ {
+  "benchmark": "MATH-500",
+  "arm": "strong (14B + gpt-oss formalizer)",
+  "k": 3,
+  "no_verification_precision": 96.6667,
+  "verifier_coverage": 86.6667,
+  "verifier_precision": 98.4615,
+  "precision_gain": 1.7949
+ },
+ {
+  "benchmark": "MATH-500",
+  "arm": "budget (14B)",
+  "k": 3,
+  "no_verification_precision": 95.3333,
+  "verifier_coverage": 74.0,
+  "verifier_precision": 95.4955,
+  "precision_gain": 0.1622
+ },
+ {
+  "benchmark": "MATH-500",
+  "arm": "32B-FP8",
+  "k": 3,
+  "no_verification_precision": 93.3333,
+  "verifier_coverage": 73.3333,
+  "verifier_precision": 98.1818,
+  "precision_gain": 4.8485
+ },
+ {
+  "benchmark": "AIME-2025",
+  "arm": "strong (14B + gpt-oss formalizer)",
+  "k": 3,
+  "no_verification_precision": 48.8889,
+  "verifier_coverage": 21.1111,
+  "verifier_precision": 94.7368,
+  "precision_gain": 45.848
+ },
+ {
+  "benchmark": "AIME-2025",
+  "arm": "budget (14B)",
+  "k": 3,
+  "no_verification_precision": 51.1111,
+  "verifier_coverage": 26.6667,
+  "verifier_precision": 79.1667,
+  "precision_gain": 28.0556
+ },
+ {
+  "benchmark": "AIME-2025",
+  "arm": "32B-FP8",
+  "k": 3,
+  "no_verification_precision": 45.5556,
+  "verifier_coverage": 31.1111,
+  "verifier_precision": 71.4286,
+  "precision_gain": 25.873
+ }
+]

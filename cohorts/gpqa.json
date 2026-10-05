@@ -1,0 +1,1529 @@
+{
+  "benchmark": "gpqa",
+  "count": 100,
+  "dataset": {
+    "config": "gpqa_diamond",
+    "name": "Idavidrein/gpqa",
+    "revision": "633f5ee89ab8ad4522a9f850766b73f62147ffdd",
+    "revision_status": "recorded_in_original_preparation",
+    "source_row_count": 198,
+    "split": "train"
+  },
+  "digest_encoding": {
+    "object": "SHA-256 of canonical JSON: ensure_ascii=False, sort_keys=True, separators=(comma, colon); UTF-8",
+    "text": "SHA-256 of exact UTF-8 text; no whitespace normalization"
+  },
+  "entries": [
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_000",
+      "option_sha256": {
+        "A": "37a40b4bb17720459ce384cdbae97eeb644a37738fc9ed386a935dc35b704d6d",
+        "B": "2a3591e1aa06f8a65b8901b028d5a477a57cf8639219654e3ca0c4d3ca6f0990",
+        "C": "31ee437b53699cb33f10760cdc264ef33ece6d475b5c7546ea3a9f57df77daaa",
+        "D": "b13457ba4f1c23208de3c83b22ae91b7ac7f83d7357cfcf0ec8c96159c004203"
+      },
+      "question_answer_sha256": "288b86500185407bf85e9c9786e4a99c27b163f54ffd489647b6be6921f62c59",
+      "question_sha256": "3d6273467c5ad1502c04b30027b500fd550d69d53241ac38446afaeaf22fd657",
+      "source_question_sha256": "916a1ca795d38f4c815c99d6f162f52af934ee4e1b0d100dc0a7fb747631f7a7",
+      "source_row_index_0based": 163
+    },
+    {
+      "category": "Genetics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_001",
+      "option_sha256": {
+        "A": "b4ad01bb43ff56c56e396974be77c8448891f46a0dec845547cd14579fe28743",
+        "B": "820ab0d76a2c9785e86fa87a860398020f1f87fbf61d0e97bb9e7b4403d3e558",
+        "C": "e2499832cee415eabaad8ad052fbbe7c0601ce396d9aff5134f8fb53d3ae5b1a",
+        "D": "c710f79843ed3145c9bcf6f0e38945f9b8dffb17c84ec6c61d116522301e8adf"
+      },
+      "question_answer_sha256": "39ae0a612d97acd305e95ba69a23d4fbe10d143a0de535ec449f29d6c3041c55",
+      "question_sha256": "26853b48017ad8a237f591fb4f6aaa4f83d19476fec236dee7c901172fea1cef",
+      "source_question_sha256": "42da82ad5cb9e03bf1c8f1d786b162fd55245c32907328f445c191681a98b669",
+      "source_row_index_0based": 28
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_002",
+      "option_sha256": {
+        "A": "9bf09be43e05e32ae256c5c38527cb8ebe5f02578ae02630249957aa95a83075",
+        "B": "8a94008a9c9ea265919c1731165815eed791ff535e0f698b3ff479dfed23d4d0",
+        "C": "c34806d350381cd245aea4a592399d3c199f1f704924826231faedb78852c84f",
+        "D": "d3ddb1a2735c6ca2117b92ca9860680fbb35eebce19ee4c501f3c7a2b4afb11d"
+      },
+      "question_answer_sha256": "0602efe303f34b149c6b799f40030a94cdaf3c6c6f91999a8186370ea1a10542",
+      "question_sha256": "cc81f1f14504c8018f1def49695360fc7fba93a048e6a77e729089c17ffa0ece",
+      "source_question_sha256": "d48362abba761cef50927ef586befd9a2fdb343aa19b2fa457ee74fb6dbfb56b",
+      "source_row_index_0based": 6
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_003",
+      "option_sha256": {
+        "A": "f6a8ab70f54efdd130626af325df9b1879d4fd8bc49c4fc67d3291b527deaca6",
+        "B": "5e2e422fa2526b49c48ef62d4c318bcb2e40fadb6d54232f62b8a72b223bcf7a",
+        "C": "8695dbbe0bc4c0627a5ac38cded66423608aff50b0612f5b79e0b3a98f030cb7",
+        "D": "f7fc67bb02c66220196be588f778347962e3c8d67fdfbc97a37a7d226ddbb843"
+      },
+      "question_answer_sha256": "b4a9eca5429413e2fe63cb42ae92333d7cb16d3095e30ea20db8999b79e7b920",
+      "question_sha256": "47b92d064f98a7822e004a19b1f4dddfd5e3cacdb9a4b03e05257c4ad5fb5f4b",
+      "source_question_sha256": "17f96c74be836037313c787a88438b6c9f69a4aa20ec8cba17697864f5d35599",
+      "source_row_index_0based": 189
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_004",
+      "option_sha256": {
+        "A": "65f0ae41ef047416df92b70dc0985030765e616e70afdcea1f84da0535ade3fb",
+        "B": "8d41e203008ca9f7903551281762906f6c9c89f53e222e996527024cbc46b4e4",
+        "C": "7cd3ac487318a4ddd1a8ca0ee93263b6bbf1dda3676de4ac984dcd8065a7f65d",
+        "D": "883df8998243a8fb50723811fd6be3d3effae906e956c7a7cda35ae21105e490"
+      },
+      "question_answer_sha256": "4e60e9e5764aa73dd7abbe554ea6c1cd3ba5659bfe6343a5f36586c18d751e33",
+      "question_sha256": "0dc56d14f67d9927c47ff89056cc6f7c80750bc35b64d7e52f2acb29fab4ed63",
+      "source_question_sha256": "cf500f5f076470e539799f3822047d1a6263a0abc77614f9abc48a4f60ba507d",
+      "source_row_index_0based": 70
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_005",
+      "option_sha256": {
+        "A": "52bec001e1b192af0d031f1dce25ca506e53e50c987da9ab3dd70cff022ab6c9",
+        "B": "0db72cf995afe2233c4dd5a7a96ebd998dc4b17b8d232f18aa98a83817ddb287",
+        "C": "c2afcd322ebf9eac35c1b5d20708641767cb83cd65f06b16034a18859f27c844",
+        "D": "1678770de5f056e2c726fc86adbdb3c0b175df601433fc6bc01e80d92034ed82"
+      },
+      "question_answer_sha256": "e7477822134b8290b48acf7c20dd4f5228ba2a7c296f301202c2cee2caf11c93",
+      "question_sha256": "66fcfeef1760ce46cc890a26050dddf92336b6bbce2ee735010cff553b2bbc9d",
+      "source_question_sha256": "1054cb147fa0d82e2b1830b0238455ab6cea42cde361a81e9934864240f22f50",
+      "source_row_index_0based": 62
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_006",
+      "option_sha256": {
+        "A": "c703fb63eee56534389cd41b94f12abaf1dd86128b5162f993c8eee6e6ccf2a7",
+        "B": "ed1ce8b7ea8c4f13e57c0baf98536b61e38ac747d2603414ef3e62344751a00a",
+        "C": "f48e4bfdbb7fabf2fa75de6535be3c1f02544d91a82e129e79f04e34ae0e7b1a",
+        "D": "8976ba30aa34e89259325e934affa02534d16dae080718ca259362be98928466"
+      },
+      "question_answer_sha256": "8567693d41e308b97f99c5a8a3faf557e80d6ae5dc2e76ca4ae271268553d1b9",
+      "question_sha256": "74bf11fb2dd049b1b00ee8006f6d7ba8a023e6ec21a7cfffbff966787a4b6c42",
+      "source_question_sha256": "e9afb48881134b480ce09710124320be56d4166a402490b65f81bdb1df6e3a1d",
+      "source_row_index_0based": 57
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_007",
+      "option_sha256": {
+        "A": "cf4edef397409304b1f5297a45ebc4558b1ef82f38c2f178dd602b640cbacd7d",
+        "B": "f5cda7ca32739f3fed90cad15e71cfc118b87498b88350145065a7d066524f61",
+        "C": "1aa15d3a2a81ca03c504ab4c85fb05299ff6bdf5e46a5dc0466f1be7a1b98c65",
+        "D": "36c134d0357179460a65fe25ab423c0fbe3c3e70af941ec0d1fe1194fc07f671"
+      },
+      "question_answer_sha256": "d64e4fd81ba00b47440a4612af96eaab8ce24e29c025bfa2a1e791ade82bbb4a",
+      "question_sha256": "2187b86b5e3d875fd0718613ba79016422134b6f1bbcb533a1df2b376902477b",
+      "source_question_sha256": "8d132ce83553f28f02599f90e3c52fb60d8f58faea0f09152f78f7df6e310abc",
+      "source_row_index_0based": 35
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_008",
+      "option_sha256": {
+        "A": "c3cb053e63065f08accde6369b521db0573d5187e443a1262a4d16ae2ead98bd",
+        "B": "248f6f1e81a4c9bcba888dc6c39f4c19388823f5d36ea4cc741c4499606f8933",
+        "C": "3056d033b6364c6e41cc3ab75cdb5c8a8cef9f6eb73934110767439215add38b",
+        "D": "04b566eefd521d62f50ed727ea3dffe35b983d4acca5a7010758f911f54d6b5d"
+      },
+      "question_answer_sha256": "6637115801f886a259824edc56569b8236970e96ff205c7a574db8af9158a6f1",
+      "question_sha256": "394f7c1e9ce11f3de75f8404aa05bffa43c1ea6f264380123edd014724c60347",
+      "source_question_sha256": "d20446ccbbfc1ed40bcb669bfa65f9f9cd8e38ec8f7e67621c88e3dbe91f083d",
+      "source_row_index_0based": 188
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_009",
+      "option_sha256": {
+        "A": "d85b8526c6aa1709bf0c6536c6b707f4b4db2910bad74435f1282cd20802c319",
+        "B": "cc2db7213070eb7776dcd0e3680cc9c989963b6e9b0d5ea722478325155fb1b4",
+        "C": "3c31ca5cfcb495cff9fb9a07cd351b7c2700e8790882e8bf0b394dae3b6bf70a",
+        "D": "4204372a31cb75f50e469cdef7b9914ed4e034439dc97096114536bd95a501d4"
+      },
+      "question_answer_sha256": "6a1a0d26691eff67031fc4ca289a6865bbe94a5f76328eff59a4ebb44c781e42",
+      "question_sha256": "bc6ce825ba2cf1f31d9f4825efe2a45941ad5ee2ae29ba76b20cd70b6e467dbf",
+      "source_question_sha256": "29ffae74d292a9a38f72dd8e95efab3be752912b79e848701193359c657937f6",
+      "source_row_index_0based": 26
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_010",
+      "option_sha256": {
+        "A": "af6203b2637da1091c91d0e31b263b90439088a101915c584e8e19750c65b950",
+        "B": "0ec20248725275a3154b323e332258eed6100ddfb9c5b3fe40125467a039a6a1",
+        "C": "d160c5e6b1a822546c909428415175fe6e9b9663005891697d2a22309cfdf8e2",
+        "D": "ab3e75a0fef8faf073315665971bf7546c1965f2833a85c0c8408627d9b89ed6"
+      },
+      "question_answer_sha256": "908df577f7cd0105219251ac7fb232a15fe7e21e61a5249d4b75bc5eef8940d4",
+      "question_sha256": "846e063775b715bf2255f1ab81637490b99579e3f916c2beb1a0b26f2e757017",
+      "source_question_sha256": "28fc44d6ca68ec833bb9837a558199f6e126ccb90f29dc42a2a4bf34ea4b66a7",
+      "source_row_index_0based": 173
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_011",
+      "option_sha256": {
+        "A": "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+        "B": "35135aaa6cc23891b40cb3f378c53a17a1127210ce60e125ccf03efcfdaec458",
+        "C": "b7a56873cd771f2c446d369b649430b65a756ba278ff97ec81bb6f55b2e73569",
+        "D": "eb1e33e8a81b697b75855af6bfcdbcbf7cbbde9f94962ceaec1ed8af21f5a50f"
+      },
+      "question_answer_sha256": "9975cf6b5901228ffc6eac427317262e9a32f6757c7123420fd39c3c02c93f2c",
+      "question_sha256": "8cbb2c3446270d82ee357027a079edaf3b8ab4cc1940dc518cfb76638c4625a8",
+      "source_question_sha256": "14a2ed1ddcecc5a3752c954a0c07f0e2ae102378d648cc66bd57385516fbbe20",
+      "source_row_index_0based": 139
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_012",
+      "option_sha256": {
+        "A": "bf593181be28f30c2fc4407b2ccea6aa2f2e84bf4f4fc1cad9882bb0dcc7545f",
+        "B": "620d8a21836056fd69b2f7619803b6c5ca078fecfaeb4ac5609ef40678c885ef",
+        "C": "32c9bebef901c0985d21cfda0b5ede7c58c896793fb3522e34d30b5f90f54c6d",
+        "D": "459bb987921e75d2d82c19bbf99a30509d19654f285bb2665025cb10a7f42873"
+      },
+      "question_answer_sha256": "a73212a75adb5b1ebf2ec659ded7c8893116dde88385bad806d4572790b53e8b",
+      "question_sha256": "e31a03f88550d8d9cc4c531a0aa1d254b5ad509fd214c08f625fd55433c4d20e",
+      "source_question_sha256": "cbf5c336a0990294bf58e4837d439407d4479b821676ebc522b02838ff4b6ef9",
+      "source_row_index_0based": 22
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_013",
+      "option_sha256": {
+        "A": "313703a64f0eaba6577570421d2b4263f7e50e409857fb2cd4d74eea47ace221",
+        "B": "5bed0c3dd8a66da671683e6f260757b33f0a214485846b8f8e475a65a6c1d91a",
+        "C": "47c90f0c7874335d012e67f29e100986fd7f0b8a6d53ea4eb794632e4094e09c",
+        "D": "71d1ae805a827aec50a4827608092b157e5a72ca0e16176649e46c0720aac6f6"
+      },
+      "question_answer_sha256": "4e1c265a7a4b4c7dd6da145b1a16cbce82b0da17e4d8054841a07bd7a2a137a8",
+      "question_sha256": "451327f347c2a399d73dde3da8a7d2919c626a8e07a51bb3c9ab0ccd82f82d0a",
+      "source_question_sha256": "838fc09fd4e797b427a44bdcead8057595212cae13f656f7266f91ad96fd12b2",
+      "source_row_index_0based": 151
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_014",
+      "option_sha256": {
+        "A": "bf16cbc1cd51cac3b91469f15a42797bbd6f195d4bbcd6673dbfb6f716e302c8",
+        "B": "c22ca5dac1cc476a37248d43ed6ca166e2cebf8e6e7b027c4037000e301ad35d",
+        "C": "78973481dc552c9fbfcb204e677d9a2d940dd2f821b55450c2aed7536907186f",
+        "D": "16d81e8495dc4fa8a72b8939f789d69352fb088d5d2b321a346201f366096f62"
+      },
+      "question_answer_sha256": "71fb25ea7e267c012a5a0dc44037140a1717711316b7b0bae8dbb0de776becf6",
+      "question_sha256": "d32bd0e924296ff8f03b75daecf708de774956da0ce822768f0e4da6938d9881",
+      "source_question_sha256": "2c9af2ef64de0aaffa47eb4adeaec302e17f81695693df82b46fa0d7c9a301d1",
+      "source_row_index_0based": 108
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_015",
+      "option_sha256": {
+        "A": "4b1ef7e6b7e74cc9890b2b24434ee2d32610f5a9d85cdfdf9719703291762cd2",
+        "B": "d4da3549d130c54cf3c016d2d1407b5227b548a7aff3a068da7b93a9c28a89a3",
+        "C": "2756c2df8bbf4dae06fc55e4e019ce19c44161da6861a552a8796a338ffeb8e6",
+        "D": "53633fa9b4e64ad04c70383f909b142360f49397f9e4f1ce85e51bf8f595a61f"
+      },
+      "question_answer_sha256": "93e273cb0183595ca16bc428d14c9a51cbc849d0bb9eef65793f96a90b51ed44",
+      "question_sha256": "431f84655ed1e8fc0ef0d9f8f6cac780b76fd165156af4e756d4f8481e3fdbfd",
+      "source_question_sha256": "fc081c2fbb63be5006154edbddcd4d1654207c4f1ad333e12f9bc19972753482",
+      "source_row_index_0based": 8
+    },
+    {
+      "category": "Genetics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_016",
+      "option_sha256": {
+        "A": "30e2fd6d5b6d849d8016040569984d136395834de9b219361b551aff79c525a3",
+        "B": "ed0eb21ab8f58e31ef972402c5a326eeb169a83ccbb31f3b9cfe996ed52a15b5",
+        "C": "d0637dbc1b8418d7989b9ebf3aab20b5d7806e31d952a4da46ba153414190be4",
+        "D": "9c911efe6d0bcf7be88df2605b75cabf98788b89e2fc759a8810e797b715ce66"
+      },
+      "question_answer_sha256": "2c0237819ea0bd65b66c160c994bca6ab929e9a354c3049b37a1796d969dd35d",
+      "question_sha256": "7336606fe89c1a8c7bcf2e3874afc903e6d7be8a268294df2502635bd3ee0ff3",
+      "source_question_sha256": "b9a9745a5c88868cf74cbb4dc5325e960c99d1b4835e550ea4a92b5158d4753e",
+      "source_row_index_0based": 7
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_017",
+      "option_sha256": {
+        "A": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+        "B": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+        "C": "4ec9599fc203d176a301536c2e091a19bc852759b255bd6818810a42c5fed14a",
+        "D": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918"
+      },
+      "question_answer_sha256": "1efd76e8e5d40084ef0af48329a61080fbc64103f5f300f4c3af2b58cff7cb5f",
+      "question_sha256": "bf4f514a0346bdfb3198c04a40ce47b45059521180e5572d2f088d1631f242f0",
+      "source_question_sha256": "16464cac7090a24d3b5a0bf989e1699bafd2dd7b1555e816a1f77804d8e890db",
+      "source_row_index_0based": 23
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_018",
+      "option_sha256": {
+        "A": "04449d3300f58deeb7e0fca3b31413c7adcffe60cc992b5c4f0618679e3b021c",
+        "B": "2f345d08ab4eabfe8ce0fd5d8f5c28d17cf97a8a62e570878d1cf3655422a8c1",
+        "C": "b114bcba478fccefd1e35ca72f15f2030fd931bfdb813501fd721d27052079c2",
+        "D": "bc63f85b4f0dba18d8ae600d290651d60363d8a79810d5bb5bd12ae64ce921b7"
+      },
+      "question_answer_sha256": "84a3259b67a06bc4e82d96d60e8b08d47b3a3de75b2d31da937a146898cc5de4",
+      "question_sha256": "0e70863dd3c7a037fec1b1769da75537be7a3bb62d2bbcbfe48a5e2c9c09a8c3",
+      "source_question_sha256": "229ffbdb774489fcfd578450da500a74b0c6fd603d3f4050eb6ff993659f5c7e",
+      "source_row_index_0based": 55
+    },
+    {
+      "category": "Relativistic Mechanics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_019",
+      "option_sha256": {
+        "A": "34b7c7e4b08bf6f9a70b8adeb3b3895febf75e79a4045c525fa972efe1680941",
+        "B": "18a2236f53a119d58f1c2dd2dee23edf78dc888482b9c34103b139e9bfa0196b",
+        "C": "a5add07fdd9a4b4383e2d6edce76f6b80418b95477e1fefcc7437102c59a9d19",
+        "D": "7aae9fbb827ca22956f30a0cb64a8c66c4149d2692226ba04de72084827029f6"
+      },
+      "question_answer_sha256": "af0dbf99f3937414d1f8f1d34666a7b255609d134fe7d9141548fbf00dd01403",
+      "question_sha256": "192a1a76760dadeb154ff3694f45c1eec4a9ed4df94b727b15faa7b8fd47c289",
+      "source_question_sha256": "ebc638f9e42bd31bd87f0fab4dff50846ee425d9aef0cb954a4e5013a5a107e4",
+      "source_row_index_0based": 59
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_020",
+      "option_sha256": {
+        "A": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+        "B": "0814305f8cfb2f14744b7c7ce9da6768802df7bdd801d62be3e0d7caa0d84c81",
+        "C": "27d44f1ac6c10703726a1014ab2e422c1e52bd399ed2090b3c711fc97116eeb2",
+        "D": "d685a2527bbe967324af22ca36b5186929548299ed12e86bbad1e5957cb43750"
+      },
+      "question_answer_sha256": "f3fb0fd4aa172ae7884b95b451548982493f3bc08a4c14c3d26ce7f59a554a2d",
+      "question_sha256": "e6fae524de80efe3cca4b1ff9d74aa29340434080ede79419aeb79c2a9d4d07e",
+      "source_question_sha256": "20c95dcf305469ddcfedec8d83b91e0ba1060796495eb8dcc23d133f9b5e8414",
+      "source_row_index_0based": 129
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_021",
+      "option_sha256": {
+        "A": "54de6ea849ae2980924e5e8d11388b71bef071bd78ba55a2a5484908ada05565",
+        "B": "3c1b7a79911a167ca7320ce1b8dc65a7443bb0da91badd8c403d21435485a37e",
+        "C": "1acf1f14ad9971ab9e8a55b6128b211b72316aab628b9da7781329f37756e0ee",
+        "D": "2938cd7e54e5a54258cc8faa6fbaacf5a570d4baab8cb472d1229fa8ecb850c3"
+      },
+      "question_answer_sha256": "98129be74d09e9586d696af7659ed4c357313618c1f965c2a1b5a05e5fa5cd09",
+      "question_sha256": "b392c567e3c0955fd7c3d036b5b0bfc09dd6abe158119dd2de074efc1acf436e",
+      "source_question_sha256": "eae298168d246459b7140070a1f4f5a67cdc9e68cf0ee2b3e33ff9268c0c79c2",
+      "source_row_index_0based": 154
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_022",
+      "option_sha256": {
+        "A": "d113826e9d791e58d398246f881ca9b8497385c77d48cc39106bc236f63a2d17",
+        "B": "dc3560ab90fc485dfdee4bef9b4001425bdc6bbfd065f36023f8a032e7716c35",
+        "C": "00dcd7698eba00615a122d2abd82dae1030e1387ee6c167c5e884539c3ed6dd9",
+        "D": "f9a52bf005ccb321d2d83e5cb6cbf4e4d838480cb7e4af357bb0fad49770cdc6"
+      },
+      "question_answer_sha256": "fdac6af523eec23952d8582d614cd736191621e8deed940339d6ebbaa814ec5c",
+      "question_sha256": "ae696025544b40b73e438b4abe149140e34c90296c298113785a25c3fe75c72b",
+      "source_question_sha256": "8c8990e2a03c3f0631ae6b6ee5245c4dc849b6aec31f02de17f257a499135291",
+      "source_row_index_0based": 195
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_023",
+      "option_sha256": {
+        "A": "9a2113dcccb6bd72c8fab647d393ba08ccfc9f8185123a8b564bd3ad3cc0a07a",
+        "B": "ea37466628ef88995a185f9319f9727d067e6a59be724d037f9096dca5c31e58",
+        "C": "ccfacbf0428650d470f7405ef7d45c307472d7dc01673251760ce60f2951470d",
+        "D": "4296fe3afdcdc34d16d3c58bd90f87a281a94fd828480e12f28f5a565470670f"
+      },
+      "question_answer_sha256": "887b9435047ee4f48c58977244c9c304c238b7f553d211e27f309ca5e5bb74ef",
+      "question_sha256": "6ce7d1bc14e88abebbc5fb1c7895d9a788e501ccac44b946ec6bd9e67e5cc010",
+      "source_question_sha256": "60c9747de98dcd74354ee70ce1049c3c1d1b8d72f4e9848984af5d6ceb1a0c57",
+      "source_row_index_0based": 143
+    },
+    {
+      "category": "Electromagnetism and Photonics",
+      "cohort_batch": "initial_25",
+      "id": "gpqa_024",
+      "option_sha256": {
+        "A": "5f1c736b6be2b2610e5f7c080c386b11aa4686f2bfa76709f09c6235566c5fde",
+        "B": "769b374f5862e542161316d9a9232d974dfb4f286a297fc7ff4cd9396eb37c29",
+        "C": "efd56dfc14770609d438e7fe1ed101514f164f0364fbaf75aa33976e4f68d10a",
+        "D": "e3012015e31c31ae5de9ce96ac15d8d388348ecdc96d2fb9bf8a2fc5c3c0318a"
+      },
+      "question_answer_sha256": "a03e5a3f047707e0113e991139e09d83d4e20241b5b5dc27b2fea4ab5bd7d1d3",
+      "question_sha256": "88ad18422bfc304372cb0b8696c0021864a5879d66ec384f048b6ee1e205ea3d",
+      "source_question_sha256": "6aff7faed92c98148418177c8cae4893850a1d67b5ceb00cf6a09467c4491367",
+      "source_row_index_0based": 50
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_025",
+      "option_sha256": {
+        "A": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+        "B": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "C": "8527a891e224136950ff32ca212b45bc93f69fbb801c3b1ebedac52775f99e61",
+        "D": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+      },
+      "question_answer_sha256": "bf48c49b796c1d1572afaa5ed2147d559c3e5f7074b4eb528e42edb5a0c15048",
+      "question_sha256": "46a50afa0b42a0aea9a37c0e2c1c0341bb5d2abf8e201fb23905c9aed2d81e1d",
+      "source_question_sha256": "2662eff7a6231613f45042d2ef5df63caaeb5a326d264e93009a737a99fb27bb",
+      "source_row_index_0based": 1
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_026",
+      "option_sha256": {
+        "A": "6a200b9ddf76d495702dec5367ba070a347a97849742b1f09412dd05a1699050",
+        "B": "ce490f564079d7383aa3c182f41261fa2cc6fe0de50cab2ef6f9ef18859672d2",
+        "C": "99a4b7acfe80d52969e722b2a40e5e3db80f9ab19017b7e1a34eb2d2f9bf795a",
+        "D": "e233ac4b5b8fc5e60ecf9d7178e45c24a77e3bd91e26a5cfe3f293bf453b2106"
+      },
+      "question_answer_sha256": "b1a51efcd956ccfa82fa67708d0a33e077b75ba03a0345fc8cf32c8124540e9d",
+      "question_sha256": "2b68ba3011b64e3d810f13d73a697b28bfbb69cd2aa380b44fea442fa2f99b9e",
+      "source_question_sha256": "d81eab0b3deeedb23d68076a8f0de5ca6461b5d2d1a7da228f6a0b6ba6ca53e7",
+      "source_row_index_0based": 5
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_027",
+      "option_sha256": {
+        "A": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+        "B": "3e23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d",
+        "C": "18ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4",
+        "D": "2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+      },
+      "question_answer_sha256": "feba19e966a19e194a136a673af05b1a88508d7363d4a8abe741d05ca5640a14",
+      "question_sha256": "9ae243b62d6079e29c757ef5f8afb13e99b1aa4b74305f5c8dfd4c7b3b1e87dd",
+      "source_question_sha256": "85f5a80c90290184ac6ec65307174970563ac9442644e868f064c886836d7a25",
+      "source_row_index_0based": 9
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_028",
+      "option_sha256": {
+        "A": "1ba0b4f9fda98d6db47e1e457a47782764ac093c8b9ee48f498fcbaa9055b93f",
+        "B": "ed52615a2977b8415e14edca2cf2b1aa0b3b549c9f7550539a1f21c3009f4150",
+        "C": "c81426ab124eed2c0ac3f36e4c888ab63669974e855f41df540354633b34aad0",
+        "D": "094ccf1a4a3cd500804edfca22af14203bb7ba219de071bceec7f2f10635e299"
+      },
+      "question_answer_sha256": "1039cdca9a2dad178a0505828fe9a64197665a90990346d83d45b6ec05854f0c",
+      "question_sha256": "562f1adb1dfe6669fbc9d45502f183d020be935201a3251d0d2f7bba3dc85595",
+      "source_question_sha256": "0c38e0dd0dd88d69880c74a648cf6671f292b7dbef66ff2c7efb580ecc32d374",
+      "source_row_index_0based": 10
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_029",
+      "option_sha256": {
+        "A": "f7ee0f079f78dae278252ab27d93eb9734ec20fd824d873f8027a934dc42d2a7",
+        "B": "7cb3220f27fa1afd4b6a472fa263304d95ae1f48f7c2439a9111e22fee63d4d3",
+        "C": "4dedc8ee61bd524c5d2b26abaafba93772a85309b47d5b8617b6221b022722ed",
+        "D": "3adbaf8a6022cb2a1de8d330348926a3f2d0850516fd6f54d869c40db1336062"
+      },
+      "question_answer_sha256": "09cb8266dc29067c7eeaff9e92f6f767305bed3304220850b470c21ff52ea42c",
+      "question_sha256": "dac365649d74909f134de614cd800721f300633631dae4a1b75262bffca1ce73",
+      "source_question_sha256": "4c49b01c534dd76a31b5023fe34fe490913c400dc715a3fa7a874695ca10b949",
+      "source_row_index_0based": 11
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_030",
+      "option_sha256": {
+        "A": "a2c3c805cb2f15c0b346f43bdecdd39fcb045aa31c2543e363dbffbebe048c06",
+        "B": "d8892c0e4243483ee534fc6065a72747c85380ebe6dc5122660ddbc38d2ed29f",
+        "C": "7a9ec11c5e7097446ce9eaa5cdeddcc35f28b92169f1c2ebb7f401884fff9cf9",
+        "D": "d2caf28cbf5aa6b422a593283d5cf2c74866f0f4699c4297f326590536777689"
+      },
+      "question_answer_sha256": "4fc690b2f30f0fcb456d285e49f6f47076faa824f6ab377cfbdc7a3104a88fee",
+      "question_sha256": "a11174fc14ddc16268802489af66cd1cb637e79848d9a88f6b8ae8e55f550793",
+      "source_question_sha256": "435ccdce7cc6c5543ffaf20b4d850d905357568605d01b3a595d44df3dd30d0d",
+      "source_row_index_0based": 13
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_031",
+      "option_sha256": {
+        "A": "cea203c23b6a65f739c71de3af45a198f6baec34a46e460bb3bdaba0ba09ce15",
+        "B": "edf1bd744d8212a4efcfe501cb0710824d32f3400c8a1292be6c433baf6c5c57",
+        "C": "0bb276a3c9704818694c4f056fb3628939914924087b7c20fecaba46414c142c",
+        "D": "811457f54f115488e3feab354c7793d4a36d4d8e04c6ecff6f8f64a767d70ab0"
+      },
+      "question_answer_sha256": "f6480f0cb707879231480df3e74428a13029f721f5cd8d7128221ca9e7d43da3",
+      "question_sha256": "9d51873816d9c6aedb57aa9511063ca8a30a123a023525de8fea5d03fb97c71c",
+      "source_question_sha256": "6b778965b4593497cd5378ecaa94e84f97d2910300038afb6590a8e9376b791c",
+      "source_row_index_0based": 14
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_032",
+      "option_sha256": {
+        "A": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "B": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "C": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "D": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+      },
+      "question_answer_sha256": "72e5723e4dc1ed494ac4e0c411583702a6068eb298155404f3804a7fccdf3eef",
+      "question_sha256": "8638c54359b7071c7b4b00bbfe21184e292c6d6a691ebdc0c82784043bc2f9dc",
+      "source_question_sha256": "f730b35adb897658b28382d90ae7881a77e5d86003cc9b3942862d742001d4fb",
+      "source_row_index_0based": 15
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_033",
+      "option_sha256": {
+        "A": "590708b9c3d6b1b689ed1c30fcfafb0df0989f4ab60f1971852fd8b17100846b",
+        "B": "3950e766535ce7a051b780e3302939722876e08540d2ebd4b7ed796b88cab2f1",
+        "C": "bd37ff237124cbed77cfb0a10ae02ddd68cf76700475317d442d47eea116b165",
+        "D": "8f8a6110604b0b02a54b01ccf73bad79895d766abfb0b52cd9ca86942fe449a2"
+      },
+      "question_answer_sha256": "f0aab04066743dea11a304815d8334edc661e81ceb7adbf66ff612798dcd8ece",
+      "question_sha256": "b273eea6725ee6cc0c958fddba74501fb85c367246c41f018cec50128d9d9231",
+      "source_question_sha256": "a5bf307fdc69920b346c2d288b6a35b24485c92c8e245174a775055fa172cdc6",
+      "source_row_index_0based": 25
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_034",
+      "option_sha256": {
+        "A": "ba19e9c3d5f49882ddaafed4f286a8a81491150426d321179270e27e74a89097",
+        "B": "2a36428839a37e680cdce701c1100a695cf2cac101f81f594ba4ec8c8c8a8d3b",
+        "C": "19dd83f117525b931fccdafe808aaa6939af792ee549f359eff13fac0d622f5d",
+        "D": "ec7d56a01607001e6401366417c5e2eb00ffa0df17ca1a9a831e0b32c8f11bf7"
+      },
+      "question_answer_sha256": "26dce6eacaacdc952c5eb5692f8f55d95bb0c4f00f738dd2da0b2c4f53304839",
+      "question_sha256": "d45441e2127e4a506855007159e11aeec64f964591c752228b460223ba7e61c9",
+      "source_question_sha256": "29e6a1db070bf5e5af8af4b82da4953dd47dcd2a1bbd7ad2db04f3d1d4cd805e",
+      "source_row_index_0based": 29
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_035",
+      "option_sha256": {
+        "A": "7c1c97df17c066924822b0af09a65251554962c61e23329aed04cd19020dc3b8",
+        "B": "5ba47a783ffdfcf3ac9c181c8f197deba910b257484607ce04661a7eec62f710",
+        "C": "3b8b91c75627bee566dcb88f4805901b20a3eab2520bcff8d26c87157a035026",
+        "D": "2428391acb9f415b84be5537aa044f59a16d9ba546dace1a395690545a5a151a"
+      },
+      "question_answer_sha256": "f2fbd2dc08d04ac8d56a3ba847256eecc2c9a806df1f99cb04aebdc1bfd16ca1",
+      "question_sha256": "36b0a450fc8f516c295e0fd48a9f8d8bda9d8e5329aae9a00bf39b883be01e43",
+      "source_question_sha256": "62f7808cdd914d23316e18802ada081dc433f34465864581ce0c27bfafdcd343",
+      "source_row_index_0based": 30
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_036",
+      "option_sha256": {
+        "A": "729913cc73eaba8f5274f16206ca2f116cfb33831365b55e1e16cd3e82ae8595",
+        "B": "bc7e7e0dacc1c1ea7260c4d596acb6dc92395e6ae6439fe0daa964c7c4cba219",
+        "C": "fa871f3495bd684eea8f9d26f0a05fd840fd8a3e35ad11c1f6562cf5b9aaa464",
+        "D": "ec6a2b102fa20bcca36550bd22cd81b6fcca8b0f2c681adcd5e276e2cedb1053"
+      },
+      "question_answer_sha256": "6b62aadef9b35867ad637e0c860437faa51b1d8a575b5a6230116aecb9e3ec3b",
+      "question_sha256": "4405d22a23239fb3d96983801efec911a7895f92386d97087a689984dd530201",
+      "source_question_sha256": "e302b2005d8d406eb5e8fd7aa1707959448ef06e72b5647d2711c9a056cfeffc",
+      "source_row_index_0based": 31
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_037",
+      "option_sha256": {
+        "A": "ce331d27ebe1298c5084b850f254c8a92655ff745f1d357bdbc8859095898ccb",
+        "B": "8fb34c7397d23de538365a725ec4e3e16da5569652c7a8ea0d16eaedc0d8988c",
+        "C": "80b8dca7d18d3a99cb82421b02bb55b6d322f9bd3f99931d84bd085c2256cbfe",
+        "D": "363e64b6619915d3369424259def5ced2b7b5a86acda488c7deefbd434bca72b"
+      },
+      "question_answer_sha256": "7a73030dea476e52799e1d8bc0d7a5245010c59a38102532e2eafa4640e1fe91",
+      "question_sha256": "c9ea0563ff29a7414b492c1d344e01f3e546730a9ae7f21a49ce61ed1bfb4834",
+      "source_question_sha256": "123161632faf32d9079808c0fb48f9d5492735ab0a8290fe32ca2f58fad36797",
+      "source_row_index_0based": 33
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_038",
+      "option_sha256": {
+        "A": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+        "B": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+        "C": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+        "D": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+      },
+      "question_answer_sha256": "fbc4e69ba2e9dc4333a9e2311df6454b17e92bc672bab247dfda789c1c87d706",
+      "question_sha256": "7db6888c080a358af35e60477a2482a185fd5b5cb016d9778d2d9df0fdbaa55a",
+      "source_question_sha256": "7fda2b6ca2ff9984ace9bf53f465cebb4b8d963f7ddcb5aa5f5015cd6989be42",
+      "source_row_index_0based": 36
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_039",
+      "option_sha256": {
+        "A": "32020b0a5a603a201dbafce552120193e7928ec93a6e768e1114ed327957822d",
+        "B": "eff1691d5f7a29fa0687983e48eb8f8ead5a31ccf8435c425d2199eb784b2c16",
+        "C": "cca39915122cb542a1cc70279e0bbfe79a72902b984dcfdae6338d59745dd993",
+        "D": "9aeb1a7d364572b450d2ba1e67d22b1e14297334b4b7e0037c2d93b7a9280f18"
+      },
+      "question_answer_sha256": "c7a81a8ac59f7c0cc53314b9d128494314d7e149247862e20a3ab15df3b1fa37",
+      "question_sha256": "a011e3060a34f87e9e88c83d8238e8a39859e5e3fc11676b3ab11c314edcb19f",
+      "source_question_sha256": "ff60c18b72aac9e90842c7a2d5e79c68092a3fbb1d6c0318cee6d2892a43a0a1",
+      "source_row_index_0based": 37
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_040",
+      "option_sha256": {
+        "A": "c1f941c32ee2148e7755bc1c5898d727c50bf3149493f5eb08c8f0cbdcb7b233",
+        "B": "ee686c4b0d788d9b59df5cd8490bcce30c65b37548f992d281a695552e59dff9",
+        "C": "96584fcbb0bcc07b7c6fb2913683731fc5c25c5a4543390b595f0541b4177fa8",
+        "D": "203c5c701f71d86b13c9d0091b18399e7344a137837cd5afb5484bcd179d24c9"
+      },
+      "question_answer_sha256": "b0ff8162536ce41308e43c386744677440413268b42852d2a827eab3ab6f6df8",
+      "question_sha256": "14101494eb39157fa53fb489a5a198dbdd0682a7cfd31517652109364608dc9f",
+      "source_question_sha256": "83e987d2b0fb77cafbbc839bda478a9eec874f56b7db34d8c28c0c7ecfd64ba4",
+      "source_row_index_0based": 39
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_041",
+      "option_sha256": {
+        "A": "9e64dd088fded472f54c09eb16b8c2b279ee362fc4d47dfff49415d4d02a4f22",
+        "B": "36ff94c98605fd8e6ee12e04d07185d801f501b6343096e01af600111fd89021",
+        "C": "145d562cfae3cf272b9c91f1f28fc1e968b06bab624ac8178a102466373b9f75",
+        "D": "6152f1a567992803d26a6c2e32408a9440671d7be6c8caa8cd91fe36d138651a"
+      },
+      "question_answer_sha256": "88443e3207505e2bfb0e27495adf7abf2cdb5df15eebf213f90f9cfb7e444e74",
+      "question_sha256": "f2c594ebd3b009a75eb4ce0c7ca8a9c343d2fb4baaa2020e03ba22a538a21f14",
+      "source_question_sha256": "145b51d1c857830091d0dfa7043504329aa8d2a847b5b738079d210a94da31cb",
+      "source_row_index_0based": 43
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_042",
+      "option_sha256": {
+        "A": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+        "B": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "C": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+        "D": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a"
+      },
+      "question_answer_sha256": "8cfd3b38ceaa966a3a3002aea35b7080863507978ca9ed151d501980abf7c904",
+      "question_sha256": "741564c1277af5ff861f3f99c8d0c0fe53be5dc8d1e21a5fa69a91fb07eb3982",
+      "source_question_sha256": "d21ba2f1c06b876b2d387104c816ee0fcc369a02b8e010a706e0e2448c56f78e",
+      "source_row_index_0based": 45
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_043",
+      "option_sha256": {
+        "A": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "B": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+        "C": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+        "D": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+      },
+      "question_answer_sha256": "a83a866a0d110a39d3bf92e0d36de31dee5e629b3fb7dab4b460b4807211d74a",
+      "question_sha256": "a7c9bb4089fc1a85aa1495d39c1128b6aeb8dd0484a19a4defa6c411de41d537",
+      "source_question_sha256": "f6518dd763c1af7a1745bc53b4e021210cafdf588df1ede9b537a622474a998d",
+      "source_row_index_0based": 47
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_044",
+      "option_sha256": {
+        "A": "77fce96ffc9f573bfdc90e09a8e4c5c2b728af8a3f0ae22da7f431b4d795e4ae",
+        "B": "b6f43e16d5ecc64fbe8ca4108f4e6262e59e677d4afe2b6f05600cd0957a84d7",
+        "C": "bdd9077652d12ea6f2779bc58defc58b348689f0cde880bb3087e62b0342247d",
+        "D": "dafab9882b75b9bcee987c331a368c1dbf1ead388bb9996b55cc4b0088e4741c"
+      },
+      "question_answer_sha256": "cafa374cdb628479c53e48d2732b3466301099b72aafdbc4479d2716325efc91",
+      "question_sha256": "958baa5686a2ae10ab7a63a84a2545d1d464cf6cde9457fbaa6a98cf4326f12b",
+      "source_question_sha256": "73f52d6a4b6c7ab7582233b0acb9fc88cea4bb8b59005043c15cc2064787436a",
+      "source_row_index_0based": 48
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_045",
+      "option_sha256": {
+        "A": "6e7e3b2e6f273e4079e7e1b183d235f031e2d86c5654e7f3f131af71df7a9a56",
+        "B": "6d47d4d4d70b04784e14406d2d9675a40a43a6be66b901c0782903039b275235",
+        "C": "e4505349fe42f8cacced80bbbf163435fb2b73afd95770756f7a4e063574b205",
+        "D": "503bcb7fe885299d996743d164383d8a1494b12499a9d8bec3c4faa308460fd6"
+      },
+      "question_answer_sha256": "edd88e089af2a04761007fc8e0f8fdf358609f514fd34db2e42f1dc8d8750885",
+      "question_sha256": "88e9e338c5457846780dcd69d8957999df10f2683e0f67c1ab5f57b2768c0818",
+      "source_question_sha256": "b560f550d5d9fb2378520f0fcf7b6573aec2027430ef06270491ace18a0497fc",
+      "source_row_index_0based": 54
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_046",
+      "option_sha256": {
+        "A": "9d8f1b44e8bc8f5429dafd066a7e3e6082a309c997482c791856bb93bc8d2316",
+        "B": "f5cbf04e202dc2dcbe0543144f9dbcdd6f3f93ba9e93e47d9d21eb30544e43dc",
+        "C": "81a6c43493ec6b1c0b20531746f83db02e79dff86684dc872fd6b3a96ac38a2c",
+        "D": "a42702294bfe00566c12dcc131b59a619640218abef7774b8f56ec116c768a69"
+      },
+      "question_answer_sha256": "1a3c70b30a2e606739f6dca7b4c49f1b453d4d1e0fd1af525029abf3c325b4a3",
+      "question_sha256": "22c539a034bbde4ad0e7c1481ee0dc37abac1eae1aa253b00bea86cabb787263",
+      "source_question_sha256": "fcc630461b30079c6c9f387d97864f1f703de718fbcb50bd3441470dd06bfff5",
+      "source_row_index_0based": 56
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_047",
+      "option_sha256": {
+        "A": "6c3f9363fae05325503032409f78e086bb93d575e289ec4b370e99abd316c9be",
+        "B": "c7c49e40edf49d413b7931fd6b920d91dd7d397ff9df9f12337c3da75900eb2b",
+        "C": "482df9b4adbe0b36500b856c57fc4e8f04d9e2228eb7ac89ec93ab80272bc306",
+        "D": "ade65598449fb4af5688b2088da90f58c719f741a26956453aac2e4b05b4f2ae"
+      },
+      "question_answer_sha256": "8ae23c9d669e543149f2582c66845a0caaf5cbc0c984c41781caad6220cfedac",
+      "question_sha256": "d5b629abf2d83d55b1a30da74897410fe59214a13472644cd5d7c537022d706a",
+      "source_question_sha256": "618551bfaaf71599d5802135cbf18d8e9b5a33b38537d32515c5298d556df601",
+      "source_row_index_0based": 58
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_048",
+      "option_sha256": {
+        "A": "5f60c8f32688e49ab8decc02840c2c43a5a35fe62ddc72640399c0c6d530f04e",
+        "B": "465323db4878e9643a455b701903f408d85c7c62ab49b2a9fa4833d580cd1e5d",
+        "C": "b79889eecf2d053168991ee41e1ce7a864eb01ad0178c9c66cf99ba9ba889c23",
+        "D": "9d800c4e227f05abf51f52f18ba257ce0f3443854874346fd21c3230deae3575"
+      },
+      "question_answer_sha256": "c5e0507755121257d4ddae07a7761cbb6d860a5d01d6bddc1683cc210569986a",
+      "question_sha256": "a3201f0f78078179549f8da58a6483874e3352dcd68e7de4c125feabff6f2d47",
+      "source_question_sha256": "63318cb18413a705693b9a4312f73dbf5358312aafc1d703c3d29a6340ffa0d1",
+      "source_row_index_0based": 60
+    },
+    {
+      "category": "Inorganic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_049",
+      "option_sha256": {
+        "A": "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+        "B": "9400f1b21cb527d7fa3d3eabba93557a18ebe7a2ca4e471cfe5e4c5b4ca7f767",
+        "C": "e629fa6598d732768f7c726b4b621285f9c3b85303900aa912017db7617d8bdb",
+        "D": "4523540f1504cd17100c4835e85b7eefd49911580f8efff0599a8f283be6b9e3"
+      },
+      "question_answer_sha256": "50f5508596bda8bad3772b9ff8bb1b7498fca785a6d01bcbb2c25be30a4dff03",
+      "question_sha256": "0303db621a242a8f088a1e06d4ceb44ba52f0c63a2c91ed41bbcbb8df4964224",
+      "source_question_sha256": "80cca49a2f6ae39b2d3a2dfe110572d39720d0831c65246ce20603c40578b118",
+      "source_row_index_0based": 63
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_050",
+      "option_sha256": {
+        "A": "c42b5350982bfe94e597cf2d6cad1cd1e08cbd950371ca0a795fee22ed7ea913",
+        "B": "ccd09f11c59608b1402345b81f66a51a709b6acb4978636a991596f8e4abe6f9",
+        "C": "9ddab74072b3837caa2b5f96e535d8869327a57867946f12053253c9f21eb2c8",
+        "D": "049a3be678289a62adc15abe27e18415fd385b26dead2da4406cb19be77d8ee2"
+      },
+      "question_answer_sha256": "e3620c8597627022cf1bd31ea68f2fe941babc39d026afe2d67e33a8fa24d4ef",
+      "question_sha256": "75a812edd07e4a1d716fae9f7e0a5482447ba5264124f119808961850c0b5392",
+      "source_question_sha256": "71075d4447ee264b63e5544da7b40502fb235decc31484f33ee97a8ef70c3d1f",
+      "source_row_index_0based": 68
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_051",
+      "option_sha256": {
+        "A": "0fa8f007ab85515789f3b060ed921864f8d3d73002cc706e407c5247e129436d",
+        "B": "ae8542ac5bbfb3485e21e94d9dea954d99ac72a434a7e7eb0a923e271bbca585",
+        "C": "9685eb765661ea3b95f31e1bb3c3b5501d0c2acdf353feeaa4d8fe32f95f77fb",
+        "D": "3792a51669b249d9e4a22c76c9cec0abc66c60fd4b81f66e4fad1b9ab847dc64"
+      },
+      "question_answer_sha256": "cf1fb434cae8528691e81dd788f1ecd898d3249e70983e305a2e4c526f14304c",
+      "question_sha256": "f97ecbb5efaab14c03d93467c564fa0bcb3d308e17fefd0f38691fa6c2c47d0d",
+      "source_question_sha256": "bd713289ab1ffc1ab982f7411da433944bdaa2ce87595d2c1bba8580a8b47bdb",
+      "source_row_index_0based": 69
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_052",
+      "option_sha256": {
+        "A": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+        "B": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "C": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "D": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451"
+      },
+      "question_answer_sha256": "4588bb62d04937945a6b352ee23c8440dd86a1da6861b41c668f8d19f1191eb5",
+      "question_sha256": "6c2fd6332a991144a756e4175b0601f05d949389248c62d0831ecad6647b792b",
+      "source_question_sha256": "57b065d28a6d02a29a3a84f39dd670ba7cdf4e3403506e79b5fc90713897f68e",
+      "source_row_index_0based": 71
+    },
+    {
+      "category": "Relativistic Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_053",
+      "option_sha256": {
+        "A": "5f597565815acaf23acb33691bc3a0d554f13ec600b506420e39a37802a14088",
+        "B": "8401bac8926182f279887fbd1a65bab83d7675166d10e138e7afc7bd1ce56388",
+        "C": "27fb680154b0f557286ccde0a03bdd11d469d29a148705ba78f4b4199a81957a",
+        "D": "545bc213d22f4bba1010e39307adeb2c80706bf36912adc5f799085d1a2c1d65"
+      },
+      "question_answer_sha256": "2de40e297860f84179c366632452276ed6423c105ab426a38d049cfc869179e3",
+      "question_sha256": "232e350bfbc9dac4025ed966dcd9100b47df7e78ce38ba9334b70674cfb9f2de",
+      "source_question_sha256": "826fb502d2db0f2db5e44683cd45f09d18423fd8a339643c8dc8b32b1accd428",
+      "source_row_index_0based": 72
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_054",
+      "option_sha256": {
+        "A": "0ae35e08eeb29b67be5d3761b4e37e1a3bee75b7deaa52ff76b2763d4c02d3dc",
+        "B": "8a059dba6109533a5eb2c22d459b400657b0e831e15d4509706e4bd3ed5d62dc",
+        "C": "b322f5a716ebd783d166094ab1fab818ca782f1c61ab0dd2bff11af2f743bde9",
+        "D": "03a42de5c75c8c0a66c095cc1f057fb500dbe7a6f1107503fb347c4802fddfdf"
+      },
+      "question_answer_sha256": "5eefaab8e903cf924dc00bf79e4271d501157a52da8d17f3f831061fbf83f691",
+      "question_sha256": "dcf6abedb8ea4b5d7448d965ee39be1568ac447333d3d7b28979d2a6d9f6fc1b",
+      "source_question_sha256": "848d31fe19c9a46d8cdd776d3fe06b6e67b662212a57b38c1d242cbdfdac8486",
+      "source_row_index_0based": 73
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_055",
+      "option_sha256": {
+        "A": "ddfdc2ff1805744dbded0acb9dd39e4f1f583706464aa3d9d69c0fcf50cdfb98",
+        "B": "445d1a7c3fc63bf8ea6b34e5d6620e00583d85912a80947fb85357fd78d92fe6",
+        "C": "f5e98ddd3bbba690f62e852b607c981921228d70715ea63e05d97cfb7b31c87c",
+        "D": "f7ecfb79b17b52d8bab7d81ca2133ade5173ae8530f780d0178ec77794dcd5ca"
+      },
+      "question_answer_sha256": "2c23f65ae514d7077fd662600317aa0c597324e9d0792b69c590e775a4590af2",
+      "question_sha256": "358597b222c7e5870578726a9e52c615a8eafff286c464c2aee29fd106dce3d0",
+      "source_question_sha256": "f634534b5e2327dcc39982a4da6dff404f299e9759a0ac957b0f6017fbe7586e",
+      "source_row_index_0based": 76
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_056",
+      "option_sha256": {
+        "A": "fbde17065886d645fee30c4dd9e05fee14faeced8b990eb8eac6265ebcc2ce03",
+        "B": "da0c62ddf861f25ac10bdb1fdbbe4fdd2491328f4caa33df71163c8eb7aa12ea",
+        "C": "b31ae8f3c686bba725ba900b711b7c9efbd05437867633e249f54105ffc14a5a",
+        "D": "5aad35e420b94799c7464aba959f8594fd711fa342d72d888e4526752c91f317"
+      },
+      "question_answer_sha256": "7acceec285fc9467516d354ed7f5ea3a026ca4669938d004a7144361655dbc26",
+      "question_sha256": "143dbeb294c7ec7eac8fd123f600d6bf55aadd198aadd0cf30a2010ac683f35b",
+      "source_question_sha256": "8efc35cf270e2b051ad9ae732723df9c7261cecaf1410edf2c43f3ca7aa749cc",
+      "source_row_index_0based": 81
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_057",
+      "option_sha256": {
+        "A": "9f0719ad1f9712eb5a58bcaf4e9f4af5e5a9abcee9008578396a568687bef47b",
+        "B": "c0f4e6fa8bc55c1386a786cdfa285848e94ddd57a70582fb87b586e807f378dc",
+        "C": "29c856372b489572e3d820948b2e3cb69c2b427a40a2e9cc9924bb121523ab02",
+        "D": "2fe57f4885e00154b23eeb96c8fdf7d00136859aa2d8b35fc2698f8c9f4e6843"
+      },
+      "question_answer_sha256": "95eaa0a6ada7bef363747bd153f3529be511c17ed3f901dc7a326433189e6a56",
+      "question_sha256": "eef544a41a295eecec9e950a3061d7a99f6ea07d0758474a3446d32cc30dd3b2",
+      "source_question_sha256": "9d46302b763896c7fa475d975b5bc365adee2236b273f23e7216a78871204b74",
+      "source_row_index_0based": 84
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_058",
+      "option_sha256": {
+        "A": "111e280c8456a846328d83d263c3ca9cd382091f226486fa51eabf2031006036",
+        "B": "ac7308af5655a13fa0ac5baf68ed06d37753c63dc431a1f28f5a0dc55467e1fa",
+        "C": "30f859147b2d5f41da3bd801498183715019e9661d8d97f6499b4b8fa9ea12a6",
+        "D": "39bd4a1ed4683e74c2dbd181e1876d58b2a5c60ead130c42effcb3e902ecba60"
+      },
+      "question_answer_sha256": "36882ce050ee78c3d84ba0690ba85a8f42cb77f3f5c240e23cc2b4f8e171a449",
+      "question_sha256": "cafc004701ebeefbba2667079d4efa5659e0a15e1e7a3d19b061115a46ded970",
+      "source_question_sha256": "27ae63a85927fc2f6be3f0be1f1e2034bd696a8dfc534c40370cd6e11d086e76",
+      "source_row_index_0based": 85
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_059",
+      "option_sha256": {
+        "A": "dc509145e5345e7d4a0069f39e1087c8b3f8d229866e3897084dd1b5ec67811e",
+        "B": "68fe06ba399ac76087f781e4fd6c4fa487cb92353008acd19da5d539d6bd1bdb",
+        "C": "445e21ab00aab206a22739ea99257d046aa7e0db6d5762dda460529e94f73012",
+        "D": "0a73e313846c215eb67535c05163860e9b558435cad6e352bb95cf327ff7752e"
+      },
+      "question_answer_sha256": "073ee43d7f8c31071418e9b2430a74df6a15543cd1a4ca911860952ca6d18598",
+      "question_sha256": "06252eeb815418ec3710997782c8a2a80e3bb14d152007ee59797874708548d4",
+      "source_question_sha256": "c4d795814405ce2bb231fe7012e4581bcaebca12bb3f8c3260a3ad239aa51a79",
+      "source_row_index_0based": 87
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_060",
+      "option_sha256": {
+        "A": "87335744a4f9f93e251e78208166a4bfa1b3390342800db5ab288f9404fa3658",
+        "B": "c8c27285484a9df3eccd5e588f2fa697d507e80398a4ac1f620d14af2e31c01c",
+        "C": "aa70af13d7419b2dcbeec631ba7697dd3c4723b0181cc081809ac039f8a7a707",
+        "D": "1baeddfa36b05218e688beb03f8079ada9f52fdde2a81f2d96c3a2bd715df358"
+      },
+      "question_answer_sha256": "df03d4f50bf840d80b363234cf55b6b744ff1ff7b523a52e208801ec93c29185",
+      "question_sha256": "e022e14cbd9113bc491fcdaec76db9dbc352af641b2c18ec56970edcaa779d88",
+      "source_question_sha256": "836be405f3d05ec5ad1a2bc728339e5141836ace3a584fe3d36ecc50af4dc3ee",
+      "source_row_index_0based": 93
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_061",
+      "option_sha256": {
+        "A": "98d52a92729e9c5a5731fdde56880651b91ffe63280694b04bb642d6a3828cad",
+        "B": "3c56cbcc4028a590d3b845a9dcdd10a2152ce724ac7c7b5153fe77836cf34d71",
+        "C": "067e8c122f811c8ca6ee65694f18190143bc75c5442547cbabe888800dfbe4fb",
+        "D": "d100d66399d5cd99a659b7d6a164f65b1846495b8777da239446e568d7377809"
+      },
+      "question_answer_sha256": "92cdbee059b2895a2c9dfbea52d5239868a85d250180292b61d6f2983b9b6074",
+      "question_sha256": "cf3e23cbb8b85490f3bedff13127bf876d76c51798381f94aeb189219db2ad54",
+      "source_question_sha256": "790d06fbc2ae95b0429cab870e5895c5de8a75b14d0bda1401b1503293606c67",
+      "source_row_index_0based": 94
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_062",
+      "option_sha256": {
+        "A": "20e2d0876bf08c6e755d4aa027e33b93584b7c20f9e7f6eb8c21a9621246bb85",
+        "B": "8e036059245cbfbbddb9f5d47b0711bdf5f709161f9945f94e9a194f349d4ca7",
+        "C": "131009cf16ea16a91ec4eb1ec19d5c3ac16901f65a5e723ced5a51d0189c18d9",
+        "D": "1170816eee09cb23ba48ca75d70fa51e7054866b301066b9f087778f4b195332"
+      },
+      "question_answer_sha256": "dcf2e39defa2e080331d32c82770a12b29ea71127439d1b66098516c33ed6069",
+      "question_sha256": "cab3efebbaad4420f68a1cd8dc7e34296453b48f04801d0b443a7a77097f971d",
+      "source_question_sha256": "6dbc821cf1e89c0764e62d1bef4818136877fbc8e333f255bfa42276ac9aeb88",
+      "source_row_index_0based": 95
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_063",
+      "option_sha256": {
+        "A": "90ca30250b96342ceb7442ee0ce91f773412fb6a957ba20275974019b5746912",
+        "B": "ad8e600c02d830ddc0d5070f44510c7517add923a385ceb92206def4d5925318",
+        "C": "23eaeb53fffe71d1bcf23c2b3860c125cbcd2e6a504936fe78937df19f207c25",
+        "D": "c3a98c1092fca0a5152396a123b6e2c5b53688e57b156b5f635f0b5085c43b25"
+      },
+      "question_answer_sha256": "78f2e05e63f5b5f6fc29018768542cb0038676fe014e0861c40135e6d2ec5933",
+      "question_sha256": "61e43f7b6a18ebfa459fc85818ed6cbb75a9f346654853b7b91702a74557cc2c",
+      "source_question_sha256": "e23b62b19c3ab4ec896e631f56a7a92ed38aca13300af7a7b449b979999886f3",
+      "source_row_index_0based": 98
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_064",
+      "option_sha256": {
+        "A": "2ed864f679b5eb06fc48dbe641972a2a61f237d06033e5af626f01c3a8ced749",
+        "B": "6cad7f74cbb1febfed83724e386f039f5a0990dec6dff7d6f8ae6ffd22487cc5",
+        "C": "d61035cbadf80512cee007ba5049d994422013d677964488c40860239bee2e7f",
+        "D": "47cc587b3d322eedef65896b02076571832ff20c0da7610d947689ce3c10b649"
+      },
+      "question_answer_sha256": "e069093d9e1dfc066acc8dbcdde6626e3074cd03a3aa480445fc95c597a24ac8",
+      "question_sha256": "9840c01562865833297366662be191ac86e19584215d9f80657aa52ba79b6c70",
+      "source_question_sha256": "db2ca8d93d5ff50bd9f602bc5b3d339b547349c54c540850544e01393770a4ff",
+      "source_row_index_0based": 100
+    },
+    {
+      "category": "Molecular Biology",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_065",
+      "option_sha256": {
+        "A": "27167a6076fc648bc1fb987d0390434401b49ad9b68511d9b4cbeb8549d8fb3a",
+        "B": "bb0feed6701494aa3e7ce3654e1b7cc401884c685ab27517054eb48e86e45775",
+        "C": "f838e2e43bda8d76702467ec833fbea0294e8b51ef478c5b9c23220a6100894a",
+        "D": "ec4126d7220c180a44ddd9e2a2f9c7ec0cade83683a721817f9b96e9166eeec2"
+      },
+      "question_answer_sha256": "9e6df82cc03ad5046d7d703720ca9e23fd4131448961e1344e6bf770310515ff",
+      "question_sha256": "f16a7a95e92b8fa25911add8006d5b9b9fdf33ab75938cae211088cba6f9c877",
+      "source_question_sha256": "c003a37af0eaa5e9c6d10f5a25ce1a2e0258ad6638a1655ee2a17d07daab816a",
+      "source_row_index_0based": 101
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_066",
+      "option_sha256": {
+        "A": "b4549d221c7ae208b59c9e645d0f9a66f5209df3248e463e0cdcbdd41b078428",
+        "B": "14282bd33f753431c36b705d53fe74883803774a0b492f7bb373124f5c988561",
+        "C": "7319bb87f8a9ed0a3ccd39cbc60924f4d469fb838e3e1377122b1277152b6e77",
+        "D": "32315967632bcda078cc638b9650e6905976e7f18c2c0ded91683b5bc41a7f89"
+      },
+      "question_answer_sha256": "05b8509711dda6b819950dd809eb81b5f882d901479b567de059f72b2f2e8a99",
+      "question_sha256": "d75c47443da2fb9141b21a7c074b352421fc4f358fc8bd1fef6eb8dd8816c123",
+      "source_question_sha256": "ea1d2c2fd4395ec2cad416b20c41a657730d84acd26fb53712bf10f6807a4e64",
+      "source_row_index_0based": 102
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_067",
+      "option_sha256": {
+        "A": "44f7fc0c1431f447d38938c0f579da10842f696bcadae24a9a28190beaab864f",
+        "B": "a061c1363bd3dacfe8b44b5548762cf859a48bac238e745334636ebe08b606c9",
+        "C": "978de9e0d62ac788003cec7ef129429176c66bd83d504a215d70459a153bb7bb",
+        "D": "0795362bc60970c135a4dc84a48652f44ffe346a078f49cdab0ae9e1a31fad99"
+      },
+      "question_answer_sha256": "be6d52ff8588a76808211a82e8340c777ab83360fe73c212a63b4b15f067f5d3",
+      "question_sha256": "e14d70777371295257ec2ffda1f482f9390a547e06c0b1edea8b995a3c15dc94",
+      "source_question_sha256": "9d42c24c2f67ff118699d880fbb6276f14043e3527a9fea8f6d55fe2bf82e091",
+      "source_row_index_0based": 104
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_068",
+      "option_sha256": {
+        "A": "f2d454a78cd8a0a339a3a0d867655d984b8f4ada9c5e4937aae16e6644decf93",
+        "B": "b476e3efda52dde672aebd38cc5c10a29e3695dc3519e831436158d521bd4145",
+        "C": "22c64d61a9946ccf5794d3208af1367620c03edcc7cd48891f1712daa0416f22",
+        "D": "7e4ced30a3c9ec83b27f56c1721357381494d4453f7ac2d0a3fb1af917ccb739"
+      },
+      "question_answer_sha256": "c0cb9efe77c89169325f438842af877b413ca928aa2245af1846d6a0e86a1b73",
+      "question_sha256": "53eb1e8e8bf3d860c2d62886607e73851739c0976f17c4994525459e0fc5ad7f",
+      "source_question_sha256": "41b609bbf5cd4517a7d53e382a762d7b2caa65fd58ea44549bdf7183daf1d2c0",
+      "source_row_index_0based": 105
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_069",
+      "option_sha256": {
+        "A": "32bf03ed66e884b637fef85f4da496fd07f1cd9d60c54b52973ae547ce5d3cd0",
+        "B": "371527aba5e7ec52cddf42ede9ff52c6b6fcd42778a8ee1bb27d5de190af8a6d",
+        "C": "c62caa2af2412e1c2967f7c2adeb0a05d28b10572a81ff2d7a7d6e57346a046a",
+        "D": "a39cd87b9d32b26b497b17b420b0ea5aa941287f203beb45bd6242852491f322"
+      },
+      "question_answer_sha256": "5819ba6730ab7e0ee58fbf562fc91dd06eadde1323efdde6862773773e2bb829",
+      "question_sha256": "93387d9159e977deeb53df675a535cd6d6db069aad84f4e212ee118cbddd51d1",
+      "source_question_sha256": "f4113e7a44c016c3e9a4085d2901d3a9d3bad7eacdb5324da75f35e252de73c8",
+      "source_row_index_0based": 111
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_070",
+      "option_sha256": {
+        "A": "e0b83d03354df2f5d06887d757c0a8263bc1a5a6de5ec8b6f31d0f441ef28c83",
+        "B": "0c903a7fadd6ff0adf70d3ed34ac9215b253d00fa36a875eccb90df63fc56c91",
+        "C": "e4c0b41da2f8c95e46d500b5f4bd4d3fea3268904e3e57b4a2db071a2528d3cd",
+        "D": "5d52ee19508859c21374f965b644bece09a6458a799515da0946750ba37d18c9"
+      },
+      "question_answer_sha256": "ddb82cbaf1be9da4c0e1f93c60a6bfd35173950a15ee8f01dff77561fb00c536",
+      "question_sha256": "f09b39b825744c857455f4b29ad24f1c61d469df011adf38e02675531edcca18",
+      "source_question_sha256": "16bcf4c7129e083cade7afd040c6c4e0fa1fc7677a11aa70fb1b5a3d0e5fb5ea",
+      "source_row_index_0based": 112
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_071",
+      "option_sha256": {
+        "A": "1fb2122875aed7cfb49f7c51cb9b48f80299dd7c65575099f3c7346e594e4c92",
+        "B": "5df7b220afe7f0d10062b888a449497bb5fbac20d2906e6b627f4e689991879e",
+        "C": "18211bdefc3d0c757022868137cfd3d6488f80eac1568becdfffc7d08d9bcc5b",
+        "D": "9974b7c6840cdfc3d936b5a4cfe0e3764536953fdb7cd97706f08b5d3e24df85"
+      },
+      "question_answer_sha256": "9fbc43b004e38289d146e2cddfd096bbc748d7b64e5a04f91185ad51932ad578",
+      "question_sha256": "3971647dc89eb11b0bea6154a4f3ee526d944faab69d499ea3957fece0493d9e",
+      "source_question_sha256": "049a3a3426b30e36d29d782b3ea4916bf545838ac3945e9c707804638ad48f04",
+      "source_row_index_0based": 113
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_072",
+      "option_sha256": {
+        "A": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+        "B": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+        "C": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+        "D": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+      },
+      "question_answer_sha256": "8840e5432b7c3c918e0622982b7cbf7a87c432f17d5934928a51768abf0959e9",
+      "question_sha256": "a639c35dbdf5c600b1d65ffa49560f8a62e9403a12b2138972b6a56c8fc105bb",
+      "source_question_sha256": "9e7260c352d5970f26856e94943b008fa72ebf3264a0e2790592a41209cfac2d",
+      "source_row_index_0based": 121
+    },
+    {
+      "category": "Relativistic Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_073",
+      "option_sha256": {
+        "A": "5aa2c59456c65e5c862b3705d04fb57f4f7ddfa93b01bcd7a82a0055a658e889",
+        "B": "f481324178952c5e6e4629301fb717019b0bcf74c65a60fbd8f7c93769528cb0",
+        "C": "b4e94997d495456b35ae68fdedfad114b29ca6b7c8fd334b613dd46e11c96575",
+        "D": "5ea6422274cbd8c13e7be74add9b9d2ee0fe09b0ed6b915652e6b7a773b774a2"
+      },
+      "question_answer_sha256": "c3f914160634e51049db5ede8d231b0a80a9a73a5a50a08f64b8418116fa54ad",
+      "question_sha256": "5d079c8dac3e56e3d468ccad559747707320b4562f394916ca2b9396440561e8",
+      "source_question_sha256": "e2c8b6a88dfedf13a4a35e2964dc77f2e082e87417c972bf7406bdb2405985f7",
+      "source_row_index_0based": 122
+    },
+    {
+      "category": "Relativistic Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_074",
+      "option_sha256": {
+        "A": "d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+        "B": "a21855da08cb102d1d217c53dc5824a3a795c1c1a44e971bf01ab9da3a2acbbf",
+        "C": "2fca346db656187102ce806ac732e06a62df0dbb2829e511a770556d398e1a6e",
+        "D": "59e19706d51d39f66711c2653cd7eb1291c94d9b55eb14bda74ce4dc636d015a"
+      },
+      "question_answer_sha256": "3e2bcaa8dc987f561046c2c19596798a348839c16cae6d610e5c5da080e4b11e",
+      "question_sha256": "454300d4a67f89bcb856ed4cd94535e048b58e640c7c9ccb4e086f0f497bda93",
+      "source_question_sha256": "b734e134fe4529267a34452ccc5cb2a7d56f7b471273d9e978add607de6f30b6",
+      "source_row_index_0based": 123
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_075",
+      "option_sha256": {
+        "A": "966fd4ccbcc853d680b771ea0fee4afc89d28262ad31c2dc068baa10282c0479",
+        "B": "d696c9f85d82da61da3d3d27ebb6e4d60f6fa5b1bb662bcbaf50fd70ecaa2b55",
+        "C": "da99e3413c9f6af9cb981a4b3fa4051204d23c9cb024a0c68f300fef1240a1db",
+        "D": "9b10f6e44c34248221858ef61d231dacc357263b1f41f4536706b99e44908f65"
+      },
+      "question_answer_sha256": "a36e32af1095674977e54bdce1e55906ad8359f77b21bd4d59bec41d6a2216fa",
+      "question_sha256": "d5886fdc8ff15750ae3ae7305b23ff79521f7b9772898b7e42308e17e1fd0a4f",
+      "source_question_sha256": "183797b844f5aaf0d4762d5da650b2a14964b261306db104b29a00499b949bd6",
+      "source_row_index_0based": 125
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_076",
+      "option_sha256": {
+        "A": "9c305db9454b8ba7151759cec6433993062dfe430ab5e947d9362d67d149d368",
+        "B": "01baa970b03554d65dd64bc6131a5b40fd858e7a8c073beee357a0da8e789c12",
+        "C": "9c305db9454b8ba7151759cec6433993062dfe430ab5e947d9362d67d149d368",
+        "D": "be4e90968b09632f55e265a153f8b8adffa2518e2df995cdaf2ded4da385b4da"
+      },
+      "question_answer_sha256": "5ea43ecc25190603bf235bf4de580872a7b202fd241bd66bda39aff9910b8fc9",
+      "question_sha256": "cdcec377ac44e60df63388141ec1d835e2a4ea98fa868dcd9b57a21c8053f798",
+      "source_question_sha256": "188c5d2778452bf703bb24bf6ebb29def876d26ac59f6164922a6e1036066c64",
+      "source_row_index_0based": 126
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_077",
+      "option_sha256": {
+        "A": "a2745d3d919f8322615026694356c0d75e5e0636f34b6e906415701673cf176a",
+        "B": "0ed4d6010b944299474bf54a5dd73944ea1f49585aac83b4325a5772c6554425",
+        "C": "4293d109034ee0cbb98ef6cb2f15ebeac9c0395f2970e05c35b3b913445d0166",
+        "D": "f10ffa4f33699b434ef12389277659c5e87446178c0b43a7ea8d29e769c84509"
+      },
+      "question_answer_sha256": "cb01bc5dcccd07430c3ca4bc326fe76fa86bfe8ff023fc04b4129ce9eea18613",
+      "question_sha256": "e392bce2ff3d4a53b7487eab28628b346934178c7684d850de0f92a83e7da53e",
+      "source_question_sha256": "9211da2d82adb786850c236cd14fc05728eb04599b0abc0202714ba6bd385d19",
+      "source_row_index_0based": 128
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_078",
+      "option_sha256": {
+        "A": "048b05a083af0c6f72fb1d63354815d3364f92a56a9a69104f4831fc0a18166f",
+        "B": "c0bf1e3527b90b30d6a38289e4f698a089ad573d494c9c4047f7ca82be7557b5",
+        "C": "820bbb32c1c2340302002291b58590a7be8ec4ffebac0e0f5bc2a5e61188fe2e",
+        "D": "ad6f0edb7ec318cb98644c692d6d1a600f50e7fcd588d09e462efb281a61a2dc"
+      },
+      "question_answer_sha256": "c056d078fb84043153fb67eec6559c5b2bb1037bed6c55cc096d8cf4e2a8f1b8",
+      "question_sha256": "f4920e6ad2f98a1fc7fdb9b208f2f947df7f27ce10e14b81988dd4d37d63b513",
+      "source_question_sha256": "e6eba602b3eef649fed522c6b8737556699845aee5b419773938063ec6b83257",
+      "source_row_index_0based": 130
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_079",
+      "option_sha256": {
+        "A": "8d05dd46992325aacf7429bec9ce080e347b3c5376c85c9f90a752ff033cdaad",
+        "B": "7b8f47adb95ca9305522380dbddafd634d9bfa4f165f0722254df7136da08e6f",
+        "C": "f47deccc4ec48d526e5428a03c42651fde9b7f156386f34bedb02fa1b2b3fa22",
+        "D": "8e104a306e569539599e4215d15f2f20b2eadc06f5e690b25aa8d2a70773393e"
+      },
+      "question_answer_sha256": "dbfd4aee5c550df347822f784d5db318e2b853d3c951f869421852f872b2e0df",
+      "question_sha256": "a97a648fe0b3aa9bc6a418045a5bea6a7c3c5aea96db9bf54969dea989a6f27d",
+      "source_question_sha256": "8f174dd25b58e6fc8e309577a66d0f5a4f46ed89bf1a5165c0cb561a4e3e33e9",
+      "source_row_index_0based": 133
+    },
+    {
+      "category": "High-energy particle physics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_080",
+      "option_sha256": {
+        "A": "f77825ff8394b88d40d8acfe1dc5892799af3992d191480d5f6658fa08ff0950",
+        "B": "9d77750aa5e0c08cbe74bb9a33688f4f62ddbaf93785655c1a047bc7ed6884a8",
+        "C": "c281658f3502dfc25721971c50e2b2d91d13323020b4f68d135a5e3876d5534b",
+        "D": "31e889c2a270a2727036106e652e7aa19f0a3ff18ad9441ab5c91e95e279d99b"
+      },
+      "question_answer_sha256": "0c7a4f62438683c668a4d8af1d3010ce73b13c2892a1c9239c9a9cfe142a61f3",
+      "question_sha256": "19506e0afd41d6913cf4b761c0780f2a0e6373641f0824484894549dba0bc669",
+      "source_question_sha256": "4b45de4106aaf95114f9bda69339b541037b0eb04b8fd1f40efb6b91ed2a479e",
+      "source_row_index_0based": 134
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_081",
+      "option_sha256": {
+        "A": "3b9e0916ba00d85abdc391691a60241e8651b901de17108247e1e6fdcc2f0276",
+        "B": "f68aaf62171c137c25e4d6fe7f0971188dddc611fb18b55d4a9b34155b1df224",
+        "C": "42d6f995a8a79f08300ea3ce7ae50ed96b5eb39250688e8498264fa0c437b2c7",
+        "D": "1f399abad23fbd21a4503e69586654ab3fa870fc77c3f6ef017148400fde174e"
+      },
+      "question_answer_sha256": "007395b426fa71917ac84dc69f193966aac9f0575a961159e03701ac0fbd6f6f",
+      "question_sha256": "88e281a0616350e6d66fbde22501976734cab87ad387fa62f83e1cdbd4a6a2f5",
+      "source_question_sha256": "de0e795a2e1639d4babc3235662e71409fadd14e0c80f8551b3db9b4b53aa8de",
+      "source_row_index_0based": 141
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_082",
+      "option_sha256": {
+        "A": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "B": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+        "C": "e29c9c180c6279b0b02abd6a1801c7c04082cf486ec027aa13515e4f3884bb6b",
+        "D": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3"
+      },
+      "question_answer_sha256": "0ff9002cc9f46d67ca3620690158746b5382584b6d532da114b307377f395559",
+      "question_sha256": "93863468389110bac43addba03a2b5280b35b26e1d992e57b776921ba54bddfa",
+      "source_question_sha256": "1f06efeb2323c27b7a92e2f6b6d0f631f5b1caa5357a701f99ff4c3d08286bcf",
+      "source_row_index_0based": 144
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_083",
+      "option_sha256": {
+        "A": "8d09c068fff7fb00070780901d353d8e0ba26377692e8f67f40e5ac9c9b83751",
+        "B": "85a06ba48e57fb9a6c89931f603d46e631f4e7a1dd7b480de9c8314585d2eaf3",
+        "C": "b9b5ab17528cadc032fcc84f734c4c506715bb49bb83120a356576ece1f7d3d1",
+        "D": "c3bc309d3c027ec73b4cf56fbd659727e7d1eec8d33d98fe59cb2b8c37338f56"
+      },
+      "question_answer_sha256": "36aeb53b43f936671a5d3c6dc55d71b5c68c0d0a7cd0220d5668258a68219abf",
+      "question_sha256": "0a395dba285c797d5d1d271ea09bfb611fb0732facab853b6a43eaaf4780d8a6",
+      "source_question_sha256": "d160134fd023bac8e7f94f4d4e70e01dc36d3ae74bb54ab778b03686e5b7b2c0",
+      "source_row_index_0based": 147
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_084",
+      "option_sha256": {
+        "A": "5b508829a4303f697ecec17ef72d57e4666c2344f7e251820e701aca7bedfed1",
+        "B": "6c51f5608cc707386034fad3a5c3b8eec2592753217703ef048e6862e423fb7e",
+        "C": "f1f85290c5e3467047231f30678a10619feb46990523711355a106e295f5376c",
+        "D": "9d8751c5c468452e940f38e8218b47a69495733030788e1e93ca70eb1d2b21a7"
+      },
+      "question_answer_sha256": "3313e6aee0bf5f06520e3453b4bdb2f302c0bafd88d8e7a18e2465e8200ad407",
+      "question_sha256": "01b0ee0cf2e287a6411320b94c1445c99a9c716fb0bab97cd7f1bddd073c29d3",
+      "source_question_sha256": "d7be2d674d4903c49886b492451a9febcfb5696ccd6f0931c4d48ef06a19b2b9",
+      "source_row_index_0based": 153
+    },
+    {
+      "category": "Optics and Acoustics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_085",
+      "option_sha256": {
+        "A": "106febb60518049299a155bf0079d71b657894fb7a4486b3d7149efd0a4d336f",
+        "B": "a83df8ed9c695db0c242241b2a78d21f48933051cf79a8edbdffcf59f1d2ea21",
+        "C": "e2c67d6ec18d18ea7b22a01ba11aa5e3dd83a9c7eb844c4e5b410f13345b4b8d",
+        "D": "f7387728d96a2b3612787f8820c41a4f8d842600fe4b4d0506d2c58b60ad28b3"
+      },
+      "question_answer_sha256": "b9636003005ddf7d46cd160d830c42ae5dd4ba237f08a99a9eeba514b9f3fde0",
+      "question_sha256": "7900d8182f05d401478491a6fbe2810cef5026786bdbb69eee2c995b11bc1d08",
+      "source_question_sha256": "5a24c76ed39eb083ccc9c24780d936fe2e52cba76ae67efa4d647cc35e10037b",
+      "source_row_index_0based": 159
+    },
+    {
+      "category": "Chemistry (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_086",
+      "option_sha256": {
+        "A": "c5ee2f54c922f1701166473e3c601ee4aaa2ad0d6ebdc69c84f26e154e9b9dbd",
+        "B": "83ac58b2f0b402365ca54fb153f18ab004518ef865a1c96a2aef45f4d5515f01",
+        "C": "044aa968a9ec0484b06e6e64836162c17cd00d3000d1944c565bbf2c9441cba8",
+        "D": "b1df04aba68972feee1936216ad74d2204f114c7d733bf764bb44ed04aeb4683"
+      },
+      "question_answer_sha256": "de71f0dd1b29b5ea45d1db40133db1dbc1a0bff473a4cf4b53e07b0bace17518",
+      "question_sha256": "4f3773729ca66c7741fb8a1ba50d84431a196c153f7064ed279abd761187c9ec",
+      "source_question_sha256": "f0c3d97c5c67fa210dafa49946af010682993c23bb8995a306a6ee484e0c3b03",
+      "source_row_index_0based": 164
+    },
+    {
+      "category": "Genetics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_087",
+      "option_sha256": {
+        "A": "0280bf6f7e29cdc3635ca0902d839b6d5a1706bd10baa3f3f8f664f441454ff8",
+        "B": "369560db0357d647955da7efd50e70c1885405dc2e45fd07f9c2964897fbe84d",
+        "C": "745a17b337b436698881ef7e01ab8db1154f07c9dda6350854be20f820b03060",
+        "D": "4f379651072d7ff43ca7ddfb8bb4c72fdb4e4f51aa5ba7ee6af8a2cfce378790"
+      },
+      "question_answer_sha256": "e95cfccb6560699fff92ca4b0c27f0ea88c50b2394ed9d821e1b521971b0d2d6",
+      "question_sha256": "5e70c3e62aed82cb32f4b357185ca4dc125ad2148b1e9eecef4241c0e35a29be",
+      "source_question_sha256": "bdc1ab103002886dcbe879cd751d3e27b8ba6e988859bb80422ea04871269448",
+      "source_row_index_0based": 167
+    },
+    {
+      "category": "Quantum Mechanics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_088",
+      "option_sha256": {
+        "A": "46f4ebf49782d172d2e627fb7886b0c98a61e918ce2f622ed171813c94df721a",
+        "B": "31b68589cb5cb87379f4fe53a39ba64e8d97dc99774b57a6c6758f2518c0f8ec",
+        "C": "862e8a8c6f04566a2f26ece1358028d7bbabd3fcdea8a387e04e0dc1347a9830",
+        "D": "91ad59ac784fba9bc90a7a13d72a182ff70c0a8712486d430c561a49bbd457f6"
+      },
+      "question_answer_sha256": "974c3a3a66381ff631e7d4f8502a0243627e372ce3011aae71f77d765b3fdf82",
+      "question_sha256": "15d8ed9ce745b2c064bc03a7e042e30805ebbb0b44e0fcb18a8169bbe9746a8c",
+      "source_question_sha256": "43af6d11597079a7d069dd93bbf3db87f0b5bb604fbfc66fc60c268d149d8fba",
+      "source_row_index_0based": 172
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_089",
+      "option_sha256": {
+        "A": "e7a34ea08558e340b822521f1411062084fa2369c6889b8fbe97f854f64bc365",
+        "B": "9d43bebae4f5999a263cd2945ba622e3b0d28aa960c402e9107c5f570c46bbaa",
+        "C": "69739ca51ff7b9372bf6f81ac0590fda407cb591240d5e41cc730941dc6312cb",
+        "D": "729501bb2585ce816cb1cd266da2ff5e961181964e7725ea8ab44c5c86a1c9b0"
+      },
+      "question_answer_sha256": "bbb6fc5b0109ecc8f7acbae1684a1c02009f72010b34bc01bfe4c6bf847468dd",
+      "question_sha256": "b67d66939d88b09970bf5c4b961112337e9e4363e841fdf00ba846d313c4b0d0",
+      "source_question_sha256": "5fb04957154b48d4ebad83862909a8fd3afc5ba5399a7dbe4594b5c72255964c",
+      "source_row_index_0based": 176
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_090",
+      "option_sha256": {
+        "A": "074c944e61d65e6dbb47a02ed89ed3bad366990f2f695136215bfac30b80720c",
+        "B": "2f9c94c6b4c8274fd7b35630edeb9e64fc5eebded050fc921c84cf1f837cb4c8",
+        "C": "997cb66df3e76114d6d7d450887eb10f161430c2ed31a33af5a8a240727cc143",
+        "D": "cac94eadb047f41e4556e017945ebb60d3ee14df44b26279d287490004dd418f"
+      },
+      "question_answer_sha256": "549c25b39b99f5a83eec2e0f555c44e85dd96294466e4692d2d6011515373b73",
+      "question_sha256": "e3be28e6e96d6d33d471d70ab6926112fa6807001e41217b8120d00cf8eaa035",
+      "source_question_sha256": "254c10ac4fdccd2709d12769dd755a22c6de6b1e6bff2363164511e2905446d7",
+      "source_row_index_0based": 179
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_091",
+      "option_sha256": {
+        "A": "ea5adfc5ba235b4efe7d002f7a90b418d2cfb2a8f8d5bd9a54ecaff2ac4d25ae",
+        "B": "c977dbe785221d34114d345fdf8ff4e18bb4af66750751dbea29407f9738735f",
+        "C": "92674753212e9805b6f20065c5f14e6756ea781ad30e74d156875961952d34fe",
+        "D": "e3b7e7a038be142c2a042fc1f7374d00fe4caaf7b6b65a3175e33d11644b7499"
+      },
+      "question_answer_sha256": "cdd85da116b754183256ddc7ae8e2623b0302d267e6ef5e46bc4ab1e57f2e075",
+      "question_sha256": "e2325bb675610276817119a57c414c8c5d2e8b628e72c45464b2b0c4c9fb2485",
+      "source_question_sha256": "7cccb7714b35c30190fb5db64a1b22a36b726b2a007f241961e1e48c82e4acb3",
+      "source_row_index_0based": 180
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_092",
+      "option_sha256": {
+        "A": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "B": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+        "C": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+        "D": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d"
+      },
+      "question_answer_sha256": "901a63bfe9f61161f5ad969382cd56fdc34113d4fbb5d53a7d3de496d6dccfa5",
+      "question_sha256": "2b05a121667a205d92976fbe058252382f6801caf4c3326215e16e5d0a682767",
+      "source_question_sha256": "6e2bd9ec28efb9c97dbc7bea49224b4964011afaa5ca659996fac7fd65c4468d",
+      "source_row_index_0based": 182
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_093",
+      "option_sha256": {
+        "A": "3981022b8f3438d7bbb096fef73f698f3c2e5e4b29c63ba77b4749db083e9265",
+        "B": "a9f2348486326343054bb50dc215810f8be6d2947fb5bc3432e21ba4b56e7483",
+        "C": "9c9c18246f073fa63b6049dcb2af6604170f2799dbd602d0e9ed2f46b3a620ad",
+        "D": "46dee976653214567fd3724ac35a3e930c9a57d74770b28f90356b07ee756dde"
+      },
+      "question_answer_sha256": "3a3ecdd9afe9cdc1392bff8a0d8bd4b2d737d6e18f58a2159c4ea44b86bab2a5",
+      "question_sha256": "d2da4c16f4e73e182bcf1b9af52858d882f97c6bfecf14a1ea3484cded697e56",
+      "source_question_sha256": "f4486aea8f80b6405ceaabbd6f225378761eafc49f1e042873a464b3b94da620",
+      "source_row_index_0based": 183
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_094",
+      "option_sha256": {
+        "A": "6e4461b51f5e113f838145621172eae79eb0caa6b293920a01b672768a936cd9",
+        "B": "38daf7ce5353492722ee5b28b5e926aaf2bf2f933cfdb5bc6e0fd08290152265",
+        "C": "38238b73b49c345afd66a8586ef0c6722c9265ff364fe336ebbde109e4f33bd7",
+        "D": "d00f9d6b07f3c125c79f1cb8772d4dd47cb95de33d632abdf545261d32bfa9fa"
+      },
+      "question_answer_sha256": "63304527f161a6e9ac9d5b4f7bae1d4369da829b868b07acb9fee28d6678fdd6",
+      "question_sha256": "8d01ec8a2789876974b824eee985e08a87a1be5104ab8fbe6515bad8aa9d17dd",
+      "source_question_sha256": "a40790d78d4f5d39a5d3645a19b71fd4214c540a0267b37a6e2c4e94f79a4633",
+      "source_row_index_0based": 185
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_095",
+      "option_sha256": {
+        "A": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+        "B": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "C": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+        "D": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+      },
+      "question_answer_sha256": "319bc5fd636f6633518e23350593cc5536c21530682a63d7b7915e0dccef9b13",
+      "question_sha256": "6e8637e12223576d8d38902d2aceb1e905d4888fa2c0dbde7ddba89ff4821b50",
+      "source_question_sha256": "5264f3cb98bb2a4d44bef874f7be81d67ed2e079699521420591618e38611081",
+      "source_row_index_0based": 186
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_096",
+      "option_sha256": {
+        "A": "4ca1e806ed6cde436e408b2769f2b582ccd7d1bc1ddea1fff1acd2d3319f5042",
+        "B": "75a9a49bf2ecc7369551612e722faec415872f063ab6172ef606cc1eedea34e8",
+        "C": "32f4c0d60ca340b8705403e59b0fec0b6fc8aa03c70a8dfff7387d1169b20984",
+        "D": "e35e47788c9ec3c7298c9dd308b4a8008b2b362bf6d8ae1c5a2c4827279658ad"
+      },
+      "question_answer_sha256": "88a5e5b34cee380e34b83da2d61939f23859fab3135f242ef6ce318161310aac",
+      "question_sha256": "7d171ad8e9d1eb50b354f7456dcac8fc570460f55fd744372ff12acd5abdfebc",
+      "source_question_sha256": "8ad8050832d4cef3d4f61db0e6a92b38448ba5c870f106600fb55c10f85c64fd",
+      "source_row_index_0based": 187
+    },
+    {
+      "category": "Organic Chemistry",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_097",
+      "option_sha256": {
+        "A": "8f6762df4accfdbfc77c8050e85db7777095b3762fcabdcffba42a58ad86e720",
+        "B": "04009f7ba33fea3f17b2bce0a7b496e9d905c7088ede32e05b0cdf322dc079eb",
+        "C": "344fb63d8be568239ab6c6599f8b076d6c29710f4cee342231f64c035b6b9a04",
+        "D": "ddc7786f38ca2274c823a2bc1288a72a303d261fdb60afb033c71ec89f4ce182"
+      },
+      "question_answer_sha256": "673d6436625a816490257040afda49c433cd04283f24b72e2581180433671e34",
+      "question_sha256": "4992f0406dd1a2ef30b740d1316950ea849c752ed132d9ac1f394fa1dbc75b6e",
+      "source_question_sha256": "21b950759e4e088c97c70fcca487f4b3ceddd69dd2563433e332a0dde94eeddb",
+      "source_row_index_0based": 190
+    },
+    {
+      "category": "Physics (general)",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_098",
+      "option_sha256": {
+        "A": "62e88aad6a1acdea0437a349470e0d101201346ad1fc90d012e6cfce871e740f",
+        "B": "b4a39e5aa54c126f531c6d8bf91faa11c1badba04184802cf930782f8d15dfa4",
+        "C": "1025ca0348235fd9c523fecd05d5d6fba61a6b64503122c0ccbb83f2ca7336dc",
+        "D": "a1cfa65d46b514770bd68afa121fe875413cef32a3153df4758fd39dcba4f4f4"
+      },
+      "question_answer_sha256": "4af0901083d6e8b829155e1954bb50eed4a674208c00717741434a5b8b12ce93",
+      "question_sha256": "07cede53b974cd371e1bd2c961351404e21e185b01ed3b27ef5867a1b078493a",
+      "source_question_sha256": "7c427847fb1acab7f784c40193a51f13be68ffb38b4336c6bf3ebf112916fc29",
+      "source_row_index_0based": 193
+    },
+    {
+      "category": "Astrophysics",
+      "cohort_batch": "extension_75",
+      "id": "gpqa_099",
+      "option_sha256": {
+        "A": "b1a0bc98a578f516b566c2a690b34fd65f5e5bd2feff4717fe6b6ee5593d0137",
+        "B": "e187213a81e1ee9eb6f1eb74d9867c0ece56d113145d7c2f6383ecbd7d720b8b",
+        "C": "cc16deee3376a535726d5fc731a9d4aa39652fde395bfceba0858908feb7246f",
+        "D": "0a951de7e23f5f12c61504d43de17c8671786bd588898ec4060b36d0a061a569"
+      },
+      "question_answer_sha256": "60c199e6c728e609e63e765f713f4819c9a5b2bb73000186958603b4630a5eae",
+      "question_sha256": "15031698270554b894bbfc85679c8dfc457afd85565dcf2c77e22883538e6f23",
+      "source_question_sha256": "35cf9161cc3c5b82d0770ab2b2fdef4a970ddae93523dee3a6bde8574e79b13d",
+      "source_row_index_0based": 194
+    }
+  ],
+  "original_benchmark_file_sha256": "d59f35e721bb640dba6a37bbb1250940bb98bfb5d08880addbaf964b7cf6f3e9",
+  "output_file": "gpqa-fixed-100.json",
+  "question_rendering": {
+    "option_separator": "\n",
+    "option_template": "{letter}) {text}",
+    "option_transform": "identity",
+    "stem_suffix": "\n\nOptions:\n",
+    "stem_transform": "identity"
+  },
+  "schema_version": 1,
+  "selection": "25 initial plus all 75 prespecified second-batch rows"
+}

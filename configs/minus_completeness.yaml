@@ -1,0 +1,21 @@
+# step_wise_no_completeness ablation -- the novelty-isolating arm (the
+# "typed-CoT regime" of the paper's Table 1): the FULL step-wise verifier (same
+# formalizer, typed states + diffs, per-step typed judges, pedantry,
+# convention-lift, repair loop) with ONLY the
+# completeness-of-change requirement removed. step_wise - step_wise_no_completeness
+# isolates the completeness invariant itself as the causal ingredient of the verifier's
+# hidden-premise advantage. See experiments/PROCESS_VS_OUTCOME_ABLATION.md.
+#
+# Stack LAST via --config over a base (e.g. configs/paper/strong.yaml) and a
+# model config. Completeness is enforced in four places and this mode removes all
+# four: the marked clauses in every role prompt, the formalizer's `uses` spec, the
+# `uses` description in PROOF_SCHEMA (schema descriptions are sent to the model), and
+# the deterministic missing-`uses` gate plus the repair loop's retry text. Prompts are
+# marked [[COMPLETENESS]]/[[WITHOUT_COMPLETENESS]] in configs/defaults.yaml and
+# resolved by pipeline.agent_prompt, so there is no prompt duplication and this
+# overlay can never drift from the real step-wise prompts.
+#
+# NOTE the arm is not length-controlled: the ablated prompts are shorter, so this
+# contrast is an UPPER BOUND on the completeness effect until the length-matched
+# placebo arm described in PROCESS_VS_OUTCOME_ABLATION.md is run.
+_verifier_mode: step_wise_no_completeness

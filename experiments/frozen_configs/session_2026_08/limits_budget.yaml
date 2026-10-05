@@ -1,0 +1,16 @@
+# BUDGET ARM. Only change: raise the per-problem attempt ceilings.
+#
+# Measured on GPQA-100 t1 (qwen3-14b, tool-off): 235 formalizer_invalid attempts
+# across 88 analyzable problems (~2.7 each) against a limit of 3, and
+# first_attempt_verified = 0/88 -- no problem ever produced a structurally valid
+# proof on its first try. When the harness names the defect explicitly the model
+# complies 53/72 = 74% of the time, but there are several gates to clear in
+# sequence (F# label -> unresolved slot -> option membership) and the budget runs
+# out first. 60 of 88 problems ended on formalizer_invalid without ever reaching
+# a judge.
+#
+# If coverage rises materially here, the bottleneck is the attempt budget, not
+# the formalizer's model -- which is the arm this is paired with.
+_limits:
+  max_formalizer_invalid_attempts: 10
+  max_verify_attempts: 6

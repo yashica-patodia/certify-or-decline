@@ -1,0 +1,721 @@
+{
+ "grader_config": "experiments/configs/grader_oss_gptoss20b.yaml",
+ "grader_prompt_sha": "6c23de6babcb475bb02db1bcc9add7dcc0aef0dcd11e0c956a31810f41b40d6f",
+ "n_cases": 114,
+ "accuracy": 0.9912280701754386,
+ "false_positives": 1,
+ "false_negatives": 0,
+ "call_failures": 0,
+ "by_kind": {
+  "exact answer": {
+   "n": 30,
+   "correct": 30
+  },
+  "equivalent notation": {
+   "n": 14,
+   "correct": 14
+  },
+  "different answer": {
+   "n": 30,
+   "correct": 30
+  },
+  "empty answer": {
+   "n": 30,
+   "correct": 29
+  },
+  "whitespace variant": {
+   "n": 4,
+   "correct": 4
+  },
+  "off-by-one number": {
+   "n": 6,
+   "correct": 6
+  }
+ },
+ "cases": [
+  {
+   "id": "math500_053:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_053:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_053:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_053:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_073:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_073:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_073:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": true
+  },
+  {
+   "id": "math500_043:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_043:whitespace",
+   "kind": "whitespace variant",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_043:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_043:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_000:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_000:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_000:whitespace",
+   "kind": "whitespace variant",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_000:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_000:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_011:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_011:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_011:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_011:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_017:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_017:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_017:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_017:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_085:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_085:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_085:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_031:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_031:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_031:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_008:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_008:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_008:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_064:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_064:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_064:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_064:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_075:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_075:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_075:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_075:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_033:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_033:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_033:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_033:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_066:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_066:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_066:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_082:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_082:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_082:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_082:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_092:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_092:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_092:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_092:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_004:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_004:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_004:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_004:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_002:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_002:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_002:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_002:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_014:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_014:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_014:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_097:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_097:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_097:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_097:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_048:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_048:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_048:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_048:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_007:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_007:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_007:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_090:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_090:latex_stripped",
+   "kind": "equivalent notation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_090:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_090:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_051:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_051:whitespace",
+   "kind": "whitespace variant",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_051:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_051:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_096:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_096:whitespace",
+   "kind": "whitespace variant",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_096:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_096:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_046:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_046:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_046:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_046:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_056:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_056:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_056:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_056:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_080:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_080:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_080:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_080:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_021:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_021:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_021:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_021:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_019:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_019:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_019:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_019:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_086:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "math500_086:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_086:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "math500_086:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  }
+ ]
+}

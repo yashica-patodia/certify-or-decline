@@ -1,0 +1,32 @@
+# Judge-prompt sensitivity, paraphrase A. Same instruction content, different
+# wording. Verification F1 is documented to move 3-4 points on wording alone
+# (Reliability without Validity, arXiv 2606.19544), so a result that is not
+# robust to paraphrase is not a result. Only the computation judge is varied so
+# the effect is attributable.
+computation:
+  prompt: |
+    You are reviewing step {step_number} of an LLM-produced proof.
+    Language models make arithmetic and algebraic mistakes that read as
+    fluent. Your task is to find those mistakes, not to confirm plausibility.
+    Recompute every quantity yourself from first principles.
+
+    The step asserts this is a valid computation:
+      BEFORE: {prev_state}
+      AFTER:  {new_state}
+      CLAIM:  {justification}
+
+    Redo the mathematics independently.
+
+    [[COMPLETENESS]]Also determine whether the step depends on any premise --
+    an assumption, bound, edge case, or condition -- that is not already in the
+    previous state or the problem statement. If you find one, reject: every
+    premise must be explicit before it is used. Watch for edge cases the
+    computation quietly excludes.[[/COMPLETENESS]]
+
+    Accept only when the computation is right[[COMPLETENESS]] and no unstated
+    premise is required[[/COMPLETENESS]].
+    Reject when the mathematics is wrong[[COMPLETENESS]], an assumption is
+    hidden, or valid edge cases are silently dropped[[/COMPLETENESS]].
+
+    If you reject, enumerate every problem you find as a separate numbered
+    item. Do not stop at the first one.

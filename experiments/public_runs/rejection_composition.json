@@ -1,0 +1,76 @@
+{
+ "prose_invisible_classes": [
+  "hidden_premise",
+  "fabricated_citation",
+  "circular_reasoning"
+ ],
+ "prose_invisible_issues": 2728,
+ "prose_invisible_pct": 60.0,
+ "run_files_scanned": 77,
+ "run_files_with_rejections": 67,
+ "rejections": 1878,
+ "classified_issues": 4547,
+ "by_error_class": {
+  "hidden_premise": {
+   "n": 2020,
+   "pct": 44.4
+  },
+  "misapplied_theorem": {
+   "n": 1117,
+   "pct": 24.6
+  },
+  "fabricated_citation": {
+   "n": 678,
+   "pct": 14.9
+  },
+  "arithmetic_error": {
+   "n": 510,
+   "pct": 11.2
+  },
+  "other": {
+   "n": 163,
+   "pct": 3.6
+  },
+  "circular_reasoning": {
+   "n": 30,
+   "pct": 0.7
+  },
+  "cosmetic": {
+   "n": 29,
+   "pct": 0.6
+  }
+ },
+ "by_severity": {
+  "substantive": {
+   "n": 4329,
+   "pct": 95.2
+  },
+  "minor": {
+   "n": 204,
+   "pct": 4.5
+  },
+  "cosmetic": {
+   "n": 14,
+   "pct": 0.3
+  }
+ },
+ "rejections_by_judge_role": {
+  "computation": {
+   "n": 831,
+   "pct": 44.2
+  },
+  "citation": {
+   "n": 711,
+   "pct": 37.9
+  },
+  "problem_given": {
+   "n": 329,
+   "pct": 17.5
+  },
+  "step_untyped": {
+   "n": 7,
+   "pct": 0.4
+  }
+ },
+ "note": "Computed over every run present, not the 16-file snapshot of unknown membership that the original section 4 figures came from, so these counts move as the corpus grows. The raw error_class distribution is the primary report. The 'prose-invisible' grouping the original used was never recorded; PROSE_INVISIBLE here was rebuilt on semantics and only then compared against the figure it replaces."
+}

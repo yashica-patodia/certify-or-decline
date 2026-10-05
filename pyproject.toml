@@ -1,0 +1,40 @@
+[project]
+name = "certify-or-decline"
+version = "1.0.0"
+description = "Evaluate step-wise LLM reasoning checks and certify-or-decline behavior"
+license = "Apache-2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0",
+    "datasets>=4.0",
+    "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8,<4"]
+gpu = ["vllm==0.25.1; sys_platform == 'linux'"]
+
+[project.scripts]
+reasoning-eval = "cli:main"
+
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["experiments", "analysis"]
+py-modules = [
+    "pipeline",
+    "llm",
+    "harness",
+    "sandbox",
+    "loaders",
+    "grade",
+    "observability",
+    "telemetry",
+    "export_problem",
+    "export_training",
+    "diffing",
+    "cli",
+    "agent_loop",
+]

@@ -1,0 +1,26 @@
+{
+ "tiers": [
+  {
+   "tier": "unconditional",
+   "answered": 54,
+   "coverage": 18.0,
+   "precision": 96.3,
+   "precision_ci95_cluster": [
+    90.6,
+    100.0
+   ]
+  },
+  {
+   "tier": "under conventions",
+   "answered": 51,
+   "coverage": 17.0,
+   "precision": 78.4,
+   "precision_ci95_cluster": [
+    62.5,
+    92.7
+   ]
+  }
+ ],
+ "intervals_disjoint": false,
+ "note": "Disjointness is evaluated on the cluster bootstrap, the same method used for every arm. An earlier revision reported these tiers with much narrower intervals from an uncommitted computation, which made them look disjoint when they are not."
+}

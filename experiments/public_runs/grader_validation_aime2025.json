@@ -1,0 +1,991 @@
+{
+ "grader_config": "experiments/configs/grader_oss_gptoss20b.yaml",
+ "grader_prompt_sha": "6c23de6babcb475bb02db1bcc9add7dcc0aef0dcd11e0c956a31810f41b40d6f",
+ "n_cases": 159,
+ "accuracy": 0.9874213836477987,
+ "false_positives": 2,
+ "false_negatives": 0,
+ "call_failures": 0,
+ "by_kind": {
+  "exact answer": {
+   "n": 30,
+   "correct": 30
+  },
+  "different answer": {
+   "n": 30,
+   "correct": 30
+  },
+  "off-by-one number": {
+   "n": 30,
+   "correct": 30
+  },
+  "trailing punctuation": {
+   "n": 30,
+   "correct": 30
+  },
+  "empty answer": {
+   "n": 30,
+   "correct": 28
+  },
+  "zero-padded integer": {
+   "n": 9,
+   "correct": 9
+  }
+ },
+ "cases": [
+  {
+   "id": "aime2025_train_02:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_02:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_02:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_02:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_02:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_24:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_24:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_24:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_24:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_24:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_08:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_08:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_08:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_08:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_08:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_08:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_21:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_21:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_21:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_21:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_21:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_29:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_29:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_29:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_29:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_29:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_20:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_20:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_20:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_20:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_20:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_09:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_09:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_09:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_09:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_09:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_09:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_06:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_06:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_06:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_06:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_06:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_17:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_17:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_17:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_17:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_17:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_17:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_18:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_18:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_18:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_18:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_18:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_18:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_03:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_03:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_03:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_03:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_03:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_03:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_14:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_14:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_14:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_14:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_14:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_14:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_23:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_23:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_23:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_23:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_23:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_04:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_04:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_04:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_04:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_04:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_07:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_07:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_07:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_07:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_07:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_26:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_26:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_26:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_26:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_26:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_11:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_11:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_11:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_11:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_11:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_30:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_30:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_30:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_30:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_30:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_22:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_22:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_22:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_22:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_22:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_05:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_05:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_05:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_05:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_05:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_13:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_13:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_13:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_13:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_13:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_27:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_27:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_27:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_27:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_27:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_27:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_01:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_01:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_01:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_01:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_01:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_01:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_10:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_10:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_10:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_10:zeropad",
+   "kind": "zero-padded integer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_10:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_10:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_15:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_15:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_15:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_15:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_15:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_25:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_25:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_25:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_25:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_25:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_12:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_12:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_12:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_12:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_12:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_16:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_16:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_16:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_16:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_16:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_19:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_19:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_19:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_19:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_19:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_28:exact",
+   "kind": "exact answer",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_28:other",
+   "kind": "different answer",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_28:perturbed",
+   "kind": "off-by-one number",
+   "truth": false,
+   "verdict": false
+  },
+  {
+   "id": "aime2025_train_28:trailing",
+   "kind": "trailing punctuation",
+   "truth": true,
+   "verdict": true
+  },
+  {
+   "id": "aime2025_train_28:empty",
+   "kind": "empty answer",
+   "truth": false,
+   "verdict": false
+  }
+ ]
+}

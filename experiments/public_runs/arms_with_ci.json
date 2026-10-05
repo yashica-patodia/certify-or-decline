@@ -1,0 +1,375 @@
+[
+ {
+  "label": "GPQA strong",
+  "k": 3,
+  "n_problems": 100,
+  "n_observations": 300,
+  "n_certified": 105,
+  "n_declined": 83,
+  "n_execution_errors": 112,
+  "coverage": 35.0,
+  "precision": 87.6,
+  "config_hashes": [
+   "40ace526af56"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   84.8,
+   88.6,
+   89.2
+  ],
+  "precision_ci95_wilson_naive": [
+   80.0,
+   92.6
+  ],
+  "coverage_ci95_cluster": [
+   27.0,
+   43.3
+  ],
+  "precision_ci95_cluster": [
+   77.7,
+   95.8
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA budget",
+  "k": 4,
+  "n_problems": 100,
+  "n_observations": 400,
+  "n_certified": 122,
+  "n_declined": 182,
+  "n_execution_errors": 96,
+  "coverage": 30.5,
+  "precision": 75.4,
+  "config_hashes": [
+   "4ce69c6de48f"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   71.0,
+   82.8,
+   67.9,
+   79.4
+  ],
+  "precision_ci95_wilson_naive": [
+   67.1,
+   82.2
+  ],
+  "coverage_ci95_cluster": [
+   24.5,
+   36.5
+  ],
+  "precision_ci95_cluster": [
+   64.1,
+   85.5
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA fswap",
+  "k": 3,
+  "n_problems": 100,
+  "n_observations": 300,
+  "n_certified": 90,
+  "n_declined": 111,
+  "n_execution_errors": 99,
+  "coverage": 30.0,
+  "precision": 90.0,
+  "config_hashes": [
+   "b600854d1dd0"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   84.8,
+   93.1,
+   92.9
+  ],
+  "precision_ci95_wilson_naive": [
+   82.1,
+   94.6
+  ],
+  "coverage_ci95_cluster": [
+   23.3,
+   37.0
+  ],
+  "precision_ci95_cluster": [
+   81.9,
+   96.2
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA 32B",
+  "k": 3,
+  "n_problems": 100,
+  "n_observations": 300,
+  "n_certified": 136,
+  "n_declined": 61,
+  "n_execution_errors": 103,
+  "coverage": 45.3,
+  "precision": 72.8,
+  "config_hashes": [
+   "b7575dad3af2"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   82.0,
+   65.9,
+   68.9
+  ],
+  "precision_ci95_wilson_naive": [
+   64.8,
+   79.6
+  ],
+  "coverage_ci95_cluster": [
+   38.7,
+   52.0
+  ],
+  "precision_ci95_cluster": [
+   63.3,
+   81.6
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA Phi-4",
+  "k": 3,
+  "n_problems": 100,
+  "n_observations": 300,
+  "n_certified": 24,
+  "n_declined": 241,
+  "n_execution_errors": 35,
+  "coverage": 8.0,
+  "precision": 75.0,
+  "config_hashes": [
+   "91eecc973be0"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   63.6,
+   83.3,
+   85.7
+  ],
+  "precision_ci95_wilson_naive": [
+   55.1,
+   88.0
+  ],
+  "coverage_ci95_cluster": [
+   4.3,
+   12.0
+  ],
+  "precision_ci95_cluster": [
+   52.6,
+   91.7
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA effort=high",
+  "k": 1,
+  "n_problems": 100,
+  "n_observations": 100,
+  "n_certified": 9,
+  "n_declined": 10,
+  "n_execution_errors": 81,
+  "coverage": 9.0,
+  "precision": 88.9,
+  "config_hashes": [
+   "3a3a0ed8905e"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   88.9
+  ],
+  "precision_ci95_wilson_naive": [
+   56.5,
+   98.0
+  ],
+  "coverage_ci95_cluster": [
+   4.0,
+   15.0
+  ],
+  "precision_ci95_cluster": [
+   62.5,
+   100.0
+  ],
+  "precision_resamples_usable": 19999,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA judge-prompt A",
+  "k": 2,
+  "n_problems": 100,
+  "n_observations": 200,
+  "n_certified": 71,
+  "n_declined": 89,
+  "n_execution_errors": 40,
+  "coverage": 35.5,
+  "precision": 64.8,
+  "config_hashes": [
+   "813a174029e8"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   67.6,
+   62.2
+  ],
+  "precision_ci95_wilson_naive": [
+   53.2,
+   74.9
+  ],
+  "coverage_ci95_cluster": [
+   28.0,
+   43.5
+  ],
+  "precision_ci95_cluster": [
+   50.6,
+   78.3
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "GPQA judge-prompt B",
+  "k": 3,
+  "n_problems": 100,
+  "n_observations": 300,
+  "n_certified": 90,
+  "n_declined": 139,
+  "n_execution_errors": 71,
+  "coverage": 30.0,
+  "precision": 67.8,
+  "config_hashes": [
+   "bc866e704a88"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   65.5,
+   70.6,
+   66.7
+  ],
+  "precision_ci95_wilson_naive": [
+   57.6,
+   76.5
+  ],
+  "coverage_ci95_cluster": [
+   24.0,
+   36.0
+  ],
+  "precision_ci95_cluster": [
+   55.4,
+   79.2
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "AIME strong",
+  "k": 3,
+  "n_problems": 30,
+  "n_observations": 90,
+  "n_certified": 19,
+  "n_declined": 2,
+  "n_execution_errors": 69,
+  "coverage": 21.1,
+  "precision": 94.7,
+  "config_hashes": [
+   "40ace526af56",
+   "c6be78dc8f2f"
+  ],
+  "config_hash_differs": true,
+  "per_seed_precision": [
+   100.0,
+   100.0,
+   85.7
+  ],
+  "precision_ci95_wilson_naive": [
+   75.4,
+   99.1
+  ],
+  "coverage_ci95_cluster": [
+   8.9,
+   35.6
+  ],
+  "precision_ci95_cluster": [
+   77.8,
+   100.0
+  ],
+  "precision_resamples_usable": 19999,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "AIME budget",
+  "k": 3,
+  "n_problems": 30,
+  "n_observations": 90,
+  "n_certified": 24,
+  "n_declined": 10,
+  "n_execution_errors": 56,
+  "coverage": 26.7,
+  "precision": 79.2,
+  "config_hashes": [
+   "4ce69c6de48f"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   66.7,
+   80.0,
+   87.5
+  ],
+  "precision_ci95_wilson_naive": [
+   59.5,
+   90.8
+  ],
+  "coverage_ci95_cluster": [
+   14.4,
+   40.0
+  ],
+  "precision_ci95_cluster": [
+   56.2,
+   95.8
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ },
+ {
+  "label": "AIME 32B",
+  "k": 3,
+  "n_problems": 30,
+  "n_observations": 90,
+  "n_certified": 28,
+  "n_declined": 6,
+  "n_execution_errors": 56,
+  "coverage": 31.1,
+  "precision": 71.4,
+  "config_hashes": [
+   "b7575dad3af2"
+  ],
+  "config_hash_differs": false,
+  "per_seed_precision": [
+   70.0,
+   85.7,
+   63.6
+  ],
+  "precision_ci95_wilson_naive": [
+   52.9,
+   84.7
+  ],
+  "coverage_ci95_cluster": [
+   18.9,
+   43.3
+  ],
+  "precision_ci95_cluster": [
+   47.2,
+   92.0
+  ],
+  "precision_resamples_usable": 20000,
+  "interval_method": "cluster bootstrap over problems (20000 resamples); seeds of the same problem are correlated, so Wilson on pooled observations understates width"
+ }
+]

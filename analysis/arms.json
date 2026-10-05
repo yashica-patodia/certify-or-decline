@@ -1,0 +1,96 @@
+{
+  "GPQA strong": [
+    "benchmark_strong-t1_20260810_194618_573424.json",
+    "benchmark_strong-t2_20260811_013151_944888.json",
+    "benchmark_strong-t3_20260811_063303_060987.json"
+  ],
+  "GPQA budget": [
+    "benchmark_2x2rep-budget-t2_20260814_024105_893413.json",
+    "benchmark_2x2rep-budget-t3_20260814_133830_002079.json",
+    "benchmark_r2budget-t1_20260813_021500_707409.json",
+    "benchmark_r2budget-t2_20260814_011832_640709.json"
+  ],
+  "GPQA fswap": [
+    "benchmark_r2fswap-t1_20260813_105415_875956.json",
+    "benchmark_r2fswap-t2_20260814_113757_947298.json",
+    "benchmark_r2fswap-t3_20260814_223309_696573.json"
+  ],
+  "GPQA 32B": [
+    "benchmark_scale32b-t1_20260814_164604_934705.json",
+    "benchmark_scale32b-t2_20260815_032544_505820.json",
+    "benchmark_scale32b-t3_20260815_142843_388686.json"
+  ],
+  "GPQA Phi-4": [
+    "benchmark_phi4-budget-t1_20260818_015858_023944.json",
+    "benchmark_phi4-budget-t2_20260818_042831_540166.json",
+    "benchmark_phi4-budget-t3_20260818_065559_182276.json"
+  ],
+  "GPQA effort=high": [
+    "benchmark_stronghigh-t1_20260812_153940_083314.json"
+  ],
+  "GPQA judge-prompt A": [
+    "benchmark_judgepara-a-t2_20260814_024052_612310.json",
+    "benchmark_judgepara-a-t3_20260814_120959_105879.json"
+  ],
+  "GPQA judge-prompt B": [
+    "benchmark_judgepara-b-t1_20260814_024052_612288.json",
+    "benchmark_judgepara-b-t2_20260814_114735_210531.json",
+    "benchmark_judgepara-b-t3_20260814_210434_321241.json"
+  ],
+  "AIME strong": [
+    "benchmark_aime-strong-t1_20260817_191306_443737.json",
+    "benchmark_aime-strong-t2_20260817_212154_284792.json",
+    "benchmark_aime-strong-t3_20260818_010900_769068.json"
+  ],
+  "AIME budget": [
+    "benchmark_aime-budget-t1_20260817_191311_055634.json",
+    "benchmark_aime-budget-t2_20260817_191315_611007.json",
+    "benchmark_aime-budget-t3_20260817_191320_226072.json"
+  ],
+  "AIME 32B": [
+    "benchmark_aime-32b-t1_20260817_191324_888770.json",
+    "benchmark_aime-32b-t2_20260818_012448_024531.json",
+    "benchmark_aime-32b-t3_20260818_020017_169628.json"
+  ],
+  "GPQA ctl": [
+    "benchmark_2x2rep-ctl-t2_20260814_024101_285852.json",
+    "benchmark_2x2rep-ctl-t3_20260814_075459_031935.json",
+    "benchmark_r2ctl-t1_20260812_211124_588102.json",
+    "benchmark_r2ctl-t2_20260813_203858_253939.json"
+  ],
+  "GPQA fswap+budget": [
+    "benchmark_r2fswapbudget-t1_20260813_151340_541828.json",
+    "benchmark_r2fswapbudget-t2_20260814_163735_395065.json",
+    "benchmark_r2fswapbudget-t3_20260815_030932_768224.json"
+  ],
+  "GPQA crossjudge": [
+    "benchmark_crossjudge-t1_20260814_231200_531648.json",
+    "benchmark_crossjudge-t2_20260815_054429_892335.json",
+    "benchmark_crossjudge-t3_20260815_124207_243450.json"
+  ],
+  "GPQA minus-completeness": [
+    "benchmark_nocomp-t2_20260814_024056_954184.json",
+    "benchmark_nocomp-t3_20260814_120049_359760.json",
+    "benchmark_nocompR-t1_20260811_115243_724932.json"
+  ],
+  "GPQA effort=low": [
+    "benchmark_stronglow-t1_20260812_024401_860723.json",
+    "benchmark_stronglow-t2_20260812_060008_959954.json",
+    "benchmark_stronglow-t3_20260812_093212_616126.json"
+  ],
+  "MATH strong": [
+    "benchmark_math500-strong-t1_20260817_005726_826869.json",
+    "benchmark_math500-strong-t2_20260817_041059_259801.json",
+    "benchmark_math500-strong-t3_20260817_063921_440593.json"
+  ],
+  "MATH budget": [
+    "benchmark_math500-budget-t1_20260817_005731_655160.json",
+    "benchmark_math500-budget-t2_20260817_005736_440231.json",
+    "benchmark_math500-budget-t3_20260817_005740_974254.json"
+  ],
+  "MATH 32B": [
+    "benchmark_math500-32b-t1_20260817_005745_857916.json",
+    "benchmark_math500-32b-t2_20260817_060157_874874.json",
+    "benchmark_math500-32b-t3_20260817_103440_432773.json"
+  ]
+}

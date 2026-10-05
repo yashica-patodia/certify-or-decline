@@ -1,0 +1,7 @@
+# Baseline calibration candidate. It intentionally inherits every role prompt
+# from configs/defaults.yaml; revise this file only on the held-out dev cohort.
+_prompt_profile:
+  family: qwen3
+  version: qwen-v1
+  status: calibration-candidate
+  base: configs/defaults.yaml

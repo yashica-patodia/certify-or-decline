@@ -1,0 +1,41 @@
+# Closed-book / tool-OFF condition.
+#
+# Disables external tools (shell, web search, host tools) so HLE/GPQA are
+# answered with NO external retrieval or computation. Primary condition for
+# bounding tool-use answer-lookup contamination: report tool-OFF vs tool-ON
+# deltas — a near-zero gain from tools is evidence results aren't answer lookups.
+#
+# IMPORTANT — each key is read by a DIFFERENT backend, so tool-OFF must set the
+# key(s) for whichever backend the base config selects (default is `claude`:
+# llm.py `settings.get("backend","claude")`). Without `tools: ""` this config is
+# a SILENT NO-OP on the claude backend (Bash/WebSearch/WebFetch stay enabled):
+#   tools: ""            claude               -> emits `--tools ""` = empty
+#                                               allowlist = no Bash/WebSearch/
+#                                               WebFetch
+#   search: false        codex, reasoning_agent -> suppresses web_search
+#   allow_shell: false   reasoning_agent        -> disables the sandbox shell
+#   allow_host_tools     reasoning_agent        -> disables host shell tools
+#
+# LIMITATION — codex: its shell/exec CANNOT be disabled via config (read-only
+# sandbox still executes; the Docker path bypasses the sandbox). `search: false`
+# removes web_search only. For a fully closed-book run use the claude or
+# reasoning_agent backend, or treat codex tool-OFF as web-OFF only.
+#
+# Stack on top of a model base-config, e.g.:
+#   --base-config <model>.yaml --config configs/tool_off.yaml
+_tool_off: &tool_off
+  tools: ""               # claude: empty allowlist = no tools
+  allow_shell: false      # reasoning_agent
+  allow_host_tools: false # reasoning_agent
+  search: false           # codex + reasoning_agent
+
+solver: { <<: *tool_off }
+interpreter: { <<: *tool_off }
+formalizer: { <<: *tool_off }
+citation: { <<: *tool_off }
+problem_given: { <<: *tool_off }
+computation: { <<: *tool_off }
+step_untyped: { <<: *tool_off }   # step_wise_untyped ablation's generic judge
+pedantry: { <<: *tool_off }
+convention_lift: { <<: *tool_off }
+initial_state: { <<: *tool_off }
